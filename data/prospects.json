@@ -47,6 +47,16 @@
       "last_action": "Direct email sent",
       "next_action": "Follow up if no reply",
       "notes": "Existing active lead; never present as new."
+    },
+    {
+      "company": "Unknown - Leanne ecommerce SEO requirement",
+      "contact": "Leanne",
+      "source": "LinkedIn",
+      "opportunity": "UK ecommerce SEO consultant - Shopify, technical/on-page optimisation and backlink building",
+      "status": "CONTACTED",
+      "contact_method": "LinkedIn DM",
+      "note": "DM sent asking whether she is still looking for someone. Company, budget and commercial scope still need verification before qualification.",
+      "last_action_date": "2026-09-22"
     }
   ]
 }
