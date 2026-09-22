@@ -1,0 +1,46 @@
+name: BT38 Opportunity Engine
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bt38-opportunity-engine
+  cancel-in-progress: false
+
+jobs:
+  run-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Contract tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Process candidate inbox
+        run: python engine/engine.py
+
+      - name: Build pipeline report
+        run: python engine/report.py >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Persist engine memory
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- data/prospects.json inbox/candidates.json; then
+            echo "No state changes."
+            exit 0
+          fi
+          git config user.name "bt38-opportunity-engine"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/prospects.json inbox/candidates.json
+          git commit -m "engine: persist qualification state"
+          git push
