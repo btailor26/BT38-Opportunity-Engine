@@ -1,0 +1,62 @@
+{
+  "engine": "BT38 Opportunity Engine",
+  "version": 1,
+  "contact_ready_requires_all_gates": true,
+  "auto_contact": false,
+  "gates": [
+    "company_fit",
+    "current_trigger",
+    "ability_to_pay",
+    "decision_maker_contact"
+  ],
+  "target_profile": {
+    "geography": "UK preferred",
+    "business": "ecommerce/DTC physical consumer products",
+    "signals": [
+      "own website",
+      "Amazon/eBay/other marketplaces",
+      "meaningful inventory",
+      "warehouse or 3PL",
+      "operational change or pressure"
+    ],
+    "coverage": [
+      "product",
+      "sourcing/buying",
+      "listing",
+      "marketplaces",
+      "website",
+      "inventory",
+      "warehouse/3PL",
+      "orders",
+      "payments",
+      "fulfilment",
+      "shipping/tracking",
+      "returns",
+      "reconciliation",
+      "costs/margins",
+      "reporting",
+      "workflow optimisation",
+      "operational systems"
+    ]
+  },
+  "reject_if": [
+    "duplicate",
+    "anonymous company",
+    "generic free-advice request",
+    "3PL placement only with no separate operational/audit need",
+    "no current reason to engage"
+  ],
+  "statuses": [
+    "DISCOVERED",
+    "RESEARCHED",
+    "QUALIFIED",
+    "CONTACT_READY",
+    "CONTACTED",
+    "FOLLOW_UP",
+    "CONVERSATION",
+    "PROPOSAL",
+    "WON",
+    "LOST",
+    "REJECTED"
+  ]
+}
