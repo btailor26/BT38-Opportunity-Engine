@@ -13,12 +13,11 @@ def load(path):
 def norm(s):
     return re.sub(r"[^a-z0-9]+","",str(s).lower())
 
-def known_names(prospects, exclusions):
+def known_names(prospects):
     names=set()
     for p in prospects:
         names.add(norm(p.get("company","")))
         for a in p.get("aliases",[]): names.add(norm(a))
-    for x in exclusions: names.add(norm(x))
     return {x for x in names if x}
 
 def gate(candidate,key):
@@ -27,10 +26,9 @@ def gate(candidate,key):
 def process():
     policy=load(ROOT/"config/policy.json")
     state=load(DATA/"prospects.json")
-    exclusions=load(DATA/"exclusions.json")["companies"]
     inbox=load(INBOX/"candidates.json")
     prospects=state["prospects"]
-    known=known_names(prospects,exclusions)
+    known=known_names(prospects)
     results=[]
 
     for c in inbox.get("candidates",[]):
@@ -39,7 +37,7 @@ def process():
             results.append({"company":"","decision":"REJECTED","reason":"anonymous company"})
             continue
         if norm(company) in known:
-            results.append({"company":company,"decision":"REJECTED","reason":"duplicate/excluded"})
+            results.append({"company":company,"decision":"DUPLICATE","reason":"already exists in prospect history"})
             continue
 
         missing=[g for g in policy["gates"] if not gate(c,g)]
