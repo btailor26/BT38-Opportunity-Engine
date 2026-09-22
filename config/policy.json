@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 4,
+  "version": 5,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -37,101 +37,6 @@
       "need help scaling",
       "need operational support"
     ],
-    "marketplaces": [
-      "Amazon",
-      "Amazon FBA",
-      "Amazon FBM",
-      "Amazon Handmade",
-      "eBay",
-      "TikTok Shop",
-      "Etsy",
-      "Walmart Marketplace",
-      "Shopify",
-      "Shopify Collective",
-      "WooCommerce",
-      "BigCommerce",
-      "Magento",
-      "Adobe Commerce",
-      "Faire",
-      "OnBuy",
-      "Temu",
-      "SHEIN Marketplace",
-      "AliExpress",
-      "Alibaba.com",
-      "Wayfair",
-      "Zalando",
-      "ASOS Marketplace",
-      "Fruugo",
-      "Mirakl",
-      "B&Q Marketplace",
-      "The Range Marketplace",
-      "Very",
-      "Next Marketplace",
-      "John Lewis Marketplace",
-      "Debenhams Marketplace",
-      "Marks & Spencer Marketplace",
-      "Robert Dyas Marketplace",
-      "Tesco Marketplace",
-      "Boots Marketplace",
-      "Superdrug Marketplace",
-      "ManoMano",
-      "Not On The High Street",
-      "Wolf & Badger",
-      "Trouva",
-      "Facebook Shops",
-      "Instagram Shopping",
-      "Meta Commerce",
-      "Google Shopping",
-      "YouTube Shopping",
-      "Rakuten",
-      "Newegg",
-      "Wish",
-      "Mercado Libre",
-      "Shopee",
-      "Lazada",
-      "Target Plus",
-      "Kroger Marketplace",
-      "Macy's Marketplace",
-      "Nordstrom Marketplace",
-      "Best Buy Marketplace",
-      "Home Depot Marketplace",
-      "Lowe's Marketplace",
-      "Otto",
-      "Kaufland",
-      "bol.com",
-      "Allegro",
-      "Cdiscount",
-      "Fnac",
-      "Carrefour Marketplace",
-      "Decathlon Marketplace",
-      "MediaMarkt Marketplace",
-      "eMAG",
-      "Alza",
-      "Noon",
-      "Amazon.ae",
-      "Trendyol",
-      "Jumia",
-      "Catch",
-      "Kogan",
-      "MyDeal",
-      "The Iconic",
-      "Takealot",
-      "Trade Me",
-      "StockX",
-      "GOAT",
-      "Vinted",
-      "Depop",
-      "Reverb",
-      "Discogs",
-      "AbeBooks",
-      "eBid",
-      "Wayfair Professional",
-      "Ankorstore",
-      "Creoate",
-      "Orderchamp",
-      "Faire Wholesale",
-      "RangeMe"
-    ],
     "non_buying_terms": [
       "looking to connect",
       "building my network",
@@ -142,7 +47,201 @@
       "connect with specialists"
     ],
     "rule": "Discovery prioritises companies, founders and buyers with a current request for help, consultancy, agency, contractor, freelancer or operational support. Networking/connection language alone is not a buying signal.",
-    "marketplace_rule": "Treat marketplace names as discovery context, not proof of buying intent. A prospect still needs a current request/problem/trigger and must pass qualification."
+    "marketplace_rule": "Treat marketplace names as discovery context, not proof of buying intent. A prospect still needs a current request/problem/trigger and must pass qualification.",
+    "search_surfaces": [
+      {
+        "name": "LinkedIn",
+        "priority": "HIGH",
+        "signals": [
+          "founder posts",
+          "operations posts",
+          "hiring posts",
+          "requests for recommendations",
+          "company updates"
+        ]
+      },
+      {
+        "name": "Reddit",
+        "priority": "HIGH",
+        "signals": [
+          "explicit help requests",
+          "consultant/contractor requests",
+          "seller pain",
+          "3PL/fulfilment problems",
+          "marketplace problems"
+        ]
+      },
+      {
+        "name": "Facebook Groups",
+        "priority": "HIGH",
+        "signals": [
+          "seller groups",
+          "ecommerce groups",
+          "Amazon/eBay/TikTok/Etsy groups",
+          "3PL/fulfilment groups",
+          "recommendation requests"
+        ]
+      },
+      {
+        "name": "X / Twitter",
+        "priority": "MEDIUM",
+        "signals": [
+          "founder/operator posts",
+          "help requests",
+          "operational complaints",
+          "recommendation requests"
+        ]
+      },
+      {
+        "name": "Shopify Community",
+        "priority": "HIGH",
+        "signals": [
+          "inventory",
+          "fulfilment",
+          "multichannel",
+          "operations",
+          "integration problems"
+        ]
+      },
+      {
+        "name": "Amazon Seller Forums",
+        "priority": "HIGH",
+        "signals": [
+          "FBA/FBM",
+          "inventory",
+          "VTR/tracking",
+          "fulfilment",
+          "account operations",
+          "multichannel"
+        ]
+      },
+      {
+        "name": "eBay Community",
+        "priority": "HIGH",
+        "signals": [
+          "seller operations",
+          "inventory",
+          "fulfilment",
+          "tracking",
+          "multichannel"
+        ]
+      },
+      {
+        "name": "Etsy Community",
+        "priority": "MEDIUM",
+        "signals": [
+          "seller scaling",
+          "inventory",
+          "fulfilment",
+          "operations"
+        ]
+      },
+      {
+        "name": "TikTok Shop seller communities",
+        "priority": "HIGH",
+        "signals": [
+          "seller operations",
+          "fulfilment",
+          "inventory",
+          "integration",
+          "multichannel"
+        ]
+      },
+      {
+        "name": "Discord / Slack ecommerce communities",
+        "priority": "MEDIUM",
+        "signals": [
+          "live help requests",
+          "contractor requests",
+          "operator discussions"
+        ]
+      },
+      {
+        "name": "Indie Hackers",
+        "priority": "MEDIUM",
+        "signals": [
+          "ecommerce founders",
+          "operations problems",
+          "scaling",
+          "help requests"
+        ]
+      },
+      {
+        "name": "3PL / fulfilment industry communities",
+        "priority": "HIGH",
+        "signals": [
+          "client problems",
+          "overflow",
+          "warehouse transitions",
+          "referrals",
+          "fulfilment failures"
+        ]
+      },
+      {
+        "name": "Job boards and contractor marketplaces",
+        "priority": "HIGH",
+        "signals": [
+          "consultant",
+          "contractor",
+          "freelancer",
+          "interim",
+          "project",
+          "audit",
+          "operations requirement"
+        ]
+      },
+      {
+        "name": "Ecommerce trade press / company news",
+        "priority": "MEDIUM",
+        "signals": [
+          "expansion",
+          "funding",
+          "new channel",
+          "warehouse move",
+          "3PL change",
+          "acquisition",
+          "rapid growth"
+        ]
+      }
+    ],
+    "commerce_context": [
+      "Amazon",
+      "Amazon FBA",
+      "Amazon FBM",
+      "eBay",
+      "TikTok Shop",
+      "Etsy",
+      "Walmart Marketplace",
+      "Shopify",
+      "WooCommerce",
+      "BigCommerce",
+      "Magento / Adobe Commerce",
+      "Faire",
+      "OnBuy",
+      "Temu",
+      "SHEIN",
+      "Wayfair",
+      "Zalando",
+      "ASOS",
+      "Fruugo",
+      "Mirakl",
+      "Facebook Shops",
+      "Instagram Shopping",
+      "Google Shopping",
+      "multichannel",
+      "omnichannel",
+      "marketplace"
+    ],
+    "surface_rule": "Search surfaces are where people talk or expose a current requirement. Commerce platforms are context terms only. Do not treat a retailer or marketplace name as a search surface by itself.",
+    "signal_priority": [
+      "explicitly asking for help / consultant / contractor / specialist",
+      "current operational problem with business impact",
+      "warehouse, 3PL, WMS, ERP or fulfilment change",
+      "marketplace/channel expansion creating operational complexity",
+      "hiring that exposes a current operational gap",
+      "funding, acquisition or rapid growth creating operational pressure"
+    ],
+    "negative_signal_rule": "Connection/networking posts without a current buyer-side need are not opportunities."
   },
   "opportunity_routes": {
     "direct_client": {
