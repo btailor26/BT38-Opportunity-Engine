@@ -1,0 +1,27 @@
+name: Contacts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contacts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Contact record
+        run: |
+          cat <<'EOF'
+          Prep Horizon UK
+          Type: 3PL / fulfilment industry contact
+          Route: partner / referral / overflow network
+          Channels: Amazon FBA, Amazon FBM, Shopify, eBay, TikTok Shop, direct website
+          Capabilities: UK storage, prep, replenishment, pick-pack-dispatch, returns, labelling, bundling, kitting
+          Partner signal: explicitly interested in other 3PLs needing UK fulfilment, Amazon prep, overflow capacity, services outside their operation, and reciprocal referrals
+          Contact route: Reddit post / Prep Horizon UK website
+          Website: https://www.prephorizonuk.com/
+          Source: Reddit r/3PL - UK 3PL / Fulfilment Partner – Amazon FBA, FBM & Multi-Channel Fulfilment
+          Status: CONTACT
+          Note: This is a contacts/network record, not a qualified buyer lead. Do not count it as a sales opportunity unless a separate current need for BT38 services is evidenced.
+          EOF
