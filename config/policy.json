@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 6,
+  "version": 7,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -337,8 +337,9 @@
         "outgrown current process or excessive manual work",
         "multichannel expansion causing a current operational gap"
       ],
-      "freshness_rule": "Prefer the newest credible buyer-side conversations. Old posts can inform search patterns but must not be presented as fresh opportunities.",
-      "qualification_boundary": "A matching conversation is DISCOVERED only. It cannot become CONTACT_READY until company identity, current need, ability to pay, decision-maker and usable contact route are independently verified."
+      "freshness_rule": "Live-opportunity search window is up to 30 days old. Reject results older than 30 days from the live lead feed. Prefer newer evidence when multiple results exist. Historical posts older than 30 days may only be used to improve search patterns and must never be presented as current opportunities.",
+      "qualification_boundary": "A matching conversation is DISCOVERED only. It cannot become CONTACT_READY until company identity, current need, ability to pay, decision-maker and usable contact route are independently verified.",
+      "max_live_age_days": 30
     },
     "search_method": "Combine buyer-conversation patterns with commerce_context and search_surfaces. Prefer first-person posts/discussions from the buyer side. Suppress provider/service pages and generic job-board noise unless the listing exposes a credible consultancy/contract buying requirement."
   },
