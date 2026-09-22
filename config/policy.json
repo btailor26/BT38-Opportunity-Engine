@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 8,
+  "version": 9,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -408,5 +408,43 @@
     "WON",
     "LOST",
     "REJECTED"
-  ]
+  ],
+  "search_signal_bias": {
+    "purpose": "Bias discovery toward buyer language that exposes an end-to-end ecommerce operational review requirement rather than generic ecommerce consultant keywords.",
+    "high_value_phrases": [
+      "review our current setup",
+      "review our systems",
+      "Shopify integration",
+      "Amazon reconciliation",
+      "payment reconciliation",
+      "stock reconciliation",
+      "inventory discrepancies",
+      "fulfilment process",
+      "process mapping",
+      "identify inefficiencies",
+      "systems not communicating",
+      "manual reconciliation",
+      "scalable systems",
+      "project-based consultant",
+      "operational review",
+      "workflow audit",
+      "inventory and fulfilment audit"
+    ],
+    "target_pattern": "A real buyer describing current ecommerce systems, stock, fulfilment, reconciliation or workflow friction and seeking an external consultant/freelancer/project resource.",
+    "rules": [
+      "Use these phrases as discovery signals, not proof of qualification.",
+      "Still require evidence dated within the 30-day freshness window.",
+      "Provider-side case studies and consultancy marketing are search-pattern evidence only, not buyer leads.",
+      "An old buyer post may teach the scanner useful wording but must not enter the live lead feed.",
+      "Commercial intent, capability, ability to pay and a usable decision-maker/contact route must still be investigated."
+    ],
+    "pattern_examples_only": [
+      {
+        "source": "LinkedIn",
+        "example": "Alex Shannon ecommerce systems/process consultant requirement",
+        "status": "PATTERN_ONLY_TOO_OLD",
+        "reason": "Strong buyer wording but outside the 30-day live-opportunity window."
+      }
+    ]
+  }
 }
