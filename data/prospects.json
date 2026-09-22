@@ -14,7 +14,9 @@
       },
       "last_action": "LinkedIn DM sent",
       "next_action": "Follow up after 3-4 working days if no reply",
-      "notes": "Existing active lead; never present as new."
+      "notes": "Existing active lead; never present as new.",
+      "source": "LinkedIn",
+      "source_note": "LinkedIn requirement/vacancy research; outreach sent by LinkedIn DM."
     },
     {
       "company": "Fable England",
@@ -30,7 +32,9 @@
       },
       "last_action": "LinkedIn outreach sent",
       "next_action": "Follow up if no reply",
-      "notes": "Existing active lead; never present as new."
+      "notes": "Existing active lead; never present as new.",
+      "source": "LinkedIn",
+      "source_note": "LinkedIn lead/outreach source."
     },
     {
       "company": "RAM Rugby",
@@ -46,7 +50,9 @@
       },
       "last_action": "Direct email sent",
       "next_action": "Follow up if no reply",
-      "notes": "Existing active lead; never present as new."
+      "notes": "Existing active lead; never present as new.",
+      "source": "Direct research / email",
+      "source_note": "Company researched directly; outreach sent by direct email."
     },
     {
       "company": "Unknown - Leanne ecommerce SEO requirement",
