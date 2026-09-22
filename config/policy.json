@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 1,
+  "version": 2,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -9,15 +9,79 @@
     "ability_to_pay",
     "decision_maker_contact"
   ],
+  "opportunity_routes": {
+    "direct_client": {
+      "description": "Ecommerce business with a current operational trigger that could justify an independent audit or operational support."
+    },
+    "paid_partner_overflow": {
+      "description": "Consultant, agency, integrator or ecommerce specialist explicitly seeking paid partners, subcontractors or overflow support.",
+      "search_terms": [
+        "paid work",
+        "pass paid work",
+        "sub-contract",
+        "subcontract",
+        "sub-contractor",
+        "subcontractor",
+        "overflow work",
+        "overflow client work",
+        "client overflow",
+        "paid overflow",
+        "extra hands",
+        "need extra hands",
+        "reliable partners",
+        "pass work",
+        "refer work",
+        "referral partner",
+        "delivery partner",
+        "implementation partner",
+        "looking for specialists",
+        "looking for e-commerce specialists",
+        "looking for ecommerce specialists",
+        "team up",
+        "paid collaboration",
+        "freelance support",
+        "contract support",
+        "project support",
+        "client deliverables"
+      ],
+      "context_terms": [
+        "Shopify",
+        "TikTok Shop",
+        "Amazon",
+        "Etsy",
+        "eBay",
+        "Faire",
+        "marketplace",
+        "ecommerce",
+        "e-commerce",
+        "API integration",
+        "catalog feed",
+        "product feed",
+        "inventory",
+        "stock synchronization",
+        "stock synchronisation",
+        "multichannel",
+        "omnichannel",
+        "fulfilment",
+        "3PL",
+        "warehouse",
+        "returns",
+        "reconciliation",
+        "automation"
+      ],
+      "qualification_rule": "Networking language alone is insufficient. There must be explicit paid, subcontract, referral, overflow-client, project-delivery or equivalent commercial intent."
+    }
+  },
   "target_profile": {
     "geography": "UK preferred",
-    "business": "ecommerce/DTC physical consumer products",
+    "business": "ecommerce/DTC physical consumer products, or commercially relevant ecommerce partner/agency/integrator",
     "signals": [
       "own website",
       "Amazon/eBay/other marketplaces",
       "meaningful inventory",
       "warehouse or 3PL",
-      "operational change or pressure"
+      "operational change or pressure",
+      "explicit paid partner or overflow requirement"
     ],
     "coverage": [
       "product",
@@ -36,13 +100,16 @@
       "costs/margins",
       "reporting",
       "workflow optimisation",
-      "operational systems"
+      "operational systems",
+      "marketplace integrations",
+      "stock synchronization"
     ]
   },
   "reject_if": [
-    "duplicate",
-    "anonymous company",
+    "duplicate opportunity/evidence",
+    "anonymous company with no resolvable buyer",
     "generic free-advice request",
+    "generic networking with no commercial intent",
     "3PL placement only with no separate operational/audit need",
     "no current reason to engage"
   ],
