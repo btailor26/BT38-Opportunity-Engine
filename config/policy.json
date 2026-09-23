@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 14,
+  "version": 15,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -499,7 +499,14 @@
       "Recipient email must be verified from a legitimate source and must never be guessed.",
       "When Gmail sending is available and Bhavin explicitly asks to send an approved email, use bhavinrtailor@gmail.com.",
       "Never auto-send outreach merely because a prospect was discovered or qualified."
-    ]
+    ],
+    "draft_email_format": {
+      "trigger": "When Bhavin asks for a draft email",
+      "output": "Provide From, verified To, Subject, and complete body/signature together in one copy-ready block.",
+      "verify_recipient": true,
+      "no_guessing": true,
+      "no_split_sections": true
+    }
   },
   "sent_email_logging": {
     "required": true,
