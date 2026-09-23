@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 9,
+  "version": 10,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -446,5 +446,27 @@
         "reason": "Strong buyer wording but outside the 30-day live-opportunity window."
       }
     ]
+  },
+  "linkedin_company_enrichment": {
+    "purpose": "When a LinkedIn buyer signal is found, enrich the prospect beyond LinkedIn so a free direct contact route can be used where available.",
+    "workflow": [
+      "Identify the person and company from the LinkedIn post/profile.",
+      "Capture any company name, company page, website or other public company details available from LinkedIn.",
+      "Visit/research the company's official website and verify it is the same business.",
+      "Scan relevant public website pages such as Contact, About, Team, Footer and Terms for a legitimate business contact route.",
+      "Record a publicly listed business email when available; otherwise record the official contact form or other free business contact route.",
+      "Prefer a relevant named/company business email over generic contact forms when legitimately published.",
+      "Use the website to improve company-fit and commercial-scale research where supported by evidence.",
+      "Do not require paid LinkedIn messaging when a legitimate free direct route exists.",
+      "Do not automatically send outreach; prepare/record the route for user review."
+    ],
+    "contact_priority": [
+      "publicly listed relevant business email",
+      "official company contact form",
+      "free LinkedIn DM if available",
+      "LinkedIn connection request",
+      "paid InMail only if separately approved"
+    ],
+    "budget_rule": "Current outreach budget is £0. Prioritise legitimate free contact routes and conserve limited LinkedIn invitations."
   }
 }
