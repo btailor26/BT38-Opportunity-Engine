@@ -34,6 +34,9 @@ Independent Ecommerce Operations & Systems Consultant
 - Keep the pain-point-backwards wording where appropriate.
 - If the company develops or integrates systems, make the crossover explicit: Bhavin establishes the operational requirement; technical teams can build/integrate where required.
 - Keep the email concise and conversational rather than turning it into a CV.
+- **Company-specific drafting is mandatory:** before writing an outreach email, research how the recipient's company actually operates, what services/markets it specialises in, who its clients are, and why Bhavin is relevant to that specific model.
+- Mention the company's relevant specialisms naturally in the email where they create a genuine crossover. For recruitment firms, this includes the disciplines/markets they recruit for (for example Ecommerce, Amazon Marketplace, DTC, Shopify or other marketplace roles when verified).
+- Do not send a generic template with only the company/contact name changed. The template is a structure; the final email must be tailored to the researched company.
 - Adapt the channel list to the actual opportunity; do not claim specialist expertise that has not been established.
 - End with an easy phone-or-email conversation.
 - Every prepared email must include a **To:** field with the verified recipient email address and a **Subject:** line. Never leave either out.\n- Verify the email from the prospect/company source or official website before presenting it; do not guess an address.\n- Every finished email must be delivered in a **one-click copy/paste-ready format** with To, Subject and the complete body together; no assembly should be required.
