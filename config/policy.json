@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 10,
+  "version": 11,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -468,5 +468,20 @@
       "paid InMail only if separately approved"
     ],
     "budget_rule": "Current outreach budget is £0. Prioritise legitimate free contact routes and conserve limited LinkedIn invitations."
+  },
+  "recruiter_contact_lane": {
+    "purpose": "Treat recruiters and recruitment agencies as useful relationship/contact sources when they repeatedly see ecommerce, marketplace, Shopify, Amazon, operations, inventory, fulfilment or related client requirements.",
+    "classification": "CONTACT_SOURCE_NOT_BUYER",
+    "workflow": [
+      "When a recruiter posts a relevant role or contract, identify the recruitment agency and research what the agency does.",
+      "Where legitimately possible, investigate the underlying end-client as a separate potential buyer; do not assume or invent the client identity.",
+      "Keep the recruiter/agency as a contact source even when the advertised role itself is outside Bhavin's exact capability.",
+      "If a legitimate free contact route exists, a relationship message may be prepared explaining what Bhavin/BT38 does and the types of ecommerce operational requirements he can support.",
+      "The message does not need to apply for the advertised vacancy; it can introduce capability for present or future client requirements.",
+      "Do not automatically send any message. User reviews and sends outreach.",
+      "Record the source, agency, recruiter, relevant requirement, website and free contact route where available."
+    ],
+    "positioning": "Independent ecommerce operations and inventory auditing; marketplace operations; Amazon/eBay workflows; Shopify and connected ecommerce operations; warehouse/3PL, fulfilment, stock control, reconciliation, workflow/process review and practical implementation/support.",
+    "outreach_budget": "£0 - prioritise public business email, agency contact details and other legitimate free routes before paid LinkedIn messaging."
   }
 }
