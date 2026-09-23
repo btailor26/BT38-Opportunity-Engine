@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 13,
+  "version": 14,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -517,5 +517,25 @@
     "status_after_send": "CONTACTED",
     "notes_requirement": "Record that the email was sent, what it concerned, and the next follow-up action/date where appropriate.",
     "no_duplicate_rule": "Check existing notes before adding a sent-email event so the same send is not logged twice."
+  },
+  "company_specific_email_design": {
+    "required": true,
+    "rule": "Every outreach email must be designed around how the recipient company actually operates, not generated as a generic template.",
+    "pre_draft_research": [
+      "company business model and services",
+      "relevant sectors, markets, marketplaces or ecommerce disciplines",
+      "type of clients and projects handled",
+      "recipient's role and remit",
+      "specific evidence creating the crossover with Bhavin's capability",
+      "verified free contact route"
+    ],
+    "drafting_rules": [
+      "Use researched company-specific details in the opening and value proposition where relevant.",
+      "For recruiters, explicitly reference verified ecommerce/marketplace specialisms they recruit for rather than saying only 'ecommerce'.",
+      "For development/technology companies, explain how operational workflow design can sit alongside their technical delivery.",
+      "For direct buyers, focus on the buyer's stated pain point and current operation.",
+      "Never merely swap names into a generic template.",
+      "Keep the final email concise, one-click copy/paste ready and truthful."
+    ]
   }
 }
