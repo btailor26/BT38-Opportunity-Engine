@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 15,
+  "version": 16,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -502,10 +502,10 @@
     ],
     "draft_email_format": {
       "trigger": "When Bhavin asks for a draft email",
-      "output": "Provide From, verified To, Subject, and complete body/signature together in one copy-ready block.",
+      "output": "Show From, verified To, and Subject separately outside the copy block. Put ONLY the email body and signature inside the single copy/paste block.",
+      "reason": "Copying the body must not copy sender, recipient, or subject fields into the email message body.",
       "verify_recipient": true,
-      "no_guessing": true,
-      "no_split_sections": true
+      "no_guessing": true
     }
   },
   "sent_email_logging": {
