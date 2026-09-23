@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 12,
+  "version": 13,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -500,5 +500,22 @@
       "When Gmail sending is available and Bhavin explicitly asks to send an approved email, use bhavinrtailor@gmail.com.",
       "Never auto-send outreach merely because a prospect was discovered or qualified."
     ]
+  },
+  "sent_email_logging": {
+    "required": true,
+    "rule": "Any outreach email sent from this workflow/chat must immediately be recorded in the prospect/contact notes.",
+    "fields": [
+      "sent_date",
+      "channel",
+      "sender",
+      "recipient_email",
+      "subject",
+      "status",
+      "note"
+    ],
+    "sender_default": "bhavinrtailor@gmail.com",
+    "status_after_send": "CONTACTED",
+    "notes_requirement": "Record that the email was sent, what it concerned, and the next follow-up action/date where appropriate.",
+    "no_duplicate_rule": "Check existing notes before adding a sent-email event so the same send is not logged twice."
   }
 }
