@@ -39,7 +39,10 @@ Independent Ecommerce Operations & Systems Consultant
 - Do not send a generic template with only the company/contact name changed. The template is a structure; the final email must be tailored to the researched company.
 - Adapt the channel list to the actual opportunity; do not claim specialist expertise that has not been established.
 - End with an easy phone-or-email conversation.
-- Every prepared email must include a **To:** field with the verified recipient email address and a **Subject:** line. Never leave either out.\n- Verify the email from the prospect/company source or official website before presenting it; do not guess an address.\n- Every finished email must be delivered in a **one-click copy/paste-ready format** with To, Subject and the complete body together; no assembly should be required.
+- Every prepared email must include a **To:** field with the verified recipient email address and a **Subject:** line. Never leave either out.\n- Verify the email from the prospect/company source or official website before presenting it; do not guess an address.\n- **Trigger rule:** whenever Bhavin says **"draft email"** (or clearly asks for an outreach email draft), the response must immediately provide one complete **one-click copy/paste-ready email**.
+- The copy/paste block must contain **From, To, Subject and the complete email body/signature together**. Do not put the email address, subject or body in separate sections that require assembly.
+- The **To** address must be a verified recipient email. If no verified email has been found yet, research/verify it before producing the final send-ready draft; never guess an address.
+- Every finished email must be delivered in a **one-click copy/paste-ready format** with To, Subject and the complete body together; no assembly should be required.
 - Default sender account for approved email outreach: **bhavinrtailor@gmail.com**.
 - When Gmail sending is available and Bhavin explicitly asks to send, send from **bhavinrtailor@gmail.com** after the final recipient, subject and body have been approved.
 - Never auto-send discovered opportunities. Discovery and drafting remain separate from sending.
