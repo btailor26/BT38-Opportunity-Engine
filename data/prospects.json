@@ -91,6 +91,35 @@
         "note": "Introductory email sent regarding remote ecommerce operations/systems project support, workflow design around client pain points and existing systems, working independently or alongside WRK/client teams."
       },
       "next_action": "Follow up if no reply after 3-4 working days"
+    },
+    {
+      "company": "Source",
+      "aliases": [
+        "We Are Source"
+      ],
+      "contact": "Thomas Burgess",
+      "source": "Direct research / website",
+      "website": "https://www.wearesource.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Recruiter/contact source for ecommerce, retail, freelance and contract requirements.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "thomas@wearesource.co.uk",
+        "phone": "020 3116 6760"
+      },
+      "notes": "Recruiter/contact-source relationship. Thomas works with ecommerce, retail, technology, fashion, beauty and sports businesses across freelance and permanent talent. Keep as a repeat source of suitable remote ecommerce project/contract requirements, not as a direct buyer unless a specific Source requirement emerges.",
+      "last_action": "Email sent",
+      "last_action_date": "2026-09-23",
+      "sent_email": {
+        "sent_date": "2026-09-23",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "thomas@wearesource.co.uk",
+        "subject": "Ecommerce & Marketplace Contract Support",
+        "status": "SENT",
+        "note": "Introductory email sent regarding remote ecommerce operations and systems contract/project support."
+      },
+      "next_action": "Follow up if no reply after 3-4 working days"
     }
   ]
 }
