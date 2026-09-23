@@ -63,6 +63,22 @@
       "contact_method": "LinkedIn DM",
       "note": "DM sent asking whether she is still looking for someone. Company, budget and commercial scope still need verification before qualification.",
       "last_action_date": "2026-09-22"
+    },
+    {
+      "company": "WRK digital",
+      "contact": "Joe McMahon",
+      "source": "LinkedIn",
+      "website": "https://wrkdigital.co.uk/",
+      "source_url": "https://www.linkedin.com/in/joe-mcmahon-/",
+      "status": "CONTACT",
+      "opportunity": "Recruitment/partner contact. Joe recruits in software engineering and is currently handling a Contract Shopify Developer requirement for a Shopify Premier Partner agency.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "joem@wrkdigital.co.uk",
+        "phone": "07756 463149"
+      },
+      "notes": "Keep as a contact/network route, not a BT38 buyer lead. WRK digital is a UK-wide technology recruitment and consultancy partner. Joe joined as Senior Recruitment Consultant in February 2026 and specialises in software engineering. Current Shopify contract: £350-£400/day, Outside IR35, remote UK, initial 3 months; requires advanced Shopify/Shopify Plus, Liquid, Node.js, Shopify Functions, Cart Transforms, Carrier Services and custom app development. Useful future source for ecommerce/Shopify contract or client overflow opportunities.",
+      "last_researched_date": "2026-09-23"
     }
   ]
 }
