@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 11,
+  "version": 12,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -483,5 +483,22 @@
     ],
     "positioning": "Independent ecommerce operations and inventory auditing; marketplace operations; Amazon/eBay workflows; Shopify and connected ecommerce operations; warehouse/3PL, fulfilment, stock control, reconciliation, workflow/process review and practical implementation/support.",
     "outreach_budget": "£0 - prioritise public business email, agency contact details and other legitimate free routes before paid LinkedIn messaging."
+  },
+  "outreach_delivery": {
+    "default_sender": "bhavinrtailor@gmail.com",
+    "copy_paste_ready": true,
+    "required_fields": [
+      "from",
+      "to",
+      "subject",
+      "body"
+    ],
+    "rules": [
+      "Every completed outreach email must be presented as one complete copy/paste-ready block.",
+      "No manual assembly of recipient, subject, signature or body should be required.",
+      "Recipient email must be verified from a legitimate source and must never be guessed.",
+      "When Gmail sending is available and Bhavin explicitly asks to send an approved email, use bhavinrtailor@gmail.com.",
+      "Never auto-send outreach merely because a prospect was discovered or qualified."
+    ]
   }
 }
