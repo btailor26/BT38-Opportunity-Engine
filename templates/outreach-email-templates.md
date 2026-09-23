@@ -6,7 +6,7 @@ These are working templates for prospect and contact outreach. They should be ad
 
 **Use when:** A recruiter, technology consultancy, development agency or systems partner works with clients who may need ecommerce operational/domain support.
 
-**Subject:** Ecommerce Operations & Systems Project Support
+**To:** [Verified recipient email]\n\n**Subject:** Ecommerce Operations & Systems Project Support
 
 Hi [First name],
 
@@ -36,7 +36,7 @@ Independent Ecommerce Operations & Systems Consultant
 - Keep the email concise and conversational rather than turning it into a CV.
 - Adapt the channel list to the actual opportunity; do not claim specialist expertise that has not been established.
 - End with an easy phone-or-email conversation.
-- User reviews every message before it is sent.
+- Every prepared email must include a **To:** field with the verified recipient email address and a **Subject:** line. Never leave either out.\n- Verify the email from the prospect/company source or official website before presenting it; do not guess an address.\n- User reviews every message before it is sent.
 
 ## Template development
 
