@@ -36,7 +36,11 @@ Independent Ecommerce Operations & Systems Consultant
 - Keep the email concise and conversational rather than turning it into a CV.
 - Adapt the channel list to the actual opportunity; do not claim specialist expertise that has not been established.
 - End with an easy phone-or-email conversation.
-- Every prepared email must include a **To:** field with the verified recipient email address and a **Subject:** line. Never leave either out.\n- Verify the email from the prospect/company source or official website before presenting it; do not guess an address.\n- User reviews every message before it is sent.
+- Every prepared email must include a **To:** field with the verified recipient email address and a **Subject:** line. Never leave either out.\n- Verify the email from the prospect/company source or official website before presenting it; do not guess an address.\n- Every finished email must be delivered in a **one-click copy/paste-ready format** with To, Subject and the complete body together; no assembly should be required.
+- Default sender account for approved email outreach: **bhavinrtailor@gmail.com**.
+- When Gmail sending is available and Bhavin explicitly asks to send, send from **bhavinrtailor@gmail.com** after the final recipient, subject and body have been approved.
+- Never auto-send discovered opportunities. Discovery and drafting remain separate from sending.
+- User reviews every message before it is sent.
 
 ## Template development
 
