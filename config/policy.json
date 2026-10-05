@@ -482,7 +482,15 @@
       "Record the source, agency, recruiter, relevant requirement, website and free contact route where available."
     ],
     "positioning": "Independent ecommerce operations and inventory auditing; marketplace operations; Amazon/eBay workflows; Shopify and connected ecommerce operations; warehouse/3PL, fulfilment, stock control, reconciliation, workflow/process review and practical implementation/support.",
-    "outreach_budget": "£0 - prioritise public business email, agency contact details and other legitimate free routes before paid LinkedIn messaging."
+    "outreach_budget": "£0 - prioritise public business email, agency contact details and other legitimate free routes before paid LinkedIn messaging.",
+    "current_operating_note": {
+      "date": "2026-10-05",
+      "strategy": "Use text-first outreach when a recruiter publishes a legitimate direct mobile number. Target short-term, interim and project-based ecommerce operations work rather than permanent roles.",
+      "handoff_goal": "The recruiter opens and warms the opportunity; Bhavin takes over once there is a genuine operational requirement and an initial client conversation is appropriate.",
+      "evidence_rule": "A reply, CV request, portal registration or acknowledgement is useful engagement but is not proof of a live role. Treat a requirement as live only when the recruiter discusses an actual assignment, asks role-specific qualification questions, or offers a client conversation/introduction.",
+      "cv_rule": "Recruiter portals may require a CV. Use the recruiter-ready interim ecommerce operations profile; keep the consultancy-style profile for later explanation of approach.",
+      "tracking_rule": "Log every recruiter contacted, their response, CV/portal action, and next step in data/prospects.json. Do not duplicate records."
+    }
   },
   "outreach_delivery": {
     "default_sender": "bhavinrtailor@gmail.com",
