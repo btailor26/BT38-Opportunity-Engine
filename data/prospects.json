@@ -132,6 +132,192 @@
       "last_action": "LinkedIn Easy Apply submitted",
       "last_action_date": "2026-09-23",
       "next_action": "Monitor for recruiter response; follow up with Chaitali if a free messaging route becomes available."
+    },
+    {
+      "company": "LT Talent",
+      "contact": "Dan Knagg",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://www.lt-talent.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Recruiter/contact source for short-term, interim and project-based ecommerce Operations / Supply Chain work, including founder-led consumer brands.",
+      "contact_method": "Text message",
+      "contact_details": {
+        "phone": "07540 089030"
+      },
+      "notes": "Recruiter/contact-source relationship, not a direct buyer lead. Message sent 2026-10-05 explaining Bhavin is not seeking a permanent role and can audit inventory, fulfilment and workflows on a short-term basis before a permanent Operations Manager takes over.",
+      "last_action": "Introductory text sent",
+      "last_action_date": "2026-10-05",
+      "next_action": "Wait for reply. If Dan responds with a current requirement, qualify the role/problem before discussing scope."
+    },
+    {
+      "company": "NXA Talent",
+      "contact": "Victoria Hicks",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://nxatalent.com/",
+      "status": "CONTACTED",
+      "opportunity": "Recruiter/contact source across retail, 3PL and logistics, including interim resources and project teams.",
+      "contact_method": "Text message",
+      "contact_details": {
+        "phone": "07787 199277"
+      },
+      "notes": "Recruiter/contact-source relationship, not a direct buyer lead. Text-first outreach used because a direct public mobile was available. Positioning: short-term audit and workflow structure across inventory, fulfilment and ecommerce operations before longer-term ownership is placed.",
+      "last_action": "Introductory text sent",
+      "last_action_date": "2026-10-05",
+      "next_action": "Wait for reply; prioritise any response that references a live interim/project requirement."
+    },
+    {
+      "company": "SCL Recruitment",
+      "contact": "Rob Pegg",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://sclrecruitment.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Recruiter/contact source for supply chain, logistics, ecommerce logistics, interim and fractional assignments.",
+      "contact_method": "Text message / recruiter portal",
+      "contact_details": {
+        "phone": "07500 475477"
+      },
+      "notes": "Rob replied to the introductory text and asked Bhavin to add a CV to the SCL portal. Recruiter-ready interim ecommerce operations profile was uploaded on 2026-10-05. Bhavin then confirmed upload by text; Rob acknowledged/liked the message. No live role has been confirmed yet. Keep as an active recruiter source, not a qualified buyer opportunity.",
+      "last_action": "CV/profile uploaded to SCL portal and confirmation sent to Rob",
+      "last_action_date": "2026-10-05",
+      "next_action": "Wait for SCL to match the profile to a short-term/interim/project requirement. Do not treat portal registration or acknowledgement as a live role."
+    },
+    {
+      "company": "Zachary Daniels",
+      "contact": "James Parr",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://zacharydaniels.co.uk/",
+      "status": "RESEARCHED",
+      "opportunity": "Recruiter/contact source for retail, consumer and ecommerce fractional/interim leadership support.",
+      "contact_method": "Public mobile / text candidate",
+      "contact_details": {
+        "phone": "07732 083548"
+      },
+      "notes": "Relevant because James has publicly discussed interim/fractional support before permanent hiring. Message prepared around short-term ecommerce operations audit/workflow support. Send status has not been explicitly confirmed in the chat, so do not mark contacted without confirmation.",
+      "last_researched_date": "2026-10-05",
+      "next_action": "If not already sent, send the prepared text. If already sent, update to CONTACTED and log the response."
+    },
+    {
+      "company": "True North Talent",
+      "contact": "Amy Griffith",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://www.truenorthtalent.co.uk/",
+      "status": "RESEARCHED",
+      "opportunity": "Recruiter/contact source for interim Operations and Supply Chain assignments.",
+      "contact_method": "Public mobile / text candidate",
+      "contact_details": {
+        "phone": "07564 576300"
+      },
+      "notes": "Broader FMCG/operations market but relevant to interim operational assignments. Message prepared. Send status has not been explicitly confirmed in the chat.",
+      "last_researched_date": "2026-10-05",
+      "next_action": "If not already sent, send the prepared text; record any live requirement separately."
+    },
+    {
+      "company": "Hays",
+      "contact": "Garry Walker",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://www.hays.co.uk/",
+      "status": "RESEARCHED",
+      "opportunity": "Recruiter/contact source for interim supply chain/procurement/operations assignments, including process, reporting and control improvements.",
+      "contact_method": "Public mobile / text candidate",
+      "contact_details": {
+        "phone": "07885 473593"
+      },
+      "notes": "Message prepared for short-term audit/workflow support. Send status has not been explicitly confirmed in the chat. Broader than pure ecommerce, so qualify any requirement before spending time.",
+      "last_researched_date": "2026-10-05",
+      "next_action": "If not already sent, send the prepared text; prioritise roles with inventory, fulfilment, reporting or workflow problems."
+    },
+    {
+      "company": "Forward Role",
+      "contact": "Beth Price",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://www.forwardrole.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Recruiter/contact source for ecommerce/digital contract work, including live ecommerce trading assignments.",
+      "contact_method": "Public mobile / text candidate",
+      "contact_details": {
+        "phone": "07732 689608"
+      },
+      "notes": "Strong ecommerce contract alignment. Message prepared around short-term/interim/project-based ecommerce operations support. Send status has not been explicitly confirmed in the chat.",
+      "last_researched_date": "2026-10-05",
+      "next_action": "If not already sent, send the prepared text; ask about current/upcoming contract requirements."
+    },
+    {
+      "company": "Staffworx",
+      "contact": "James Kirk",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://www.staffworx.co.uk/",
+      "status": "RESEARCHED",
+      "opportunity": "Recruiter/contact source for ecommerce, digital commerce, consulting and contract assignments, including business-process and operational-readiness work.",
+      "contact_method": "Public mobile / text candidate",
+      "contact_details": {
+        "phone": "07710 445593"
+      },
+      "notes": "Relevant to ecommerce consulting and project work. Message prepared. Send status has not been explicitly confirmed in the chat.",
+      "last_researched_date": "2026-10-05",
+      "next_action": "If not already sent, send prepared text and qualify any response for a real short-term/project requirement."
+    },
+    {
+      "company": "JLC Solutions",
+      "contact": "Terry Abra",
+      "source": "Direct research / recruiter outreach",
+      "status": "RESEARCHED",
+      "opportunity": "Recruiter/contact source for supply chain/logistics interim work, with ecommerce operations, inventory and 3PL overlap.",
+      "contact_method": "Public mobile / text candidate",
+      "contact_details": {
+        "phone": "07766 661730"
+      },
+      "notes": "Message prepared around short-term ecommerce operations auditing and workflow structure. Send status has not been explicitly confirmed in the chat.",
+      "last_researched_date": "2026-10-05",
+      "next_action": "If not already sent, send prepared text; prioritise requirements involving inventory, ecommerce operations or 3PL."
+    },
+    {
+      "company": "The Logistics Partnership",
+      "aliases": [
+        "TLP Recruitment",
+        "MVP"
+      ],
+      "contact": "Graeme Doyle",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://www.tlprecruitment.co.uk/",
+      "status": "RESEARCHED",
+      "opportunity": "Recruiter/contact source for interim, temporary and contract logistics/supply-chain work.",
+      "contact_method": "Public mobile / text candidate",
+      "contact_details": {
+        "phone": "07304 072986"
+      },
+      "notes": "Message prepared around short-term ecommerce operations, inventory, fulfilment and workflow support. Send status has not been explicitly confirmed in the chat.",
+      "last_researched_date": "2026-10-05",
+      "next_action": "If not already sent, send prepared text; qualify for ecommerce/fulfilment relevance."
+    },
+    {
+      "company": "Novo Executive Search",
+      "contact": "Jo Watkins",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://novoexec.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Recruiter/contact source for Retail & eCommerce interim-management requirements.",
+      "contact_method": "Public mobile / text candidate",
+      "contact_details": {
+        "phone": "07834 638709"
+      },
+      "notes": "Relevant because Jo covers Retail & eCommerce and Novo offers interim management. Message prepared. Send status has not been explicitly confirmed in the chat.",
+      "last_researched_date": "2026-10-05",
+      "next_action": "If not already sent, send prepared text; prioritise live interim ecommerce operations requirements."
+    },
+    {
+      "company": "Cibus People",
+      "contact": "Nicole Moloney",
+      "source": "Direct research / recruiter outreach",
+      "website": "https://cibuspeople.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Recruiter/contact source for interim Operations and Supply Chain specialists.",
+      "contact_method": "Public mobile / text candidate",
+      "contact_details": {
+        "phone": "07789 695062"
+      },
+      "notes": "More FMCG/food than pure ecommerce, but relevant to interim operations/supply-chain work. Message prepared. Send status has not been explicitly confirmed in the chat.",
+      "last_researched_date": "2026-10-05",
+      "next_action": "If not already sent, send prepared text; only pursue replies with relevant operational scope."
     }
   ]
 }
