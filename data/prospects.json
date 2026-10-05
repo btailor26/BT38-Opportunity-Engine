@@ -318,6 +318,81 @@
       "notes": "More FMCG/food than pure ecommerce, but relevant to interim operations/supply-chain work. Message prepared. Send status has not been explicitly confirmed in the chat.",
       "last_researched_date": "2026-10-05",
       "next_action": "If not already sent, send prepared text; only pursue replies with relevant operational scope."
+    },
+    {
+      "company": "Thrive Fulfilment",
+      "contact": "Laurence Reynolds",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://thrivefulfilment.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "3PL referral-partner route: identify ecommerce brands with stock sitting too long or underperforming, then audit listings/current channels and explore additional marketplaces, sales channels or markets.",
+      "contact_method": "Direct email to published company inbox, addressed to founder",
+      "contact_details": {
+        "email": "hello@thrivefulfilment.co.uk"
+      },
+      "notes": "Founder-led 3PL. Outreach angle is deliberately complementary to fulfilment: slow/aged stock -> listing and current-channel audit -> potential new marketplace/market opportunities -> more stock movement through the existing fulfilment relationship. Do not pitch replacement 3PL services.",
+      "last_action": "3PL referral-partner email sent",
+      "last_action_date": "2026-10-05",
+      "sent_email": {
+        "sent_date": "2026-10-05",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "hello@thrivefulfilment.co.uk",
+        "subject": "Stock that may have been sitting too long",
+        "status": "SENT",
+        "note": "Outreach sent to Laurence Reynolds/Thrive about brands with stock sitting too long or underperforming; offered listing/channel audit and exploration of additional marketplaces, channels or markets."
+      },
+      "next_action": "Wait for reply. If Thrive identifies a suitable brand, move to CONVERSATION and qualify the stock, current listings/channels, age/quantity, commercial constraints and what outcome the brand wants."
+    },
+    {
+      "company": "Cloud9 Fulfilment",
+      "contact": "Joshua Hegarty",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://www.cloud9fulfilment.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "3PL referral-partner route: use Cloud9's proximity to client stock/inventory performance to identify brands with slow or ageing stock that may benefit from listing audits or additional routes to market.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "joshua.hegarty@cloud9fulfilment.co.uk"
+      },
+      "notes": "Founder/CEO contact. Outreach angle: brands with stock sitting too long or not moving as expected; Bhavin can audit listings/current sales channels and investigate additional marketplaces, channels or markets. Positioning is complementary to the 3PL because successful stock movement generates fulfilment activity.",
+      "last_action": "3PL referral-partner email sent",
+      "last_action_date": "2026-10-05",
+      "sent_email": {
+        "sent_date": "2026-10-05",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "joshua.hegarty@cloud9fulfilment.co.uk",
+        "subject": "Stock that may have been sitting too long",
+        "status": "SENT",
+        "note": "Direct outreach sent to Joshua Hegarty about identifying ecommerce clients with slow/aged stock and supporting them through listing/channel audits and new-market/channel research."
+      },
+      "next_action": "Wait for reply. If Joshua names or introduces a brand, qualify the real stock problem before proposing work."
+    },
+    {
+      "company": "myWarehouse",
+      "contact": "Karen Marchant",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://www.orderfulfilment.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "3PL referral-partner route for ecommerce brands with stock sitting too long or underperforming; audit listings/current sales channels and investigate additional marketplaces, channels or markets.",
+      "contact_method": "Direct email to published company inbox, addressed to Managing Director",
+      "contact_details": {
+        "email": "hello@mywarehouse.uk"
+      },
+      "notes": "Karen Marchant is the current leadership/contact route researched for this outreach. Position the service as helping existing myWarehouse clients move underperforming stock, not replacing fulfilment. Listing audits are part of the offer before recommending new channels or markets.",
+      "last_action": "3PL referral-partner email sent",
+      "last_action_date": "2026-10-05",
+      "sent_email": {
+        "sent_date": "2026-10-05",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "hello@mywarehouse.uk",
+        "subject": "Stock that may have been sitting too long",
+        "status": "SENT",
+        "note": "Outreach sent to Karen Marchant/myWarehouse about brands with stock sitting too long and possible listing, channel and market opportunities."
+      },
+      "next_action": "Wait for reply. If a suitable brand is surfaced, qualify stock age/quantity, current listings, current channels and commercial objective before scoping an audit."
     }
   ]
 }
