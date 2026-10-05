@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 16,
+  "version": 17,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -552,5 +552,41 @@
       "Never merely swap names into a generic template.",
       "Keep the final email concise, one-click copy/paste ready and truthful."
     ]
+  },
+  "3pl_referral_partner_lane": {
+    "purpose": "Treat suitable 3PL and fulfilment providers as referral partners who may already know which ecommerce brands have stock that has been sitting too long or is underperforming.",
+    "classification": "REFERRAL_PARTNER_NOT_BUYER",
+    "commercial_angle": "Do not lead by offering fulfilment or generic operational consulting that overlaps with the 3PL. Lead with slow/aged/underperforming stock: audit the existing listings and current sales channels first, then investigate additional marketplaces, sales channels, markets or commercial opportunities where appropriate.",
+    "value_to_3pl": "The 3PL keeps the fulfilment relationship. If more of the client's existing stock starts moving, the brand improves cash/stock movement and the 3PL can gain additional fulfilment activity.",
+    "capability": [
+      "audit marketplace and ecommerce listings",
+      "review current marketplace/channel performance",
+      "review inventory and stock position",
+      "identify obvious listing or positioning weaknesses before recommending expansion",
+      "research additional marketplaces, sales channels and markets",
+      "support a referred brand directly once a genuine opportunity is identified"
+    ],
+    "workflow": [
+      "Research 3PLs that serve ecommerce/DTC brands and favour founder-led or relationship-led providers that already discuss growth, client strategy or partner referrals.",
+      "Find the strongest legitimate person to approach: founder, managing director, operations/client-services leader or partnerships/commercial lead. Do not default to a generic sales inbox when a direct person is available.",
+      "Use the opening problem: whether any brands have stock that has been sitting there for too long or is not moving as expected.",
+      "Explain that Bhavin can audit the existing listings and channels as well as explore new marketplaces, channels or markets; do not assume channel expansion is automatically the answer.",
+      "Make clear that the work is complementary to the 3PL relationship and is intended to help existing stock move.",
+      "If the 3PL identifies a brand that may benefit, qualify the actual problem before proposing work: stock age/quantity, current listings, current channels, product economics, restrictions and desired outcome.",
+      "Move a referred brand into its own prospect record when a real introduction or named opportunity exists.",
+      "Do not treat a positive acknowledgement from the 3PL as a live client opportunity unless a brand/problem is actually surfaced.",
+      "Log every sent email, response and next step in data/prospects.json and avoid duplicate records."
+    ],
+    "outreach_positioning": "Ask whether any brands they work with may benefit from help with stock that has been sitting too long or underperforming. Offer to audit how the products are currently listed and sold and to explore additional markets, sales channels or commercial opportunities if appropriate.",
+    "current_batch_note": {
+      "date": "2026-10-05",
+      "status": "ACTIVE",
+      "contacted": [
+        "Thrive Fulfilment - Laurence Reynolds",
+        "Cloud9 Fulfilment - Joshua Hegarty",
+        "myWarehouse - Karen Marchant"
+      ],
+      "rule": "These emails are confirmed sent and are tracked as CONTACTED in data/prospects.json."
+    }
   }
 }
