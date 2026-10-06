@@ -657,7 +657,9 @@
     "workflow": [
       "Confirm the role or requirement is currently live.",
       "Research the company, scope, market coverage and person publicly connected to the requirement.",
+      "Complete the company profile briefing before presenting the opportunity: understand what the company does, ownership/parent structure, scale, channels, markets, and whether there is a realistic route into the business.",
       "Assess whether the advertised responsibilities expose a pre-hire operational preparation problem rather than simply a normal vacancy.",
+      "Assess accessibility separately from commercial fit. Downgrade opportunities where the business is too corporate or there is no realistic decision-maker/contact route, even if the role itself is relevant.",
       "Do not position Bhavin as applying for the role when the stronger fit is pre-hire preparation.",
       "Offer to audit and structure the current operation before the incoming manager takes ownership.",
       "Focus on documenting the current workflow, identifying gaps/risks/manual dependencies, establishing controls/reporting and setting priorities.",
@@ -672,5 +674,40 @@
       "Sculpd - Amazon Marketplace Manager",
       "Therabody - International Marketplace Manager"
     ]
+  },
+  "company_profile_briefing": {
+    "required_before_presenting_lead": true,
+    "purpose": "Prevent blind outreach. Before Bhavin is shown a prospect, provide enough commercial context to understand exactly who the company is, what it does, how it operates, and whether there is a realistic route into the business.",
+    "required_research": [
+      "what the company sells or provides",
+      "primary customers and markets",
+      "main ecommerce channels and marketplaces where publicly verifiable",
+      "ownership or parent company where relevant",
+      "approximate business scale using public evidence such as employee range, revenue, funding, acquisition value or market presence when available",
+      "headquarters and key operating geographies",
+      "current trigger creating the opportunity",
+      "why the opportunity is relevant to Bhavin's audit/pre-hire workflow",
+      "who the likely decision-maker/problem owner is",
+      "whether that person appears realistically reachable through a legitimate free route",
+      "whether the organisation is too large, too corporate, too procurement-heavy or otherwise difficult to penetrate directly",
+      "whether a smaller subsidiary, brand, business unit or local operator offers a more realistic entry point"
+    ],
+    "presentation_rule": "Do not present a lead as the strongest opportunity until the company profile briefing is complete enough for Bhavin to judge whether it is worth approaching.",
+    "required_output": [
+      "Company",
+      "What they do",
+      "Ownership / parent",
+      "Scale",
+      "Relevant markets / channels",
+      "Current trigger",
+      "Why this is a fit",
+      "Who to approach",
+      "Route in",
+      "Accessibility assessment",
+      "Verdict"
+    ],
+    "accessibility_rule": "A strong commercial fit is not automatically a strong lead. If the company is difficult to penetrate, heavily corporate, or the only route is generic recruitment/procurement with no credible decision-maker access, downgrade it even if the advertised problem is relevant.",
+    "blind_application_rule": "Do not encourage Bhavin to apply or outreach blindly based only on a vacancy. Research the company and route-in first.",
+    "large_parent_rule": "When a brand belongs to a large parent company, distinguish the brand-level opportunity from the parent-company structure. Prefer a reachable brand-level or regional operator where possible rather than treating the parent corporation as the target."
   }
 }
