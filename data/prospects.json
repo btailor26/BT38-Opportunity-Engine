@@ -1025,12 +1025,20 @@
       "contact_details": {
         "email": "contactus@plumproducts.com",
         "phone": "0344 880 5302",
-        "linkedin": "https://au.linkedin.com/in/paul-schaffer-6594105b"
+        "linkedin": "https://au.linkedin.com/in/paul-schaffer-6594105b",
+        "invalid_customer_service_email": "contactus@plumplay.com",
+        "corporate_marketing_email": "marketing@plumproducts.com"
       },
       "market_scope": "UK, Australia and planned Europe/international expansion",
       "notes": "Family-owned active-play/toy business founded in Lincolnshire in 1988 by Jonathan and Diane Schaffer and now led by their son Paul Schaffer, Managing Director. LinkedIn lists 51-200 employees and about 34 employees visible; business sells in 40+ countries. Current Ecommerce Manager role reports directly to the Managing Director and covers four major operational areas: Shopify/marketplace trading, in-house team buildout, international storefront expansion, and operational coordination across fulfilment/logistics, returns, couriers, customer service, project management and reporting. Very strong pre-hire operational-preparation fit: map and clarify the current workflows/systems before the new manager inherits them, without adding unnecessary software. contactus@plumproducts.com is a published company contact route; route the subject to Paul Schaffer.",
       "last_researched_date": "2026-10-06",
-      "next_action": "Present as strongest current lead with company profile and send-ready email. If user sends, mark CONTACTED and log exact sent message."
+      "next_action": "Resend once to marketing@plumproducts.com with Paul Schaffer named in the subject. Do not use the customer-service ticket portal.",
+      "last_action": "Original outreach route failed: contactus inbox auto-replied that it is unmonitored and only routes to customer-support tickets",
+      "last_action_date": "2026-10-06",
+      "sent_email": {
+        "status": "ROUTE_INVALID_FOR_OUTREACH",
+        "note": "Original email reached an unmonitored customer-service inbox and redirected to a Zendesk help portal with no suitable business/management category. Do not treat as successfully contacted. Better verified corporate route: marketing@plumproducts.com, with Paul Schaffer named in the subject."
+      }
     }
   ]
 }
