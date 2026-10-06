@@ -787,9 +787,9 @@
         "channel": "Email",
         "sender": "bhavinrtailor@gmail.com",
         "recipient_email": "support@sculpd.com",
-        "subject": "Amazon Marketplace Manager - preparing the operation before handover",
+        "subject": "Not captured in chat",
         "status": "SENT",
-        "note": "User confirmed email sent to the verified company route, addressed to Giles Harrison. Subject reconstructed for logging from the outreach purpose; exact sent subject was not explicitly captured."
+        "note": "User confirmed the email was sent to the verified company route addressed to Giles Harrison. The exact sent subject was not captured, so it is deliberately not inferred."
       },
       "next_action": "Wait for reply. If Sculpd responds, qualify the current UK/Europe marketplace/operational scope and then discuss audit scope."
     }
