@@ -916,6 +916,27 @@
         "status": "SENT",
         "note": "Original sales inbox was unmonitored. User resent the approved message once through Pure Nails' monitored marketing inbox, with Nathan Palmer named in the subject for internal routing."
       }
+    },
+    {
+      "company": "Living Things Soda",
+      "aliases": [
+        "Living Things"
+      ],
+      "contact": "Max Adorian",
+      "source": "Live vacancy / direct research",
+      "website": "https://drinklivingthings.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Live Ecommerce Manager requirement to build and own an underdeveloped D2C channel across Shopify, TikTok Shop, Faire and Amazon, with CRO, tracking, agency management, reporting and international expansion. Strong pre-hire audit angle: map how current ecommerce systems, agencies, inventory/fulfilment and reporting connect before the new manager takes ownership.",
+      "contact_method": "Verified direct business email / LinkedIn / mobile",
+      "contact_details": {
+        "email": "max@drinklivingthings.com",
+        "phone": "07956 019580",
+        "linkedin": "https://uk.linkedin.com/in/maxadorian"
+      },
+      "market_scope": "UK with international growth across Europe and 20+ international markets",
+      "notes": "Founder-led London soda brand founded 2023 by Jonathan Relph and Ben Vear; privately held, 11-50 employees. Rapid distribution growth across major UK retailers and European markets, recent investment from The Source Ventures/Spadel and other drinks investors, and stated operational scaling/international expansion plans. Max Adorian is COO/operations leader and is the direct application contact on the live Ecommerce Manager role. Existing ecommerce is explicitly underdeveloped, with the new hire expected to own Shopify, TikTok Shop, Amazon, Faire, CRO, tracking, agencies and reporting. Strong accessibility because the vacancy publishes Max's direct email.",
+      "last_researched_date": "2026-10-06",
+      "next_action": "Present as strongest current lead with company profile and send-ready email. If sent, mark CONTACTED and log exact sent message."
     }
   ]
 }
