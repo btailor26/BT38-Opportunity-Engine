@@ -727,11 +727,11 @@
       "Use the verified recipient email only; never guess an address.",
       "Tailor the opening and value proposition to the company's actual operation and the current trigger.",
       "Use the pre-hire operational preparation angle when that is the strongest fit.",
-      "Include Bhavin Tailor, Ecommerce Operations & Systems Consultant, Mobile: 00 44 7774 257009, Email: bhavinrtailor@gmail.com, LinkedIn: https://www.linkedin.com/in/bhavin-tailor-463ab6b2/ in the signature.",
       "Keep the first outreach concise and conversational.",
       "Keep pricing out of the first email unless Bhavin explicitly asks to include it.",
       "If no verified direct recipient email exists, use a verified official company email/contact route and address the relevant named decision-maker in the message where appropriate.",
-      "If there is no legitimate free contact route, do not fabricate one; downgrade the lead's accessibility and say so."
+      "If there is no legitimate free contact route, do not fabricate one; downgrade the lead's accessibility and say so.",
+      "Phone formatting: for UK recipients use Mobile: 07774 257009. For international recipients use Mobile: 00 44 7774 257009."
     ],
     "presentation_rule": "The single strongest result must be immediately actionable: company context, reason to pursue, contact route, and finished email draft should all be present before Bhavin decides whether to send."
   }
