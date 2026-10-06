@@ -987,18 +987,21 @@
       "contact": "Alex Ikonn",
       "source": "Live LinkedIn vacancy / direct company research",
       "website": "https://www.intelligentchange.com/",
-      "status": "CONTACTED",
+      "status": "RESEARCHED",
       "opportunity": "Live Amazon Marketplace Manager requirement covering Amazon Seller Central, profitability, inventory/fulfilment metrics, account health, reporting, Seller Support and cross-functional coordination. Pre-hire audit angle: establish the operational baseline and workflow around the existing Amazon setup before the incoming manager takes ownership.",
       "contact_method": "Verified monitored company email / LinkedIn",
       "contact_details": {
         "email": "hello@intelligentchange.com",
-        "linkedin": "https://uk.linkedin.com/in/alexikonn"
+        "linkedin": "https://uk.linkedin.com/in/alexikonn",
+        "invalid_support_email": "hello@intelligentchange.com",
+        "founder_published_email": "alex@dreamcreate.it",
+        "founder_linkedin": "https://uk.linkedin.com/in/alexikonn"
       },
       "market_scope": "Global Amazon/ecommerce with London headquarters",
       "notes": "Founder-led global wellness/publishing ecommerce brand behind The Five Minute Journal. LinkedIn lists 2-10 employees and London HQ; company says 4m+ products sold globally. Alex Ikonn is co-founder/director and publicly signs current senior hiring posts. Current Amazon Marketplace Manager role seeks experience at $10m+ Amazon scale and covers Seller Central, inventory/fulfilment, account health, reporting, profitability and cross-functional execution. Official hello@intelligentchange.com is a monitored general inbox; use routed subject naming Alex. Strong pre-hire operational preparation fit while avoiding claims of PPC-specialist delivery. User confirmed outreach sent on 2026-10-06. Do not present Intelligent Change as a new lead again.",
       "last_researched_date": "2026-10-06",
-      "next_action": "Wait for reply. If Alex or the team responds, understand the current Amazon/inventory/fulfilment/reporting setup first, then scope the audit before discussing pricing.",
-      "last_action": "Pre-hire consultancy outreach email sent",
+      "next_action": "Verify alex@dreamcreate.it is still a credible current route before any resend; otherwise use Alex's direct LinkedIn route. Do not resend to hello@.",
+      "last_action": "Original hello@ outreach entered customer-support system; CSAT survey confirmed support-route handling rather than management routing",
       "last_action_date": "2026-10-06",
       "sent_email": {
         "sent_date": "2026-10-06",
@@ -1006,8 +1009,8 @@
         "sender": "bhavinrtailor@gmail.com",
         "recipient_email": "hello@intelligentchange.com",
         "subject": "For Alex Ikonn — Before your Amazon Marketplace Manager takes over",
-        "status": "SENT",
-        "note": "Email sent through Intelligent Change's verified monitored shared inbox with Alex Ikonn named in the subject for internal routing. Positioning: audit and structure the existing Amazon/inventory/fulfilment/reporting workflow around current systems before the incoming Amazon Marketplace Manager takes ownership."
+        "status": "ROUTE_INVALID_FOR_OUTREACH",
+        "note": "hello@intelligentchange.com processed the message as customer support and generated a CSAT survey, so do not treat it as successfully routed to Alex. Public podcast material publishes alex@dreamcreate.it for contacting Alex; use only after current-route verification."
       }
     },
     {
@@ -1019,7 +1022,7 @@
       "contact": "Paul Schaffer",
       "source": "Live LinkedIn/Indeed vacancy / direct company research",
       "website": "https://www.plumplay.co.uk/",
-      "status": "RESEARCHED",
+      "status": "CONTACTED",
       "opportunity": "Live Ecommerce Manager (UK & Australia) requirement. Role owns Shopify trading, Amazon/marketplace coordination, Klaviyo, analytics, customer service tools, project workflows, returns/courier integrations, international expansion and building an in-house ecommerce team. Strong pre-hire audit fit because the incoming manager must inherit a complex UK/Australia operation and then expand into Europe.",
       "contact_method": "Verified company email / LinkedIn / phone",
       "contact_details": {
@@ -1032,12 +1035,17 @@
       "market_scope": "UK, Australia and planned Europe/international expansion",
       "notes": "Family-owned active-play/toy business founded in Lincolnshire in 1988 by Jonathan and Diane Schaffer and now led by their son Paul Schaffer, Managing Director. LinkedIn lists 51-200 employees and about 34 employees visible; business sells in 40+ countries. Current Ecommerce Manager role reports directly to the Managing Director and covers four major operational areas: Shopify/marketplace trading, in-house team buildout, international storefront expansion, and operational coordination across fulfilment/logistics, returns, couriers, customer service, project management and reporting. Very strong pre-hire operational-preparation fit: map and clarify the current workflows/systems before the new manager inherits them, without adding unnecessary software. contactus@plumproducts.com is a published company contact route; route the subject to Paul Schaffer.",
       "last_researched_date": "2026-10-06",
-      "next_action": "Resend once to marketing@plumproducts.com with Paul Schaffer named in the subject. Do not use the customer-service ticket portal.",
-      "last_action": "Original outreach route failed: contactus inbox auto-replied that it is unmonitored and only routes to customer-support tickets",
+      "next_action": "Wait for reply. If Plum responds, understand the current UK/Australia ecommerce and operational handover setup first, then scope the audit before discussing pricing.",
+      "last_action": "Pre-hire consultancy outreach resent through business-facing marketing inbox",
       "last_action_date": "2026-10-06",
       "sent_email": {
-        "status": "ROUTE_INVALID_FOR_OUTREACH",
-        "note": "Original email reached an unmonitored customer-service inbox and redirected to a Zendesk help portal with no suitable business/management category. Do not treat as successfully contacted. Better verified corporate route: marketing@plumproducts.com, with Paul Schaffer named in the subject."
+        "sent_date": "2026-10-06",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "marketing@plumproducts.com",
+        "subject": "For Paul Schaffer — Before your Ecommerce Manager takes over",
+        "status": "SENT",
+        "note": "Original customer-service route was invalid/unmonitored. User resent once through Plum Products' business-facing marketing inbox with Paul Schaffer named in the subject."
       }
     }
   ]
