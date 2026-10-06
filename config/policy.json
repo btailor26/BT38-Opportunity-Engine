@@ -523,6 +523,12 @@
       "reason": "Copying the body must not copy sender, recipient, or subject fields into the email message body.",
       "verify_recipient": true,
       "no_guessing": true
+    },
+    "generic_inbox_routing": {
+      "rule": "Generic inboxes are routed contacts, not direct contacts.",
+      "subject_format": "For [Decision-maker name] — [Relevant subject]",
+      "purpose": "Make it obvious who the message is intended for so the recipient can forward it internally.",
+      "no_guessing": "Do not invent a direct email when only a generic verified route exists."
     }
   },
   "sent_email_logging": {
@@ -736,7 +742,8 @@
       "If no verified direct recipient email exists, use a verified official company email/contact route and address the relevant named decision-maker in the message where appropriate.",
       "If there is no legitimate free contact route, do not fabricate one; downgrade the lead's accessibility and say so.",
       "Phone formatting: for UK recipients use Mobile: 07774 257009. For international recipients use Mobile: 00 44 7774 257009.",
-      "For pre-hire operational preparation outreach, state where relevant that Bhavin works around the company's existing systems without introducing unnecessary new software, creating a clearer and more understandable workflow."
+      "For pre-hire operational preparation outreach, state where relevant that Bhavin works around the company's existing systems without introducing unnecessary new software, creating a clearer and more understandable workflow.",
+      "When the only verified contact route is a generic inbox such as sales@, hello@, info@ or contact@, the email subject must explicitly name the intended decision-maker so the message can be routed internally. Example: 'For Nathan Palmer — Before your Ecommerce Manager takes over'."
     ],
     "presentation_rule": "The single strongest result must be immediately actionable: company context, reason to pursue, contact route, and finished email draft should all be present before Bhavin decides whether to send."
   }
