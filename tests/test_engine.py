@@ -15,5 +15,15 @@ class ContractTests(unittest.TestCase):
         self.assertTrue((ROOT/"data/exclusions.json").exists())
         self.assertTrue((ROOT/"inbox/candidates.json").exists())
 
+    def test_geography_is_market_relevance_not_contact_location(self):
+        p=json.loads((ROOT/"config/policy.json").read_text())
+        geography=p["target_profile"]["geography"]
+        self.assertIn("UK/Europe relevance", geography)
+        self.assertIn("Do not reject", geography)
+        rules=p["target_profile"]["geography_rules"]
+        self.assertTrue(any("decision-maker location" in r for r in rules))
+        self.assertTrue(any("US, Canadian" in r for r in rules))
+        self.assertTrue(any("3PL referral campaign remains UK-only" in r for r in rules))
+
 if __name__=="__main__":
     unittest.main()
