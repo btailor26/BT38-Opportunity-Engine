@@ -667,13 +667,17 @@
       "Explain the outcome as giving the incoming manager a clear controlled starting position so they can focus on growth/ownership rather than untangling the inherited operation.",
       "Keep pricing, including the £999 audit, out of the first outreach unless the user explicitly chooses otherwise.",
       "Use a verified free contact route and address the person connected to the role where appropriate.",
-      "After sending, immediately log the outreach in data/prospects.json and mark CONTACTED."
+      "After sending, immediately log the outreach in data/prospects.json and mark CONTACTED.",
+      "Work around the client's existing systems and tools first. Do not lead by adding or replacing software; the objective is to make the current operation clearer, more understandable and more controlled. Recommend new systems only when a genuine gap is established."
     ],
     "ranking_rule": "Prioritise this lane when the role reveals an expensive or time-consuming operational handover problem and the company appears able to pay for a short defined audit/preparation project.",
     "reference_examples": [
       "BLUMAAN - Amazon Growth Manager",
       "Sculpd - Amazon Marketplace Manager",
       "Therabody - International Marketplace Manager"
+    ],
+    "positioning_rules": [
+      "Core positioning: audit and structure the operation around the systems already in place, reduce unnecessary manual/reactive work, and create a clearer understandable workflow before the incoming manager takes ownership."
     ]
   },
   "company_profile_briefing": {
@@ -731,7 +735,8 @@
       "Keep pricing out of the first email unless Bhavin explicitly asks to include it.",
       "If no verified direct recipient email exists, use a verified official company email/contact route and address the relevant named decision-maker in the message where appropriate.",
       "If there is no legitimate free contact route, do not fabricate one; downgrade the lead's accessibility and say so.",
-      "Phone formatting: for UK recipients use Mobile: 07774 257009. For international recipients use Mobile: 00 44 7774 257009."
+      "Phone formatting: for UK recipients use Mobile: 07774 257009. For international recipients use Mobile: 00 44 7774 257009.",
+      "For pre-hire operational preparation outreach, state where relevant that Bhavin works around the company's existing systems without introducing unnecessary new software, creating a clearer and more understandable workflow."
     ],
     "presentation_rule": "The single strongest result must be immediately actionable: company context, reason to pursue, contact route, and finished email draft should all be present before Bhavin decides whether to send."
   }
