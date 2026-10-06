@@ -344,7 +344,7 @@
         "Reject new dropshipping store/build/setup/launch projects where the buyer primarily wants someone to build, finish, configure, populate or launch the store. Do not reject an established dropshipping business solely because it uses dropshipping; it may qualify when there is a current operational, inventory, supplier, order, marketplace, fulfilment or audit problem relevant to BT38."
       ]
     },
-    "search_method": "Combine buyer-conversation patterns with commerce_context and search_surfaces. Prefer first-person posts/discussions from the buyer side. Suppress provider/service pages and generic job-board noise unless the listing exposes a credible consultancy/contract buying requirement."
+    "search_method": "Combine buyer-conversation patterns with commerce_context and search_surfaces. Prefer first-person posts/discussions from the buyer side. Suppress provider/service pages and generic job-board noise unless the listing exposes a credible consultancy/contract buying requirement. For the current commercial search, rank UK/Europe relevance above physical company/contact location: international companies and decision-makers are valid when the requirement includes UK/Europe operations, marketplaces or expansion."
   },
   "opportunity_routes": {
     "direct_client": {
@@ -356,7 +356,7 @@
     }
   },
   "target_profile": {
-    "geography": "UK only for current 3PL referral campaign; international prospects may be researched and parked for later.",
+    "geography": "Primary commercial focus is UK/Europe relevance, not the physical location of the company or decision-maker. A company or contact may be based anywhere if the current requirement, marketplace scope, operational problem or expansion has a credible UK and/or European angle that Bhavin can support remotely. Do not reject a prospect solely because the decision-maker is outside the UK.",
     "business": "ecommerce/DTC physical consumer products or businesses operating on relevant ecommerce marketplaces",
     "signals": [
       "own website",
@@ -386,6 +386,14 @@
       "operational systems",
       "marketplace integrations",
       "stock synchronization"
+    ],
+    "geography_rules": [
+      "Company headquarters or decision-maker location is context only, not a hard rejection gate.",
+      "Prioritise opportunities with a current UK or European ecommerce, marketplace, inventory, fulfilment, operations or expansion requirement.",
+      "A US, Canadian or other international company is valid when it is operating in, hiring for, launching into, or expanding across the UK/Europe.",
+      "A role covering multiple regions remains valid when UK/Europe is part of the scope.",
+      "Purely non-UK/non-European opportunities with no credible UK/Europe relevance should be lower priority or parked for later rather than presented as the strongest current lead.",
+      "The separate 3PL referral campaign remains UK-only until that campaign rule is deliberately changed."
     ]
   },
   "reject_if": [
@@ -542,7 +550,8 @@
       "type of clients and projects handled",
       "recipient's role and remit",
       "specific evidence creating the crossover with Bhavin's capability",
-      "verified free contact route"
+      "verified free contact route",
+      "company and role market scope, including any UK/Europe operation or expansion relevance; recipient physical location alone is not a rejection reason"
     ],
     "drafting_rules": [
       "Use researched company-specific details in the opening and value proposition where relevant.",
