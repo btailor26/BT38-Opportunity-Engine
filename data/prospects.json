@@ -685,6 +685,59 @@
       "notes": "Founder has direct ecommerce/Amazon operating experience, but this is outside the current UK-only campaign. Not yet contacted.",
       "last_researched_date": "2026-10-06",
       "next_action": "PARK - international. Revisit after UK campaign evidence is reviewed."
+    },
+    {
+      "company": "Smith Fulfilment",
+      "contact": "Oliver Smith",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://www.smithfulfilment.com/",
+      "geography": "UK",
+      "status": "CONTACTED",
+      "opportunity": "Founder-led UK 3PL referral route for ecommerce brands with slow-moving stock; listing/current-channel audit plus additional marketplace/channel/market research where appropriate.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "oliver@smithfulfilment.com"
+      },
+      "notes": "User confirmed email sent. Positioning: complementary support for brands with stock sitting too long or moving slowly; audit current listings/channels first, then explore additional demand opportunities where appropriate.",
+      "last_action": "Direct outreach email sent to Oliver Smith",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If Oliver surfaces a client, qualify the stock/listing/channel issue before scoping work."
+    },
+    {
+      "company": "TIVE Fulfilment",
+      "contact": "Jordan Hulcoop",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://www.tiveuk.com/",
+      "geography": "UK",
+      "status": "CONTACTED",
+      "opportunity": "Founder-led UK 3PL referral route for brands with slow-moving stock; listing/current-channel audit plus additional marketplace/channel/market research where appropriate.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "jordan@tiveuk.com",
+        "linkedin": "https://uk.linkedin.com/in/jordan-hulcoop-119344131"
+      },
+      "notes": "User confirmed email sent. TIVE website LinkedIn button is misconfigured and points to Wix; use Jordan's independently verified LinkedIn profile above. Outreach focuses on slow-moving stock and listing/channel opportunity while keeping the existing fulfilment relationship intact.",
+      "last_action": "Direct outreach email sent to Jordan Hulcoop",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If Jordan identifies a brand, qualify the real stock problem before proposing work."
+    },
+    {
+      "company": "Systemise LUXE",
+      "contact": "Nikki Thomas",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://www.systemiseluxe.com/",
+      "geography": "UK",
+      "status": "CONTACTED",
+      "opportunity": "Founder-led UK 3PL referral route for beauty, fashion, wellness and lifestyle brands with slow-moving stock; listing/current-channel audit plus additional marketplace/channel/market opportunities.",
+      "contact_method": "WhatsApp",
+      "contact_details": {
+        "email": "nikki@systemiseluxe.com",
+        "phone": "07508 169179"
+      },
+      "notes": "User confirmed WhatsApp message sent. Positioning: help brands with stock sitting too long by reviewing listings/current channels and exploring additional routes to market, without interfering with Systemise LUXE's fulfilment relationship.",
+      "last_action": "WhatsApp outreach sent to Nikki Thomas",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If Nikki identifies a suitable brand, qualify the stock/listing/channel issue before scoping work."
     }
   ]
 }
