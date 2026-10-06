@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 17,
+  "version": 18,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -579,14 +579,23 @@
     ],
     "outreach_positioning": "Ask whether any brands they work with may benefit from help with stock that has been sitting too long or underperforming. Offer to audit how the products are currently listed and sold and to explore additional markets, sales channels or commercial opportunities if appropriate.",
     "current_batch_note": {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "status": "ACTIVE",
       "contacted": [
         "Thrive Fulfilment - Laurence Reynolds",
         "Cloud9 Fulfilment - Joshua Hegarty",
-        "myWarehouse - Karen Marchant"
+        "myWarehouse - Karen Marchant",
+        "fulfilment.com - Sam Parfitt / team",
+        "Despatch Bros - Paul Jefford / team",
+        "Finishing Line - Josh Arrowsmith",
+        "CK Fulfilment - Rebecca Kane",
+        "Launch Fulfilment UK - contact form / team",
+        "Haul&Store - founders/team via WhatsApp"
       ],
-      "rule": "These emails are confirmed sent and are tracked as CONTACTED in data/prospects.json."
+      "parked": [
+        "Pulse Fulfilment - Sean Arslanian: no suitable direct route verified; LinkedIn message unavailable; do not force through generic sales inbox."
+      ],
+      "rule": "All entries in contacted were confirmed by the user as sent. Pulse remains RESEARCHED/PARKED until a legitimate direct decision-maker route is found."
     }
   }
 }
