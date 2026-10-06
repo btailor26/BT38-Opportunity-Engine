@@ -738,6 +738,60 @@
       "last_action": "WhatsApp outreach sent to Nikki Thomas",
       "last_action_date": "2026-10-06",
       "next_action": "Wait for reply. If Nikki identifies a suitable brand, qualify the stock/listing/channel issue before scoping work."
+    },
+    {
+      "company": "BLUMAAN",
+      "contact": "Kimmy K.",
+      "source": "Indeed / LinkedIn / direct research",
+      "website": "https://blumaan.com/",
+      "status": "CONTACTED",
+      "opportunity": "Part-time Amazon Growth Manager requirement. Consultancy angle: prepare and structure the Amazon operation before the incoming channel owner takes over, rather than applying to perform the full underpriced role.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "info@blumaan.com"
+      },
+      "market_scope": "Amazon US, Canada and Europe",
+      "notes": "User sent the pre-hire operational-preparation email. Positioning: Bhavin is not applying for the role; his work sits before it — audit current Amazon/inventory/reporting/fulfilment/account-health workflows, identify gaps/risks/manual dependencies, establish controls and leave the incoming Amazon Growth Manager with a clear starting position. Keep £999 audit pricing out of first outreach; discuss after response/current-state conversation.",
+      "last_action": "Pre-hire consultancy outreach email sent",
+      "last_action_date": "2026-10-06",
+      "sent_email": {
+        "sent_date": "2026-10-06",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "info@blumaan.com",
+        "subject": "Before your Amazon Growth Manager takes over",
+        "status": "SENT",
+        "note": "Email sent offering to prepare and structure the Amazon operation before the incoming role owner takes charge."
+      },
+      "next_action": "Wait for reply. If BLUMAAN responds, understand the current setup/problem first, then scope the audit and only then discuss pricing."
+    },
+    {
+      "company": "Sculpd",
+      "contact": "Giles Harrison",
+      "source": "LinkedIn / direct research",
+      "website": "https://sculpd.com/",
+      "status": "CONTACTED",
+      "opportunity": "Amazon Marketplace Manager requirement. Consultancy angle: audit and structure the Amazon marketplace operation before the incoming Marketplace Manager takes ownership.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "support@sculpd.com",
+        "linkedin": "https://www.linkedin.com/in/gilesharrison2"
+      },
+      "contact_geography": "US",
+      "geography_note": "Giles being US-based is not a disqualifier. Current policy evaluates UK/Europe commercial/market relevance, not the physical location of the decision-maker. Future strongest-lead selection should verify the UK/Europe angle before surfacing an international contact.",
+      "notes": "User confirmed the outreach email was sent. Positioning: not applying for the role; offer to audit catalogue health, inventory/fulfilment, account health, reporting and workflows so the incoming Marketplace Manager inherits a clear, controlled operation.",
+      "last_action": "Pre-hire consultancy outreach email sent",
+      "last_action_date": "2026-10-06",
+      "sent_email": {
+        "sent_date": "2026-10-06",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "support@sculpd.com",
+        "subject": "Amazon Marketplace Manager - preparing the operation before handover",
+        "status": "SENT",
+        "note": "User confirmed email sent to the verified company route, addressed to Giles Harrison. Subject reconstructed for logging from the outreach purpose; exact sent subject was not explicitly captured."
+      },
+      "next_action": "Wait for reply. If Sculpd responds, qualify the current UK/Europe marketplace/operational scope and then discuss audit scope."
     }
   ]
 }
