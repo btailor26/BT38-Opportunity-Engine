@@ -925,7 +925,7 @@
       "contact": "Max Adorian",
       "source": "Live vacancy / direct research",
       "website": "https://drinklivingthings.com/",
-      "status": "RESEARCHED",
+      "status": "CONTACTED",
       "opportunity": "Live Ecommerce Manager requirement to build and own an underdeveloped D2C channel across Shopify, TikTok Shop, Faire and Amazon, with CRO, tracking, agency management, reporting and international expansion. Strong pre-hire audit angle: map how current ecommerce systems, agencies, inventory/fulfilment and reporting connect before the new manager takes ownership.",
       "contact_method": "Verified direct business email / LinkedIn / mobile",
       "contact_details": {
@@ -934,9 +934,20 @@
         "linkedin": "https://uk.linkedin.com/in/maxadorian"
       },
       "market_scope": "UK with international growth across Europe and 20+ international markets",
-      "notes": "Founder-led London soda brand founded 2023 by Jonathan Relph and Ben Vear; privately held, 11-50 employees. Rapid distribution growth across major UK retailers and European markets, recent investment from The Source Ventures/Spadel and other drinks investors, and stated operational scaling/international expansion plans. Max Adorian is COO/operations leader and is the direct application contact on the live Ecommerce Manager role. Existing ecommerce is explicitly underdeveloped, with the new hire expected to own Shopify, TikTok Shop, Amazon, Faire, CRO, tracking, agencies and reporting. Strong accessibility because the vacancy publishes Max's direct email.",
+      "notes": "Founder-led London soda brand founded 2023 by Jonathan Relph and Ben Vear; privately held, 11-50 employees. Rapid distribution growth across major UK retailers and European markets, recent investment from The Source Ventures/Spadel and other drinks investors, and stated operational scaling/international expansion plans. Max Adorian is COO/operations leader and is the direct application contact on the live Ecommerce Manager role. Existing ecommerce is explicitly underdeveloped, with the new hire expected to own Shopify, TikTok Shop, Amazon, Faire, CRO, tracking, agencies and reporting. Strong accessibility because the vacancy publishes Max's direct email. User confirmed outreach sent on 2026-10-06. Do not present Living Things as a new lead again.",
       "last_researched_date": "2026-10-06",
-      "next_action": "Present as strongest current lead with company profile and send-ready email. If sent, mark CONTACTED and log exact sent message."
+      "next_action": "Wait for reply. If Max responds, understand the current D2C/channel/agency/reporting setup first, then scope the audit before discussing pricing.",
+      "last_action": "Pre-hire consultancy outreach email sent",
+      "last_action_date": "2026-10-06",
+      "sent_email": {
+        "sent_date": "2026-10-06",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "max@drinklivingthings.com",
+        "subject": "Before your Ecommerce Manager takes over",
+        "status": "SENT",
+        "note": "Email sent directly to Max Adorian. Positioning: not applying for the role; offer is to audit and structure the existing ecommerce operation around current systems/tools, clarify workflows, controls, reporting and priorities, and prepare the operation before the incoming Ecommerce Manager takes ownership."
+      }
     }
   ]
 }
