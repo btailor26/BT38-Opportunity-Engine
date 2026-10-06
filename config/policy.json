@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 19,
+  "version": 20,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -356,7 +356,7 @@
     }
   },
   "target_profile": {
-    "geography": "UK preferred",
+    "geography": "UK only for current 3PL referral campaign; international prospects may be researched and parked for later.",
     "business": "ecommerce/DTC physical consumer products or businesses operating on relevant ecommerce marketplaces",
     "signals": [
       "own website",
@@ -602,7 +602,15 @@
       "parked": [
         "Pulse Fulfilment - Sean Arslanian: no suitable direct route verified; LinkedIn message unavailable; do not force through generic sales inbox."
       ],
-      "rule": "All contacted entries were confirmed sent by the user. Pulse remains parked until a legitimate direct decision-maker route is found."
+      "rule": "All contacted entries were confirmed sent by the user. Pulse remains parked until a legitimate direct decision-maker route is found.",
+      "researched_not_sent": [
+        "Warehouse Republic - Mark Taylor (UK, active candidate)"
+      ],
+      "international_parked": [
+        "West Coast Prep & 3PL - Ahmad \"Zubi\" Noory (USA)",
+        "Founder First Fulfillment - Travis (USA)",
+        "Redwolf 3PL - Zev Samuel (Canada)"
+      ]
     },
     "message_design_rules": [
       "Lead with stock that has been sitting too long or is slow-moving.",
@@ -612,6 +620,15 @@
       "Position Bhavin as complementary to the existing fulfilment relationship, not a replacement.",
       "Prefer a verified direct person or channel over a generic sales inbox.",
       "For each researched lead, include verified contact details and one complete copy/paste-ready message."
-    ]
+    ],
+    "current_campaign": {
+      "date": "2026-10-06",
+      "geography": "UK only",
+      "rationale": "The current test stays UK-focused because local founder-led 3PLs are an easier first route for trust, conversation, referrals and practical follow-up. Do not dilute the test with international outreach yet.",
+      "target": "Founder/owner/MD-led UK 3PL and fulfilment businesses serving ecommerce/DTC brands.",
+      "batch_goal": "Complete a controlled UK test batch before expanding internationally.",
+      "contact_rule": "Only move UK prospects into active outreach during this campaign. Keep suitable non-UK prospects researched/parked for a later phase.",
+      "success_signal": "A real brand/client problem, introduction, or conversation about slow-moving stock; acknowledgements alone do not prove the model."
+    }
   }
 }
