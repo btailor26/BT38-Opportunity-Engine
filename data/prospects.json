@@ -792,6 +792,32 @@
         "note": "User confirmed the email was sent to the verified company route addressed to Giles Harrison. The exact sent subject was not captured, so it is deliberately not inferred."
       },
       "next_action": "Wait for reply. If Sculpd responds, qualify the current UK/Europe marketplace/operational scope and then discuss audit scope."
+    },
+    {
+      "company": "Therabody",
+      "contact": "Vincent Huinck",
+      "source": "Live vacancy / direct research",
+      "status": "CONTACTED",
+      "opportunity": "International Marketplace Manager contract. Pre-hire operational preparation opportunity across European marketplaces, inventory, product data, reporting, profitability and cross-functional coordination.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "info-EU@Therabody.com",
+        "linkedin": "https://uk.linkedin.com/in/vincenthuinck"
+      },
+      "market_scope": "Europe / international marketplaces",
+      "notes": "User sent the pre-hire operational-preparation email. Positioning: Bhavin is not applying for the role; his work sits before it. Offer is to audit and structure the marketplace operation, document current workflows, identify gaps/risks/manual dependencies, establish controls/reporting and set priorities so the incoming Marketplace Manager starts from a clear controlled position.",
+      "last_action": "Pre-hire consultancy outreach email sent",
+      "last_action_date": "2026-10-06",
+      "sent_email": {
+        "sent_date": "2026-10-06",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "info-EU@Therabody.com",
+        "subject": "Before your International Marketplace Manager takes over",
+        "status": "SENT",
+        "note": "Email sent addressed to Vincent Huinck offering to prepare and structure the European marketplace operation before the incoming manager takes ownership."
+      },
+      "next_action": "Wait for reply. If Therabody responds, understand the current marketplace setup and handover problem first, then scope the audit before discussing pricing."
     }
   ]
 }
