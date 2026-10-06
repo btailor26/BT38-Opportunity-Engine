@@ -948,6 +948,28 @@
         "status": "SENT",
         "note": "Email sent directly to Max Adorian. Positioning: not applying for the role; offer is to audit and structure the existing ecommerce operation around current systems/tools, clarify workflows, controls, reporting and priorities, and prepare the operation before the incoming Ecommerce Manager takes ownership."
       }
+    },
+    {
+      "company": "Scriveiner London",
+      "aliases": [
+        "Scriveiner",
+        "Infinity Brands Limited"
+      ],
+      "contact": "Justin Lowes",
+      "source": "Live vacancy / direct research",
+      "website": "https://scriveiner.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Live E-Commerce Manager (Shopify) requirement. Role owns Shopify catalogue integrity, retailer pipeline, weekly reporting, international market launches, inventory alignment and system improvement. Strong pre-hire audit fit because the company explicitly wants someone to identify what has been missed, improve systems and remove operational bottlenecks.",
+      "contact_method": "Verified official company email / LinkedIn / phone",
+      "contact_details": {
+        "email": "hello@scriveiner.com",
+        "phone": "+44 7893 950516",
+        "linkedin": "https://uk.linkedin.com/in/justin-lowes-4426651"
+      },
+      "market_scope": "UK with global ecommerce and international expansion",
+      "notes": "Founder-led British luxury writing-instruments brand founded in 2019 by Yanning Li and Justin Lowes, owned by Infinity Brands Limited. LinkedIn lists 11-50 employees. Scriveiner has sold over 1.2m pens, is available online and in 900+ Office Depot stores in the US, and is a King's Award for Enterprise winner. Active Shopify/ecommerce vacancy currently listed through 2026-10-23. Role explicitly requires identifying gaps in the current Shopify setup, catalogue audits, dashboards, inventory alignment, new-market launch coordination and improving systems. Justin Lowes is founder/CEO. Official current company email is hello@scriveiner.com; route should use a subject naming Justin for internal forwarding. A historic King's Award record contains a direct Justin email on an inconsistent domain spelling, so it should not be used as a verified current contact.",
+      "last_researched_date": "2026-10-06",
+      "next_action": "Present as strongest current lead with company profile and send-ready email. If sent, mark CONTACTED and log exact sent message."
     }
   ]
 }
