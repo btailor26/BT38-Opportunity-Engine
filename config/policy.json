@@ -529,6 +529,16 @@
       "subject_format": "For [Decision-maker name] — [Relevant subject]",
       "purpose": "Make it obvious who the message is intended for so the recipient can forward it internally.",
       "no_guessing": "Do not invent a direct email when only a generic verified route exists."
+    },
+    "unmonitored_inbox_rule": {
+      "rule": "If an automatic reply states that the recipient inbox is not actively monitored, may not be seen, or directs senders to other departments, do not treat the original route as a successful contact.",
+      "action": [
+        "Record the original send and the automatic routing failure.",
+        "Use the organisation's explicitly provided monitored department address that best matches the enquiry.",
+        "Keep the intended decision-maker named in the subject when the replacement route is still a shared inbox.",
+        "Only mark the prospect as successfully CONTACTED after sending through a credible monitored route."
+      ],
+      "no_spam_rule": "Do not resend to every department. Choose the single department with the strongest relevance to the opportunity."
     }
   },
   "sent_email_logging": {
