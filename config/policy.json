@@ -545,6 +545,21 @@
       "sender": "bhavinrtailor@gmail.com",
       "rule": "Every prepared outreach draft must clearly show the sending account as 'Send from: bhavinrtailor@gmail.com' before the email draft so Bhavin does not need to switch between Gmail accounts to identify the correct sender.",
       "note": "This is separate from the email signature, which may also include the same contact email."
+    },
+    "business_route_rule": {
+      "rule": "Do not use customer-service/support inboxes or helpdesk ticket forms for consultancy/business-development outreach unless the enquiry genuinely belongs there.",
+      "route_priority": [
+        "verified direct decision-maker email",
+        "verified management/commercial/business-development/marketing/corporate email",
+        "verified monitored general business inbox",
+        "free LinkedIn route to the decision-maker"
+      ],
+      "reject_routes": [
+        "unmonitored customer-service inbox",
+        "customer help portal with no relevant business/commercial category",
+        "support ticket form intended for product/order/technical issues"
+      ],
+      "action": "If the discovered route resolves to customer support or an inappropriate ticket form, mark it ROUTE_INVALID_FOR_OUTREACH and research a business-facing route before treating the lead as contacted."
     }
   },
   "sent_email_logging": {
