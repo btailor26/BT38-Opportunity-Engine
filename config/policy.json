@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 18,
+  "version": 19,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -589,13 +589,29 @@
         "Despatch Bros - Paul Jefford / team",
         "Finishing Line - Josh Arrowsmith",
         "CK Fulfilment - Rebecca Kane",
-        "Launch Fulfilment UK - contact form / team",
-        "Haul&Store - founders/team via WhatsApp"
+        "Launch Fulfilment UK - team",
+        "Haul&Store - founders/team",
+        "HLP Distribution - Gurpal Sahota",
+        "GNOC - Andrew Race",
+        "Vibe65 - Conor Hughes",
+        "33 Fulfilment - Louise Tilley",
+        "Order Fulfilment Experts - Samantha Anderson",
+        "Newton Star - Sammy Ecclefield",
+        "Amethyst Group - John Fletcher"
       ],
       "parked": [
         "Pulse Fulfilment - Sean Arslanian: no suitable direct route verified; LinkedIn message unavailable; do not force through generic sales inbox."
       ],
-      "rule": "All entries in contacted were confirmed by the user as sent. Pulse remains RESEARCHED/PARKED until a legitimate direct decision-maker route is found."
-    }
+      "rule": "All contacted entries were confirmed sent by the user. Pulse remains parked until a legitimate direct decision-maker route is found."
+    },
+    "message_design_rules": [
+      "Lead with stock that has been sitting too long or is slow-moving.",
+      "Listing audits and current-channel audits are core. Do not mention international buying unless it is directly relevant.",
+      "State the mutual benefit truthfully: better sell-through for the brand and potentially more fulfilment activity for the 3PL.",
+      "Do not assume a warehouse wants stock removed to free space; tailor the benefit to the 3PL business model.",
+      "Position Bhavin as complementary to the existing fulfilment relationship, not a replacement.",
+      "Prefer a verified direct person or channel over a generic sales inbox.",
+      "For each researched lead, include verified contact details and one complete copy/paste-ready message."
+    ]
   }
 }
