@@ -25,5 +25,14 @@ class ContractTests(unittest.TestCase):
         self.assertTrue(any("US, Canadian" in r for r in rules))
         self.assertTrue(any("3PL referral campaign remains UK-only" in r for r in rules))
 
+    def test_company_profile_required_before_presenting_lead(self):
+        p=json.loads((ROOT/"config/policy.json").read_text())
+        brief=p["company_profile_briefing"]
+        self.assertTrue(brief["required_before_presenting_lead"])
+        self.assertIn("Accessibility assessment", brief["required_output"])
+        self.assertIn("What they do", brief["required_output"])
+        self.assertIn("Route in", brief["required_output"])
+        self.assertIn("Do not encourage Bhavin to apply or outreach blindly", brief["blind_application_rule"])
+
 if __name__=="__main__":
     unittest.main()
