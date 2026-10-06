@@ -393,6 +393,105 @@
         "note": "Outreach sent to Karen Marchant/myWarehouse about brands with stock sitting too long and possible listing, channel and market opportunities."
       },
       "next_action": "Wait for reply. If a suitable brand is surfaced, qualify stock age/quantity, current listings, current channels and commercial objective before scoping an audit."
+    },
+    {
+      "company": "fulfilment.com",
+      "contact": "Sam Parfitt / fulfilment.com team",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://fulfilment.com/",
+      "status": "CONTACTED",
+      "opportunity": "Referral-partner route for brands with stock sitting too long or underperforming; listing/channel audit plus additional marketplace/market opportunities.",
+      "contact_method": "Email",
+      "notes": "User confirmed outreach has been sent. Positioning is complementary to fulfilment/3PL placement and focuses on helping brands move underperforming stock through listing audits, current-channel review and additional routes to market.",
+      "last_action": "3PL referral-partner message sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If a brand/problem is surfaced, create a separate buyer prospect and qualify the stock/listing/channel issue."
+    },
+    {
+      "company": "Despatch Bros",
+      "contact": "Paul Jefford / Despatch Bros team",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://despatchbros.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Referral-partner route for ecommerce brands with aged or underperforming stock; audit listings/current channels and explore new marketplaces, channels or markets.",
+      "contact_method": "Email / direct outreach",
+      "notes": "User confirmed outreach has been sent. Despatch Bros already works with trusted external specialists, making this a natural referral-partner lane rather than a replacement fulfilment pitch.",
+      "last_action": "3PL referral-partner message sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If a brand may benefit, qualify the actual stock and listing problem before scoping work."
+    },
+    {
+      "company": "Finishing Line",
+      "contact": "Josh Arrowsmith",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://finishingline.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Growth-partner 3PL referral route for brands with slow/aged stock; listing and current-channel audit followed by new marketplace/market research where appropriate.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "josh.arrowsmith@finishingline.co.uk"
+      },
+      "notes": "User confirmed message sent. Strong fit because Finishing Line positions itself as a growth partner, so the offer is framed around helping its existing brands move stock rather than overlapping with fulfilment.",
+      "last_action": "Direct outreach sent to Josh Arrowsmith",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply or referral. Acknowledgement alone is not a live opportunity; require a named brand/current stock issue."
+    },
+    {
+      "company": "CK Fulfilment",
+      "contact": "Rebecca Kane",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://www.ckfulfilment.com/",
+      "status": "CONTACTED",
+      "opportunity": "Founder-led 3PL referral route for ecommerce brands with slow or underperforming stock; audit listings/current channels and investigate additional commercial routes.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "rebecca@ckfulfilment.com"
+      },
+      "notes": "User confirmed message sent. Approach is stock-movement focused and complementary to CK's fulfilment relationship.",
+      "last_action": "Direct outreach sent to Rebecca Kane",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If CK identifies a suitable brand, qualify stock age/quantity, listings, channels and commercial constraints."
+    },
+    {
+      "company": "Launch Fulfilment UK",
+      "contact": "Michael Bridges / Launch Fulfilment UK team",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://launchfulfilment.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Referral-partner route for ecommerce brands with stock sitting too long or underperforming; listing/channel audit plus new-market/channel exploration.",
+      "contact_method": "Website contact form / Other",
+      "notes": "User confirmed message sent through Launch Fulfilment UK's contact route. Message was kept within the 750-character form limit and positioned as complementary to the fulfilment relationship.",
+      "last_action": "Website contact-form message sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If routed to a named person or brand opportunity, update contact and qualify the requirement."
+    },
+    {
+      "company": "Haul&Store",
+      "contact": "Haul&Store founders / team",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://haulandstore.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Founder-led 3PL referral route for brands with stock sitting too long; audit listings/current channels and explore additional marketplaces, channels or markets.",
+      "contact_method": "WhatsApp",
+      "contact_details": {
+        "phone": "07379 146260"
+      },
+      "notes": "User confirmed WhatsApp message sent. Company route is used because the founders are involved in the WhatsApp/customer communication channel; do not falsely attribute the number to Neil personally.",
+      "last_action": "WhatsApp outreach sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If a brand is introduced, qualify the actual stock/listing/channel problem before proposing work."
+    },
+    {
+      "company": "Pulse Fulfilment",
+      "contact": "Sean Arslanian",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://pulsefulfilment.co.uk/",
+      "status": "RESEARCHED",
+      "opportunity": "Potential referral-partner route for slow/aged stock and listing/channel audits.",
+      "contact_method": "No suitable direct route currently verified",
+      "notes": "Not contacted. LinkedIn messaging is unavailable and the only verified public email found is the generic sales inbox, which is not the desired route for this partnership approach.",
+      "last_researched_date": "2026-10-06",
+      "next_action": "Park until a legitimate direct route to Sean, Daniel or another appropriate decision-maker is found. Do not force outreach through the sales inbox."
     }
   ]
 }
