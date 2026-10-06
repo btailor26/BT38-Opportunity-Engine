@@ -887,19 +887,25 @@
       "contact": "Nathan Palmer",
       "source": "Live vacancy / direct research",
       "website": "https://purenails.co.uk/",
-      "status": "CONTACTED",
+      "status": "RESEARCHED",
       "opportunity": "Live Ecommerce Manager requirement covering Shopify, product listings, inventory, reporting, internal/external coordination, nail-training ecommerce and European expansion. Pre-hire audit angle: understand and structure the current operation before adding tools/systems or handing full ownership to the incoming manager.",
       "contact_method": "Verified public business email / LinkedIn / phone",
       "contact_details": {
         "email": "sales@purenails.co.uk",
         "phone": "01634 671122",
-        "linkedin": "https://uk.linkedin.com/in/nathan-palmer-52783832"
+        "linkedin": "https://uk.linkedin.com/in/nathan-palmer-52783832",
+        "sales_email": "sales@purenails.co.uk",
+        "marketing_email": "marketing@purenails.co.uk",
+        "website_email": "website@purenails.co.uk",
+        "orders_email": "orders@purenails.co.uk",
+        "training_email": "training@purenails.co.uk",
+        "technical_email": "nailtechsupport@purenails.co.uk"
       },
       "market_scope": "UK and Europe",
       "notes": "Privately held Gillingham-based professional nail-products business, 11-50 employees on LinkedIn, selling direct and through 200+ stockists. Nathan Palmer is Managing Director; Tony Palmer is Chairman. The live Ecommerce Manager vacancy covers Shopify, listings, merchandising, inventory, analytics, agencies, training ecommerce and European expansion, and explicitly includes identifying new tools/systems/processes. Strong existing-systems consultancy angle: audit current setup and workflows first, avoid unnecessary software, clarify controls and handover before the new Ecommerce Manager takes ownership. User confirmed the routed outreach email was sent on 2026-10-06. Do not present Pure Nails as a new opportunity again.",
       "last_researched_date": "2026-10-06",
-      "next_action": "Wait for reply. If Pure Nails responds, understand the current Shopify/inventory/fulfilment/reporting setup first, then scope the audit before discussing pricing.",
-      "last_action": "Pre-hire consultancy outreach email sent",
+      "next_action": "Resend the approved message once to marketing@purenails.co.uk with subject 'For Nathan Palmer — Before your Ecommerce Manager takes over'. After confirmed send, mark CONTACTED.",
+      "last_action": "Original outreach sent to sales@purenails.co.uk; auto-reply confirmed inbox is not actively monitored",
       "last_action_date": "2026-10-06",
       "sent_email": {
         "sent_date": "2026-10-06",
@@ -907,8 +913,8 @@
         "sender": "bhavinrtailor@gmail.com",
         "recipient_email": "sales@purenails.co.uk",
         "subject": "For Nathan Palmer — Before your Ecommerce Manager takes over",
-        "status": "SENT",
-        "note": "Email sent via the verified generic sales inbox, explicitly routed to Nathan Palmer in the subject. Positioning: audit and structure the current ecommerce operation around existing systems before the incoming Ecommerce Manager takes ownership; avoid unnecessary new software and create a clearer, more understandable workflow."
+        "status": "ROUTE_FAILED_UNMONITORED",
+        "note": "Original email was sent to sales@purenails.co.uk, but an automatic reply confirmed the inbox is not actively monitored and emails may not be seen. Pure Nails supplied monitored department routes. Best reroute for this ecommerce-management enquiry is marketing@purenails.co.uk, still addressed to Nathan Palmer in the subject."
       }
     }
   ]
