@@ -514,7 +514,8 @@
       "No manual assembly of recipient, subject, signature or body should be required.",
       "Recipient email must be verified from a legitimate source and must never be guessed.",
       "When Gmail sending is available and Bhavin explicitly asks to send an approved email, use bhavinrtailor@gmail.com.",
-      "Never auto-send outreach merely because a prospect was discovered or qualified."
+      "Never auto-send outreach merely because a prospect was discovered or qualified.",
+      "For every strongest lead presented after research, prepare the finished send-ready outreach email in the same response without waiting for a separate draft request."
     ],
     "draft_email_format": {
       "trigger": "When Bhavin asks for a draft email",
@@ -692,7 +693,7 @@
       "whether the organisation is too large, too corporate, too procurement-heavy or otherwise difficult to penetrate directly",
       "whether a smaller subsidiary, brand, business unit or local operator offers a more realistic entry point"
     ],
-    "presentation_rule": "Do not present a lead as the strongest opportunity until the company profile briefing is complete enough for Bhavin to judge whether it is worth approaching.",
+    "presentation_rule": "Do not present a lead as the strongest opportunity until the company profile briefing is complete enough for Bhavin to judge whether it is worth approaching. Once complete, immediately include the finished send-ready outreach email in the same result.",
     "required_output": [
       "Company",
       "What they do",
@@ -709,5 +710,29 @@
     "accessibility_rule": "A strong commercial fit is not automatically a strong lead. If the company is difficult to penetrate, heavily corporate, or the only route is generic recruitment/procurement with no credible decision-maker access, downgrade it even if the advertised problem is relevant.",
     "blind_application_rule": "Do not encourage Bhavin to apply or outreach blindly based only on a vacancy. Research the company and route-in first.",
     "large_parent_rule": "When a brand belongs to a large parent company, distinguish the brand-level opportunity from the parent-company structure. Prefer a reachable brand-level or regional operator where possible rather than treating the parent corporation as the target."
+  },
+  "lead_presentation_workflow": {
+    "required": true,
+    "rule": "Every lead presented to Bhavin must include the completed company profile/research first and, immediately after it, a complete send-ready outreach email draft tailored to that exact company and opportunity.",
+    "sequence": [
+      "Research and verify the live opportunity.",
+      "Complete the company profile briefing and accessibility assessment.",
+      "Identify and verify the strongest legitimate free contact route.",
+      "Draft the company-specific outreach email immediately after the research.",
+      "Present the research and the complete email draft together in the same result.",
+      "Do not require Bhavin to ask separately for a draft.",
+      "Do not auto-send; Bhavin decides whether to send."
+    ],
+    "email_requirements": [
+      "Use the verified recipient email only; never guess an address.",
+      "Tailor the opening and value proposition to the company's actual operation and the current trigger.",
+      "Use the pre-hire operational preparation angle when that is the strongest fit.",
+      "Include Bhavin Tailor, Ecommerce Operations & Systems Consultant, Mobile: 00 44 7774 257009, Email: bhavinrtailor@gmail.com, LinkedIn: https://www.linkedin.com/in/bhavin-tailor-463ab6b2/ in the signature.",
+      "Keep the first outreach concise and conversational.",
+      "Keep pricing out of the first email unless Bhavin explicitly asks to include it.",
+      "If no verified direct recipient email exists, use a verified official company email/contact route and address the relevant named decision-maker in the message where appropriate.",
+      "If there is no legitimate free contact route, do not fabricate one; downgrade the lead's accessibility and say so."
+    ],
+    "presentation_rule": "The single strongest result must be immediately actionable: company context, reason to pursue, contact route, and finished email draft should all be present before Bhavin decides whether to send."
   }
 }
