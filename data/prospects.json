@@ -1009,6 +1009,28 @@
         "status": "SENT",
         "note": "Email sent through Intelligent Change's verified monitored shared inbox with Alex Ikonn named in the subject for internal routing. Positioning: audit and structure the existing Amazon/inventory/fulfilment/reporting workflow around current systems before the incoming Amazon Marketplace Manager takes ownership."
       }
+    },
+    {
+      "company": "Plum Play",
+      "aliases": [
+        "Plum Products Ltd",
+        "Plum Products"
+      ],
+      "contact": "Paul Schaffer",
+      "source": "Live LinkedIn/Indeed vacancy / direct company research",
+      "website": "https://www.plumplay.co.uk/",
+      "status": "RESEARCHED",
+      "opportunity": "Live Ecommerce Manager (UK & Australia) requirement. Role owns Shopify trading, Amazon/marketplace coordination, Klaviyo, analytics, customer service tools, project workflows, returns/courier integrations, international expansion and building an in-house ecommerce team. Strong pre-hire audit fit because the incoming manager must inherit a complex UK/Australia operation and then expand into Europe.",
+      "contact_method": "Verified company email / LinkedIn / phone",
+      "contact_details": {
+        "email": "contactus@plumproducts.com",
+        "phone": "0344 880 5302",
+        "linkedin": "https://au.linkedin.com/in/paul-schaffer-6594105b"
+      },
+      "market_scope": "UK, Australia and planned Europe/international expansion",
+      "notes": "Family-owned active-play/toy business founded in Lincolnshire in 1988 by Jonathan and Diane Schaffer and now led by their son Paul Schaffer, Managing Director. LinkedIn lists 51-200 employees and about 34 employees visible; business sells in 40+ countries. Current Ecommerce Manager role reports directly to the Managing Director and covers four major operational areas: Shopify/marketplace trading, in-house team buildout, international storefront expansion, and operational coordination across fulfilment/logistics, returns, couriers, customer service, project management and reporting. Very strong pre-hire operational-preparation fit: map and clarify the current workflows/systems before the new manager inherits them, without adding unnecessary software. contactus@plumproducts.com is a published company contact route; route the subject to Paul Schaffer.",
+      "last_researched_date": "2026-10-06",
+      "next_action": "Present as strongest current lead with company profile and send-ready email. If user sends, mark CONTACTED and log exact sent message."
     }
   ]
 }
