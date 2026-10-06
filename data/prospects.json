@@ -818,6 +818,33 @@
         "note": "Email sent addressed to Vincent Huinck offering to prepare and structure the European marketplace operation before the incoming manager takes ownership."
       },
       "next_action": "Wait for reply. If Therabody responds, understand the current marketplace setup and handover problem first, then scope the audit before discussing pricing."
+    },
+    {
+      "company": "Big Potato Games",
+      "contact": "Christopher Lawlor",
+      "source": "Live vacancy / direct research",
+      "website": "https://bigpotato.com/",
+      "status": "CONTACTED",
+      "opportunity": "Senior Ecommerce Manager requirement. Pre-hire operational preparation opportunity across Amazon, Shopify, TikTok, inventory, fulfilment, reporting and cross-functional ecommerce workflows.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "hello@bigpotato.co.uk",
+        "linkedin": "https://uk.linkedin.com/in/christopher-lawlor-02638651"
+      },
+      "market_scope": "UK and international ecommerce marketplaces",
+      "notes": "User confirmed the email was sent. Positioning: Bhavin is not applying for the role; his work sits before it. Audit and structure the operation around the systems already in place, identify gaps/risks/manual dependencies, improve clarity and control, document workflows and priorities, and leave the incoming Senior Ecommerce Manager with a clear starting point. Explicitly avoid introducing unnecessary new software.",
+      "last_action": "Pre-hire consultancy outreach email sent",
+      "last_action_date": "2026-10-06",
+      "sent_email": {
+        "sent_date": "2026-10-06",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "hello@bigpotato.co.uk",
+        "subject": "Before your Senior Ecommerce Manager takes over",
+        "status": "SENT",
+        "note": "Email sent addressed to Chris. Message emphasised working around existing systems, avoiding unnecessary new software, and creating a clearer understandable workflow before the incoming manager takes ownership."
+      },
+      "next_action": "Wait for reply. If Big Potato responds, understand the current ecommerce setup and reactive-workflow issues first, then scope the audit before discussing pricing."
     }
   ]
 }
