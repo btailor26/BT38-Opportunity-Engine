@@ -770,17 +770,20 @@
       "contact": "Giles Harrison",
       "source": "LinkedIn / direct research",
       "website": "https://sculpd.com/",
-      "status": "CONTACTED",
+      "status": "RESEARCHED",
       "opportunity": "Amazon Marketplace Manager requirement. Consultancy angle: audit and structure the Amazon marketplace operation before the incoming Marketplace Manager takes ownership.",
       "contact_method": "Direct business email",
       "contact_details": {
         "email": "support@sculpd.com",
-        "linkedin": "https://www.linkedin.com/in/gilesharrison2"
+        "linkedin": "https://www.linkedin.com/in/gilesharrison2",
+        "invalid_support_email": "support@sculpd.com",
+        "founder_linkedin": "https://www.linkedin.com/in/gilesharrison2",
+        "company_linkedin": "https://uk.linkedin.com/company/sculpd"
       },
       "contact_geography": "US",
       "geography_note": "Giles being US-based is not a disqualifier. Current policy evaluates UK/Europe commercial/market relevance, not the physical location of the decision-maker. Future strongest-lead selection should verify the UK/Europe angle before surfacing an international contact.",
       "notes": "User confirmed the outreach email was sent. Positioning: not applying for the role; offer to audit catalogue health, inventory/fulfilment, account health, reporting and workflows so the incoming Marketplace Manager inherits a clear, controlled operation.",
-      "last_action": "Pre-hire consultancy outreach email sent",
+      "last_action": "Human reply from Sculpd Support confirmed support inbox is not the correct business route and redirected outreach to LinkedIn",
       "last_action_date": "2026-10-06",
       "sent_email": {
         "sent_date": "2026-10-06",
@@ -788,10 +791,17 @@
         "sender": "bhavinrtailor@gmail.com",
         "recipient_email": "support@sculpd.com",
         "subject": "Not captured in chat",
-        "status": "SENT",
-        "note": "User confirmed the email was sent to the verified company route addressed to Giles Harrison. The exact sent subject was not captured, so it is deliberately not inferred."
+        "status": "ROUTE_INVALID_FOR_OUTREACH",
+        "note": "Human response confirmed support@sculpd.com is Customer Support and not the correct business route. Do not treat the email as successful decision-maker contact."
       },
-      "next_action": "Wait for reply. If Sculpd responds, qualify the current UK/Europe marketplace/operational scope and then discuss audit scope."
+      "next_action": "Use Giles Harrison's active LinkedIn profile as the next route. Do not resend to support@. If a direct LinkedIn message or connection note is sent, mark CONTACTED via LinkedIn.",
+      "response": {
+        "date": "2026-10-06",
+        "channel": "Email",
+        "from": "Louie, Sculpd Customer Team",
+        "classification": "ROUTE_REDIRECT",
+        "summary": "Support acknowledged the proposal, confirmed the inbox is Customer Support, and directed Bhavin to connect with Sculpd through LinkedIn so the relevant team can review it."
+      }
     },
     {
       "company": "Therabody",
