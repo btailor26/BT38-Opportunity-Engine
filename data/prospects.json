@@ -987,7 +987,7 @@
       "contact": "Alex Ikonn",
       "source": "Live LinkedIn vacancy / direct company research",
       "website": "https://www.intelligentchange.com/",
-      "status": "RESEARCHED",
+      "status": "CONTACTED",
       "opportunity": "Live Amazon Marketplace Manager requirement covering Amazon Seller Central, profitability, inventory/fulfilment metrics, account health, reporting, Seller Support and cross-functional coordination. Pre-hire audit angle: establish the operational baseline and workflow around the existing Amazon setup before the incoming manager takes ownership.",
       "contact_method": "Verified monitored company email / LinkedIn",
       "contact_details": {
@@ -995,9 +995,20 @@
         "linkedin": "https://uk.linkedin.com/in/alexikonn"
       },
       "market_scope": "Global Amazon/ecommerce with London headquarters",
-      "notes": "Founder-led global wellness/publishing ecommerce brand behind The Five Minute Journal. LinkedIn lists 2-10 employees and London HQ; company says 4m+ products sold globally. Alex Ikonn is co-founder/director and publicly signs current senior hiring posts. Current Amazon Marketplace Manager role seeks experience at $10m+ Amazon scale and covers Seller Central, inventory/fulfilment, account health, reporting, profitability and cross-functional execution. Official hello@intelligentchange.com is a monitored general inbox; use routed subject naming Alex. Strong pre-hire operational preparation fit while avoiding claims of PPC-specialist delivery.",
+      "notes": "Founder-led global wellness/publishing ecommerce brand behind The Five Minute Journal. LinkedIn lists 2-10 employees and London HQ; company says 4m+ products sold globally. Alex Ikonn is co-founder/director and publicly signs current senior hiring posts. Current Amazon Marketplace Manager role seeks experience at $10m+ Amazon scale and covers Seller Central, inventory/fulfilment, account health, reporting, profitability and cross-functional execution. Official hello@intelligentchange.com is a monitored general inbox; use routed subject naming Alex. Strong pre-hire operational preparation fit while avoiding claims of PPC-specialist delivery. User confirmed outreach sent on 2026-10-06. Do not present Intelligent Change as a new lead again.",
       "last_researched_date": "2026-10-06",
-      "next_action": "Present as strongest current lead with company profile and send-ready email. If user sends, mark CONTACTED and log exact sent message."
+      "next_action": "Wait for reply. If Alex or the team responds, understand the current Amazon/inventory/fulfilment/reporting setup first, then scope the audit before discussing pricing.",
+      "last_action": "Pre-hire consultancy outreach email sent",
+      "last_action_date": "2026-10-06",
+      "sent_email": {
+        "sent_date": "2026-10-06",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "hello@intelligentchange.com",
+        "subject": "For Alex Ikonn — Before your Amazon Marketplace Manager takes over",
+        "status": "SENT",
+        "note": "Email sent through Intelligent Change's verified monitored shared inbox with Alex Ikonn named in the subject for internal routing. Positioning: audit and structure the existing Amazon/inventory/fulfilment/reporting workflow around current systems before the incoming Amazon Marketplace Manager takes ownership."
+      }
     }
   ]
 }
