@@ -567,16 +567,24 @@
       "contact": "Samantha Anderson",
       "source": "Direct research / 3PL referral-partner outreach",
       "website": "https://orderfulfilmentexperts.co.uk/",
-      "status": "CONTACTED",
+      "status": "FOLLOW_UP",
       "opportunity": "Founder-led referral-partner route for brands with slow-moving stock; audit listings/current channels and investigate additional marketplaces, channels or markets.",
       "contact_method": "WhatsApp",
       "contact_details": {
         "phone": "07809 526420"
       },
-      "notes": "User confirmed WhatsApp sent. Message positioned the idea as benefiting both the brand and fulfilment relationship rather than competing with OFEX.",
-      "last_action": "WhatsApp outreach sent",
+      "notes": "User confirmed WhatsApp sent. Message positioned the idea as benefiting both the brand and fulfilment relationship rather than competing with OFEX. Samantha replied on 2026-10-06: no current need, but she will keep Bhavin in mind for future opportunities. Bhavin replied courteously and closed the exchange. Do not chase now.",
+      "last_action": "Reply received from Samantha Anderson and courteous close sent",
       "last_action_date": "2026-10-06",
-      "next_action": "Wait for reply. If Samantha identifies a client, qualify the actual product/stock/listing issue."
+      "next_action": "No immediate follow-up. Keep as a warm 3PL referral contact and only re-engage later if there is a relevant reason or new offer/update.",
+      "response": {
+        "date": "2026-10-06",
+        "channel": "WhatsApp",
+        "from": "Samantha Anderson",
+        "summary": "Not at this stage, but will keep Bhavin in mind in future.",
+        "classification": "POSITIVE_SOFT_NO",
+        "meaning": "No current client requirement, but the offer was understood and not rejected outright."
+      }
     },
     {
       "company": "Newton Star",
