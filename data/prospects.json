@@ -492,6 +492,125 @@
       "notes": "Not contacted. LinkedIn messaging is unavailable and the only verified public email found is the generic sales inbox, which is not the desired route for this partnership approach.",
       "last_researched_date": "2026-10-06",
       "next_action": "Park until a legitimate direct route to Sean, Daniel or another appropriate decision-maker is found. Do not force outreach through the sales inbox."
+    },
+    {
+      "company": "HLP Distribution",
+      "contact": "Gurpal Sahota",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://hlpdistribution.com/",
+      "status": "CONTACTED",
+      "opportunity": "3PL referral-partner route for brands with stock sitting too long or slow-moving; audit listings/current channels and explore additional marketplaces, sales channels or markets.",
+      "contact_method": "Direct email + LinkedIn connection request",
+      "contact_details": {
+        "email": "gurpal@hlpdistribution.com",
+        "phone": "+44 7508 981666"
+      },
+      "notes": "User confirmed outreach sent. Message focused on mutual benefit: help brand improve sell-through and cash conversion while more inventory can move through the existing fulfilment relationship. LinkedIn invitation note referenced the earlier email and framed connection as keeping in touch.",
+      "last_action": "Email and LinkedIn connection outreach sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply/connection acceptance. Acknowledgement alone is not a live opportunity; require a named brand or current stock issue before qualification."
+    },
+    {
+      "company": "GNOC",
+      "contact": "Andrew Race",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://gnoc.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "3PL referral-partner route aligned to GNOC's public discussion of dead stock and listing improvement; audit listings/current channels and identify additional demand opportunities.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "andy@gnoc.co.uk"
+      },
+      "notes": "User confirmed email sent. Outreach referenced GNOC's existing focus on dead stock/listing improvement and positioned Bhavin as complementary support for client brands.",
+      "last_action": "Direct outreach email sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If GNOC surfaces a brand, create a separate prospect and qualify stock age, listings, current channels and desired outcome."
+    },
+    {
+      "company": "Vibe65",
+      "contact": "Conor Hughes",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://www.vibe65.com/",
+      "status": "CONTACTED",
+      "opportunity": "Founder-led 3PL referral route for brands with stock sitting too long or slow-moving across Amazon FBA, Shopify, eBay, TikTok Shop and shared inventory.",
+      "contact_method": "Direct mobile / WhatsApp",
+      "contact_details": {
+        "phone": "07360 267188"
+      },
+      "notes": "User confirmed message sent. Outreach focused on listing/channel audit and additional demand while keeping the existing Vibe65 fulfilment relationship in place.",
+      "last_action": "WhatsApp/direct mobile outreach sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If a brand is introduced, qualify the stock/listing/channel issue before scoping work."
+    },
+    {
+      "company": "33 Fulfilment",
+      "contact": "Louise Tilley",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://33fulfilment.com/",
+      "status": "CONTACTED",
+      "opportunity": "Referral-partner route for ecommerce brands with slow-moving/aged stock; listing and current-channel audit followed by new marketplace/channel/market research where appropriate.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "louise.t@33fulfilment.com",
+        "phone": "07386 434151"
+      },
+      "notes": "User confirmed message sent. Company-specific positioning referenced 33 Fulfilment's broader growth/partnership approach rather than treating it as a basic warehouse.",
+      "last_action": "Direct outreach email sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply or referral. Require a real brand/current stock problem before moving to CONVERSATION."
+    },
+    {
+      "company": "Order Fulfilment Experts",
+      "aliases": [
+        "OFEX"
+      ],
+      "contact": "Samantha Anderson",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://orderfulfilmentexperts.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Founder-led referral-partner route for brands with slow-moving stock; audit listings/current channels and investigate additional marketplaces, channels or markets.",
+      "contact_method": "WhatsApp",
+      "contact_details": {
+        "phone": "07809 526420"
+      },
+      "notes": "User confirmed WhatsApp sent. Message positioned the idea as benefiting both the brand and fulfilment relationship rather than competing with OFEX.",
+      "last_action": "WhatsApp outreach sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If Samantha identifies a client, qualify the actual product/stock/listing issue."
+    },
+    {
+      "company": "Newton Star",
+      "contact": "Sammy Ecclefield",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://newtonstar.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Founder-led 3PL referral route for ecommerce brands with slow-moving stock; listing/current-channel audit plus additional marketplace/channel/market opportunities.",
+      "contact_method": "WhatsApp",
+      "contact_details": {
+        "phone": "07923 158942",
+        "email": "info@newtonstar.co.uk"
+      },
+      "notes": "User confirmed WhatsApp sent. Outreach connected with Sammy's ecommerce/social-commerce background and focused on creating additional demand for existing stock.",
+      "last_action": "WhatsApp outreach sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If a brand is surfaced, qualify listings, channels, stock age/quantity and commercial goal."
+    },
+    {
+      "company": "Amethyst Group",
+      "contact": "John Fletcher",
+      "source": "Direct research / 3PL referral-partner outreach",
+      "website": "https://www.amethystgroup.co.uk/",
+      "status": "CONTACTED",
+      "opportunity": "Referral-partner route for clients holding slower-moving inventory who may want to improve sell-through through listing/channel audits and additional markets.",
+      "contact_method": "Direct business email",
+      "contact_details": {
+        "email": "jfletcher@amethystgroup.co.uk",
+        "phone": "07805 873825"
+      },
+      "notes": "User confirmed revised email sent. Important positioning correction: do not imply Amethyst wants slow stock removed simply to free warehouse space. Some clients intentionally hold slower-moving inventory; the offer is to help those clients that want better sell-through while keeping the existing Amethyst relationship.",
+      "last_action": "Direct outreach email sent",
+      "last_action_date": "2026-10-06",
+      "next_action": "Wait for reply. If Amethyst identifies a client wanting better sell-through, qualify the listing/channel problem before scoping an audit."
     }
   ]
 }
