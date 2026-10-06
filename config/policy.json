@@ -642,5 +642,35 @@
       "contact_rule": "Only move UK prospects into active outreach during this campaign. Keep suitable non-UK prospects researched/parked for a later phase.",
       "success_signal": "A real brand/client problem, introduction, or conversation about slow-moving stock; acknowledgements alone do not prove the model."
     }
+  },
+  "pre_hire_operational_preparation_lane": {
+    "purpose": "Convert suitable live ecommerce/marketplace management vacancies into consultancy opportunities where the advertised role exposes a substantial operational handover, control, documentation or cross-functional coordination problem.",
+    "classification": "DIRECT_CLIENT_PRE_HIRE_AUDIT",
+    "trigger_signals": [
+      "new manager expected to diagnose or establish control",
+      "broad ownership across marketplaces, inventory, fulfilment, reporting, profitability or account health",
+      "multiple teams or external partners must be coordinated",
+      "incoming hire would otherwise need to untangle undocumented workflows or manual dependencies",
+      "30/60/90-day plan includes audit, diagnose, fix fundamentals, establish reporting, controls or roadmap",
+      "role combines operational clean-up with ongoing growth ownership"
+    ],
+    "workflow": [
+      "Confirm the role or requirement is currently live.",
+      "Research the company, scope, market coverage and person publicly connected to the requirement.",
+      "Assess whether the advertised responsibilities expose a pre-hire operational preparation problem rather than simply a normal vacancy.",
+      "Do not position Bhavin as applying for the role when the stronger fit is pre-hire preparation.",
+      "Offer to audit and structure the current operation before the incoming manager takes ownership.",
+      "Focus on documenting the current workflow, identifying gaps/risks/manual dependencies, establishing controls/reporting and setting priorities.",
+      "Explain the outcome as giving the incoming manager a clear controlled starting position so they can focus on growth/ownership rather than untangling the inherited operation.",
+      "Keep pricing, including the £999 audit, out of the first outreach unless the user explicitly chooses otherwise.",
+      "Use a verified free contact route and address the person connected to the role where appropriate.",
+      "After sending, immediately log the outreach in data/prospects.json and mark CONTACTED."
+    ],
+    "ranking_rule": "Prioritise this lane when the role reveals an expensive or time-consuming operational handover problem and the company appears able to pay for a short defined audit/preparation project.",
+    "reference_examples": [
+      "BLUMAAN - Amazon Growth Manager",
+      "Sculpd - Amazon Marketplace Manager",
+      "Therabody - International Marketplace Manager"
+    ]
   }
 }
