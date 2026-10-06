@@ -845,6 +845,27 @@
         "note": "Email sent addressed to Chris. Message emphasised working around existing systems, avoiding unnecessary new software, and creating a clearer understandable workflow before the incoming manager takes ownership."
       },
       "next_action": "Wait for reply. If Big Potato responds, understand the current ecommerce setup and reactive-workflow issues first, then scope the audit before discussing pricing."
+    },
+    {
+      "company": "2tall.com",
+      "aliases": [
+        "2TALL.COM RETAIL LIMITED"
+      ],
+      "contact": "J.J. Warwick",
+      "source": "Live vacancy / direct research",
+      "website": "https://www.2tall.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Head of E-Commerce requirement to establish and shape the ecommerce function from the ground up across four Shopify stores (UK, EU, US and ROW), with trading, stock alignment, warehouse/customer-service coordination and reporting responsibilities.",
+      "contact_method": "Verified public business email / LinkedIn / phone",
+      "contact_details": {
+        "email": "hello@2tall.com",
+        "phone": "0333 800 5225",
+        "linkedin": "https://uk.linkedin.com/in/jjwarwick"
+      },
+      "market_scope": "UK, EU, US and ROW",
+      "notes": "Founder-led Aberdeen ecommerce brand for tall men. Privately held; LinkedIn lists 11-50 employees. J.J. Warwick is founder/Managing Director and Companies House lists Jonathan James Warwick as the active person with significant control (75%+ shares). The role is live on Indeed and explicitly says the company wants to establish and shape the ecommerce function from the ground up. Existing stack includes four Shopify stores plus Inventory Planner, Triple Whale, Google Analytics and a Shipster-enabled warehouse/shipping operation. Strong pre-hire audit fit: map the existing operation and clarify workflows/controls around current systems rather than adding unnecessary new software.",
+      "last_researched_date": "2026-10-06",
+      "next_action": "Present as strongest current lead with company profile and send-ready email. If user sends, mark CONTACTED and log exact sent message."
     }
   ]
 }
