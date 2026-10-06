@@ -34,5 +34,14 @@ class ContractTests(unittest.TestCase):
         self.assertIn("Route in", brief["required_output"])
         self.assertIn("Do not encourage Bhavin to apply or outreach blindly", brief["blind_application_rule"])
 
+    def test_researched_lead_includes_send_ready_email(self):
+        p=json.loads((ROOT/"config/policy.json").read_text())
+        flow=p["lead_presentation_workflow"]
+        self.assertTrue(flow["required"])
+        self.assertIn("Draft the company-specific outreach email immediately after the research.", flow["sequence"])
+        self.assertIn("Do not require Bhavin to ask separately for a draft.", flow["sequence"])
+        self.assertIn("Do not auto-send; Bhavin decides whether to send.", flow["sequence"])
+        self.assertTrue(any("LinkedIn: https://www.linkedin.com/in/bhavin-tailor-463ab6b2/" in r for r in flow["email_requirements"]))
+
 if __name__=="__main__":
     unittest.main()
