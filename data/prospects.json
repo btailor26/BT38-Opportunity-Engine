@@ -1325,7 +1325,7 @@
       "source": "Live LinkedIn Head of Amazon & Marketplace Growth vacancy",
       "source_type": "LINKEDIN_JOB",
       "website": "https://puresport.co/",
-      "status": "RESEARCHED",
+      "status": "CLOSED",
       "opportunity": "Puresport is in an active Amazon/marketplace scale-up and leadership handover. Its live Head of Amazon & Marketplace Growth role says Amazon grew 100% YoY in 2025, is on track for the same in 2026, and is intended to become the company's largest and most profitable channel while expanding into EU, US and other marketplaces. The outgoing current Amazon lead has publicly said she is transitioning into Amazon consulting and wants to leave the role in the best possible hands. Strong fit for both the pre-hire operational preparation lane and the new growth/launch lane.",
       "contact_method": "Direct LinkedIn to CEO; do not force through general website contact inbox",
       "contact_details": {
@@ -1338,12 +1338,12 @@
         "general_email_status": "Do not use for consultancy outreach unless a business-routing purpose is independently verified."
       },
       "market_scope": "UK Amazon with active EU, US and global marketplace expansion; broader omnichannel retail scale-up",
-      "notes": "Privately held London sports nutrition brand with 11-50 employees on LinkedIn and current CEO Daniel Temm. Exact LinkedIn job listing checked 2026-10-07: active Apply button, listed 1 day ago, no 'No longer accepting applications' signal. Role owns Amazon P&L, Seller Central, catalogue/account health, inventory forecasting, FBA stock planning, logistics, inbound shipments, demand forecasting, reporting, global marketplace expansion and future marketplace team build. Recent CEO commentary/podcast describes Puresport moving from startup experimentation to scale-up execution and discusses Amazon growth and omnichannel retail. Aabha R., current/outgoing Amazon lead, publicly stated within the last week that she is transitioning into Amazon consulting and wants to leave the role in the best hands. No verified direct Daniel email found without guessing. Use Daniel's direct LinkedIn route. Since this is a LinkedIn route, offer to send Bhavin's profile rather than claiming it is attached.",
+      "notes": "Privately held London sports nutrition brand with 11-50 employees on LinkedIn and current CEO Daniel Temm. Exact LinkedIn job listing checked 2026-10-07: active Apply button, listed 1 day ago, no 'No longer accepting applications' signal. Role owns Amazon P&L, Seller Central, catalogue/account health, inventory forecasting, FBA stock planning, logistics, inbound shipments, demand forecasting, reporting, global marketplace expansion and future marketplace team build. Recent CEO commentary/podcast describes Puresport moving from startup experimentation to scale-up execution and discusses Amazon growth and omnichannel retail. Aabha R., current/outgoing Amazon lead, publicly stated within the last week that she is transitioning into Amazon consulting and wants to leave the role in the best hands. No verified direct Daniel email found without guessing. Use Daniel's direct LinkedIn route. Since this is a LinkedIn route, offer to send Bhavin's profile rather than claiming it is attached. Correction 2026-10-07: exact listing is closed; remove from active queue.",
       "current_trigger": {
         "role": "Head of Amazon & Marketplace Growth",
-        "status": "LIVE_VERIFIED",
+        "status": "CLOSED",
         "verified_date": "2026-10-07",
-        "evidence": "Exact LinkedIn listing shows active Apply button and 1 day age; pre-presentation scan found no 'No longer accepting applications'."
+        "evidence": "User confirmed the exact listing displays 'No longer accepting applications'."
       },
       "growth_trigger": {
         "status": "QUALIFIED",
@@ -1351,7 +1351,9 @@
         "evidence": "Role states 100% YoY Amazon growth in 2025, on track for the same in 2026, with goal to make Amazon the largest and most profitable channel and expand globally."
       },
       "last_researched_date": "2026-10-07",
-      "next_action": "Present as strongest current growth + handover lead. Use Daniel Temm's direct LinkedIn route. If Bhavin sends a connection/message, mark CONTACTED via LinkedIn."
+      "next_action": "No outreach. Revisit only if a new live Amazon/marketplace growth trigger appears.",
+      "last_action": "Rejected after exact listing confirmed 'No longer accepting applications'",
+      "last_action_date": "2026-10-07"
     }
   ]
 }
