@@ -833,7 +833,8 @@
   },
   "current_trigger_validation": {
     "closed_role_signals": [
-      "No longer accepting applications"
+      "No longer accepting applications",
+      "Not currently accepting applications"
     ],
     "hard_reject_on_closed_role_signal": true,
     "rule": "If a vacancy or opportunity page shows a closed-role signal such as 'No longer accepting applications', treat that specific role as CLOSED, fail the current_trigger gate for that role, and do not present it as a live lead. A different live role at the same company must be independently verified before the company can qualify.",
@@ -858,6 +859,7 @@
       "exact_listing_required": true,
       "scan_for": [
         "No longer accepting applications",
+        "Not currently accepting applications",
         "Applications closed",
         "Position filled",
         "Job expired",
