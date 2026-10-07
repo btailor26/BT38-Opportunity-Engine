@@ -1119,7 +1119,7 @@
       "secondary_contact": "Sophie Glancy",
       "source": "Live REFY LinkedIn vacancy / official company research",
       "website": "https://refybeauty.com/",
-      "status": "RESEARCHED",
+      "status": "CONTACTED",
       "opportunity": "Live Senior Ecommerce Manager vacancy posted within the last day. Role owns day-to-day performance and continued development of REFY's global DTC ecommerce business across regional Shopify stores, trading, CRO, UX, SEO, technical development, development-agency management, stock availability, launches, reporting, team ownership and operational resilience. Strong pre-hire audit fit because the role explicitly requires clear ownership, shared critical knowledge and resilience across a fast-scaling ecommerce team.",
       "contact_method": "Direct founder email historically published by Jenna Meek / active Head of Digital LinkedIn",
       "contact_details": {
@@ -1129,7 +1129,7 @@
         "head_of_digital_linkedin": "https://uk.linkedin.com/in/sophierigg"
       },
       "market_scope": "Manchester-headquartered global DTC beauty brand with UK, Europe and international sales",
-      "notes": "REFY was launched in 2020 by Jenna Meek and Jess Hunt. Official REFY material confirms the founders; LinkedIn currently shows about 188 employees. Public reporting on filed accounts showed £40.3m turnover for the year to Aug 2024, with growth across UK, Europe and rest-of-world sales. Current Senior Ecommerce Manager vacancy reports into Head of Digital Sophie Glancy and is live with an Apply button; no 'No longer accepting applications' signal. The role is unusually relevant to Bhavin's pre-hire offer because it requires ownership of regional Shopify stores, trading/reporting, development agency, technical roadmap, stock/launch readiness, cross-functional coordination, team delegation and explicit resilience so critical knowledge is shared rather than concentrated. Jenna Meek publicly published jenna@refybeauty.com for REFY hiring/outreach in prior LinkedIn posts; current 2026 contact datasets still associate her with a REFY first-name email format, but the exact address is historically published rather than freshly confirmed by REFY's current website. Do not use support@refybeauty.com because the official site identifies it as Customer Service.",
+      "notes": "REFY was launched in 2020 by Jenna Meek and Jess Hunt. Official REFY material confirms the founders; LinkedIn currently shows about 188 employees. Public reporting on filed accounts showed £40.3m turnover for the year to Aug 2024, with growth across UK, Europe and rest-of-world sales. Current Senior Ecommerce Manager vacancy reports into Head of Digital Sophie Glancy and is live with an Apply button; no 'No longer accepting applications' signal. The role is unusually relevant to Bhavin's pre-hire offer because it requires ownership of regional Shopify stores, trading/reporting, development agency, technical roadmap, stock/launch readiness, cross-functional coordination, team delegation and explicit resilience so critical knowledge is shared rather than concentrated. Jenna Meek publicly published jenna@refybeauty.com for REFY hiring/outreach in prior LinkedIn posts; current 2026 contact datasets still associate her with a REFY first-name email format, but the exact address is historically published rather than freshly confirmed by REFY's current website. Do not use support@refybeauty.com because the official site identifies it as Customer Service. User confirmed outreach sent on 2026-10-07. Do not present REFY as a new lead again.",
       "current_trigger": {
         "role": "Senior Ecommerce Manager",
         "status": "LIVE_VERIFIED",
@@ -1137,7 +1137,18 @@
         "evidence": "LinkedIn shows the REFY Senior Ecommerce Manager vacancy posted 1 day ago with an active Apply button and 33 applicants; no closed-role signal."
       },
       "last_researched_date": "2026-10-07",
-      "next_action": "Present as strongest new lead with company profile and a send-ready founder email. If user sends, mark CONTACTED and preserve that the founder email was historically public rather than newly published on REFY's website."
+      "next_action": "Wait for reply. If Jenna or the team responds, understand the current Shopify/global DTC/inventory/reporting/agency workflow first, then scope the audit before discussing pricing.",
+      "last_action": "Pre-hire consultancy outreach email sent directly to Jenna Meek",
+      "last_action_date": "2026-10-07",
+      "sent_email": {
+        "sent_date": "2026-10-07",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "jenna@refybeauty.com",
+        "subject": "Before your Senior Ecommerce Manager takes over",
+        "status": "SENT",
+        "note": "User confirmed email sent directly to Jenna Meek. The address had previously been publicly published by Jenna for REFY-related approaches; it is not treated as a freshly published 2026 website contact. Positioning: audit and structure REFY's existing ecommerce operation around current systems before the incoming Senior Ecommerce Manager takes ownership."
+      }
     }
   ]
 }
