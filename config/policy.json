@@ -584,6 +584,21 @@
       "profile_filename": "Bhavin_Tailor_Ecommerce_Operations_Consultant(2).pdf",
       "execution_rule": "For a qualified email lead, create the Gmail draft from bhavinrtailor@gmail.com with the consultant profile PDF actually attached before presenting the send-ready outreach. Do not merely write 'attached' in the email unless the file is attached to the Gmail draft.",
       "exception_rule": "If the attachment cannot be added programmatically, state that clearly and do not claim the profile is attached."
+    },
+    "route_semantic_validation": {
+      "required": true,
+      "timing": "Before creating a Gmail draft or presenting a send-ready route",
+      "rule": "A mailbox is not valid merely because it appears in a job advert. Verify that the mailbox's stated business purpose matches consultancy/business-development outreach.",
+      "reject_examples": [
+        "customer service/support",
+        "wholesale-only enquiries",
+        "buying-only enquiries",
+        "PR/press-only enquiries",
+        "finance/accounts-only enquiries"
+      ],
+      "nuance": "A role may legitimately tell job applicants to use a departmental mailbox, but that does not automatically make the mailbox appropriate for Bhavin's consultancy proposition.",
+      "fallback": "If no verified management, hiring-owner, commercial/general business inbox exists, use the named decision-maker's direct LinkedIn route rather than forcing the email through an unrelated department.",
+      "no_guessing": true
     }
   },
   "sent_email_logging": {
