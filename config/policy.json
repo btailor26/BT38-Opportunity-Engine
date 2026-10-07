@@ -785,5 +785,24 @@
     ],
     "hard_reject_on_closed_role_signal": true,
     "rule": "If a vacancy or opportunity page shows a closed-role signal such as 'No longer accepting applications', treat that specific role as CLOSED, fail the current_trigger gate for that role, and do not present it as a live lead. A different live role at the same company must be independently verified before the company can qualify."
+  },
+  "linkedin_source_workflow": {
+    "rule": "When a lead originates from a LinkedIn post or LinkedIn job listing, do not treat LinkedIn as the only contact route. Before presenting or contacting the lead, research whether a direct decision-maker or hiring-owner contact can be obtained.",
+    "contact_priority": [
+      "verified direct decision-maker email",
+      "verified direct hiring-owner email",
+      "verified business-facing company email routed to the named decision-maker",
+      "direct phone/mobile where publicly and appropriately available",
+      "LinkedIn direct message or connection note",
+      "generic company inbox only if no better business-facing route exists"
+    ],
+    "requirements": [
+      "Identify the person who owns the hiring or operational problem where possible.",
+      "Use public company, founder, recruiter, Companies House, official website and other credible sources to verify the route.",
+      "Never guess an email address.",
+      "Reject customer-support/helpdesk inboxes and ticket portals for consultancy outreach.",
+      "If no direct route can be verified, LinkedIn remains a valid fallback."
+    ],
+    "outcome": "A LinkedIn-sourced opportunity should include the best verified direct contact route obtainable before it is presented as ready for outreach."
   }
 }
