@@ -901,5 +901,29 @@
   "search_scope": {
     "default_opportunity_window_days": 7,
     "rule": "All opportunity searches should default to the most recent 7 days only unless Bhavin explicitly asks for a different time window."
+  },
+  "growth_and_launch_lane": {
+    "enabled": true,
+    "purpose": "Find companies and founders that are about to start, formalise or materially expand an ecommerce/marketplace operation even when no Ecommerce Manager vacancy exists.",
+    "freshness_window_days": 7,
+    "valid_triggers": [
+      "launching a new Shopify/DTC store",
+      "moving from wholesale/retail into direct-to-consumer ecommerce",
+      "launching or materially expanding Amazon/eBay/marketplace sales",
+      "entering a new country or region through ecommerce",
+      "bringing ecommerce in-house",
+      "rapid growth creating operational strain across stock, fulfilment, reporting or customer operations",
+      "new funding or retail distribution followed by a stated ecommerce growth plan",
+      "founder post asking for help building ecommerce, operations, supply chain or marketplace capability"
+    ],
+    "qualification_rule": "The company must show a concrete current growth/start trigger within the last 7 days and a plausible need for ecommerce operational structure. Do not rely on generic growth claims with no current action.",
+    "contact_rule": "Prioritise founders, owners, managing directors, heads of operations/commercial, or other people directly responsible for the growth decision. Find a verified direct contact where possible.",
+    "positioning": "Offer to map and structure the operation around the systems and channels already in place, establish controls, identify gaps and dependencies, and create a workable operating model before scale makes the business harder to manage.",
+    "exclusions": [
+      "pure marketing-only growth with no operational/ecommerce component",
+      "closed or stale triggers older than 7 days",
+      "large corporate prospects with no realistic route to a decision-maker",
+      "anonymous posts with no identifiable company or owner"
+    ]
   }
 }
