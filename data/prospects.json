@@ -1070,6 +1070,33 @@
         "status": "SENT",
         "note": "Original customer-service route was invalid/unmonitored. User resent once through Plum Products' business-facing marketing inbox with Paul Schaffer named in the subject."
       }
+    },
+    {
+      "company": "Métier",
+      "aliases": [
+        "Metier",
+        "Métier London",
+        "MÉTIER LONDON LIMITED"
+      ],
+      "contact": "Melissa Morris",
+      "source": "Live LinkedIn vacancies / official company research",
+      "website": "https://metier.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Two senior commercial hires opened within the last 48 hours: Head of Ecommerce and Sales Director. Head of Ecommerce will own the online business, trading strategy, conversion, profitable growth and digital customer experience; Sales Director will lead all three sales channels with Retail Director, Head of Ecommerce and Wholesale Manager reporting in. Strong pre-hire operational-preparation opportunity because the company is simultaneously rebuilding senior commercial ownership.",
+      "contact_method": "Verified business-facing sales inbox / LinkedIn",
+      "contact_details": {
+        "email": "sales@metier.com",
+        "founder_linkedin": "https://uk.linkedin.com/in/melissa-morris-604768a"
+      },
+      "market_scope": "UK-headquartered luxury ecommerce with London and New York flagships, global online store and international stockists",
+      "notes": "Founder-led luxury leather-goods house founded in London in 2017 by Melissa Morris. LinkedIn lists 11-50 employees and privately held. Official site confirms London and New York flagships, global online store and international partner stockists. Head of Ecommerce vacancy was posted within the last 48 hours and is still open; role reports to the Sales Director. A separate Sales Director vacancy is also live and was posted within the same period, responsible for retail, ecommerce and wholesale. Companies House records show Sofia Fagring's director appointment ended on 18 Sep 2026; do not infer cause, but together with simultaneous senior hiring this is a strong current commercial-transition signal. Use sales@metier.com rather than customer care because it is the published business-facing sales enquiry route. Address Melissa Morris explicitly in the subject. Positioning: audit and map the existing ecommerce/commercial operation before the incoming Head of Ecommerce and Sales Director inherit it; work around current systems, no unnecessary new software.",
+      "current_trigger": {
+        "status": "LIVE_VERIFIED",
+        "verified_date": "2026-10-07",
+        "evidence": "LinkedIn currently shows Head of Ecommerce and Sales Director with Apply buttons and recent posting timestamps; no 'No longer accepting applications' signal."
+      },
+      "last_researched_date": "2026-10-07",
+      "next_action": "Present as strongest new lead from the last 48 hours with company profile and send-ready email. If sent, mark CONTACTED and log exact sent message."
     }
   ]
 }
