@@ -840,7 +840,7 @@
       "contact": "Christopher Lawlor",
       "source": "Live vacancy / direct research",
       "website": "https://bigpotato.com/",
-      "status": "CONTACTED",
+      "status": "FOLLOW_UP",
       "opportunity": "Senior Ecommerce Manager requirement. Pre-hire operational preparation opportunity across Amazon, Shopify, TikTok, inventory, fulfilment, reporting and cross-functional ecommerce workflows.",
       "contact_method": "Direct business email",
       "contact_details": {
@@ -848,9 +848,9 @@
         "linkedin": "https://uk.linkedin.com/in/christopher-lawlor-02638651"
       },
       "market_scope": "UK and international ecommerce marketplaces",
-      "notes": "User confirmed the email was sent. Positioning: Bhavin is not applying for the role; his work sits before it. Audit and structure the operation around the systems already in place, identify gaps/risks/manual dependencies, improve clarity and control, document workflows and priorities, and leave the incoming Senior Ecommerce Manager with a clear starting point. Explicitly avoid introducing unnecessary new software.",
-      "last_action": "Pre-hire consultancy outreach email sent",
-      "last_action_date": "2026-10-06",
+      "notes": "User confirmed the email was sent. Positioning: Bhavin is not applying for the role; his work sits before it. Audit and structure the operation around the systems already in place, identify gaps/risks/manual dependencies, improve clarity and control, document workflows and priorities, and leave the incoming Senior Ecommerce Manager with a clear starting point. Explicitly avoid introducing unnecessary new software. Human reply received 2026-10-07 confirming the company is already covered for this type of support. Treat as a genuine negative response; no follow-up required.",
+      "last_action": "Human commercial reply received: company says they are already covered",
+      "last_action_date": "2026-10-07",
       "sent_email": {
         "sent_date": "2026-10-06",
         "channel": "Email",
@@ -860,7 +860,14 @@
         "status": "SENT",
         "note": "Email sent addressed to Chris. Message emphasised working around existing systems, avoiding unnecessary new software, and creating a clearer understandable workflow before the incoming manager takes ownership."
       },
-      "next_action": "Wait for reply. If Big Potato responds, understand the current ecommerce setup and reactive-workflow issues first, then scope the audit before discussing pricing."
+      "next_action": "Do not chase. Keep as a closed/covered opportunity and only revisit if a new operational trigger appears later.",
+      "response": {
+        "date": "2026-10-07",
+        "channel": "Email",
+        "from": "Kenna, Team Tato / Big Potato Games",
+        "classification": "NEGATIVE_COVERED",
+        "summary": "Big Potato responded directly to the consultancy proposal: 'We're covered on this front, but thanks for getting in touch!' This is a valid commercial response, not a support-route failure."
+      }
     },
     {
       "company": "2tall.com",
