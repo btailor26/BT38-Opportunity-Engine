@@ -1149,6 +1149,43 @@
         "status": "SENT",
         "note": "User confirmed email sent directly to Jenna Meek. The address had previously been publicly published by Jenna for REFY-related approaches; it is not treated as a freshly published 2026 website contact. Positioning: audit and structure REFY's existing ecommerce operation around current systems before the incoming Senior Ecommerce Manager takes ownership."
       }
+    },
+    {
+      "company": "RISE coffee box",
+      "aliases": [
+        "RISE Coffee Box",
+        "RISE Food & Drink Ltd"
+      ],
+      "contact": "Alice Wainwright",
+      "source": "Direct email reply / live Operations Manager vacancy",
+      "website": "https://www.risecoffeebox.co.uk/",
+      "status": "FOLLOW_UP",
+      "opportunity": "Part-time Operations Manager role, 3-4 days per week, covering supply chain and logistics. Alice confirmed they are looking for someone London-based or willing to travel to London weekly and invited Bhavin to confirm whether that works so they can reconsider the application.",
+      "contact_method": "Direct email",
+      "contact_details": {
+        "email": "alice@risecoffeebox.co.uk"
+      },
+      "market_scope": "UK",
+      "response": {
+        "date": "2026-10-07",
+        "channel": "Email",
+        "from": "Alice - RISE coffee box",
+        "classification": "POSITIVE_RECONSIDERATION",
+        "summary": "Alice said RISE is looking for someone London based or willing to come to London weekly and asked Bhavin to confirm whether that suits him so they can reconsider his application."
+      },
+      "last_action": "Bhavin replied confirming he is based in Leicester but is happy to travel to London weekly and would like to be reconsidered",
+      "last_action_date": "2026-10-07",
+      "sent_email": {
+        "sent_date": "2026-10-07",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "alice@risecoffeebox.co.uk",
+        "subject": "Re: Operations Manager",
+        "status": "SENT",
+        "note": "Bhavin confirmed weekly London travel works for him and asked to be reconsidered for the Operations Manager role."
+      },
+      "notes": "Active recruiter/employer follow-up. The travel requirement is satisfied from Bhavin's side. Do not present RISE as a new lead. Wait for Alice to confirm reconsideration/interview or next step.",
+      "next_action": "Wait for Alice's response. If she reopens the application or proposes a call/interview, treat as an active role opportunity and prepare for the conversation."
     }
   ]
 }
