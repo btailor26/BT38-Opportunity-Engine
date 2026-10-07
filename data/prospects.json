@@ -1286,7 +1286,7 @@
       "source": "Live LinkedIn vacancy / exact published application route",
       "source_type": "LINKEDIN_JOB",
       "website": "https://www.summerillandbishop.com/",
-      "status": "RESEARCHED",
+      "status": "CLOSED",
       "opportunity": "Live E-commerce and Digital Manager vacancy. The role reports to the Operations Director and CEO and works alongside the current Digital Manager. It spans Shopify, CRM/ERP integrations, customer and product data, reporting, third-party apps, site merchandising, CRO and operational efficiency. Strong pre-hire audit fit because the listing explicitly requires correct data flows across connected platforms and resolving integration issues.",
       "contact_method": "Direct LinkedIn to Seb Bishop unless a verified management/hiring email is found",
       "contact_details": {
@@ -1302,16 +1302,16 @@
         ]
       },
       "market_scope": "London-based luxury homeware brand with expanding global digital presence",
-      "notes": "Independent London luxury tableware/homeware brand founded in 1994 by June Summerill and Bernadette Bishop. Official brand history says Seb Bishop took over in 2014 as CEO and Creative Director. Companies House lists Sebastian Luke Bishop as an active director and person with significant control (more than 25% but not more than 50% ownership). Exact LinkedIn vacancy was checked immediately before presentation: active Apply button and no 'No longer accepting applications' signal. Role reports to Operations Director and CEO, works alongside current Digital Manager, and explicitly covers Shopify, CRM/ERP/system integrations, data flow accuracy, reporting and operational efficiency. wholesale@summerillandbishop.com is explicitly provided as the application route in the exact listing, so it is a valid business route despite the mailbox name. Strong fit for Bhavin's profile attachment because his operating method follows inventory, orders, website/marketplace, fulfilment, carriers and costs to find where operational truth diverges. Route correction 2026-10-07: although the live job listing instructs job applicants to use wholesale@summerillandbishop.com, the company's contact page explicitly identifies that address as the Wholesale enquiries inbox. It is therefore not appropriate for Bhavin's consultancy pitch. No verified direct Seb or Operations Director email was found without guessing. Use Seb Bishop's direct LinkedIn route instead unless a management/hiring email is independently verified.",
+      "notes": "Independent London luxury tableware/homeware brand founded in 1994 by June Summerill and Bernadette Bishop. Official brand history says Seb Bishop took over in 2014 as CEO and Creative Director. Companies House lists Sebastian Luke Bishop as an active director and person with significant control (more than 25% but not more than 50% ownership). Exact LinkedIn vacancy was checked immediately before presentation: active Apply button and no 'No longer accepting applications' signal. Role reports to Operations Director and CEO, works alongside current Digital Manager, and explicitly covers Shopify, CRM/ERP/system integrations, data flow accuracy, reporting and operational efficiency. wholesale@summerillandbishop.com is explicitly provided as the application route in the exact listing, so it is a valid business route despite the mailbox name. Strong fit for Bhavin's profile attachment because his operating method follows inventory, orders, website/marketplace, fulfilment, carriers and costs to find where operational truth diverges. Route correction 2026-10-07: although the live job listing instructs job applicants to use wholesale@summerillandbishop.com, the company's contact page explicitly identifies that address as the Wholesale enquiries inbox. It is therefore not appropriate for Bhavin's consultancy pitch. No verified direct Seb or Operations Director email was found without guessing. Use Seb Bishop's direct LinkedIn route instead unless a management/hiring email is independently verified. Correction 2026-10-07: exact LinkedIn listing is closed. The previously created Gmail draft was invalidated and moved to Trash. Do not present or pursue this role unless a genuinely new live trigger appears.",
       "current_trigger": {
         "role": "E-commerce and Digital Manager",
-        "status": "LIVE_VERIFIED",
+        "status": "CLOSED",
         "verified_date": "2026-10-07",
-        "evidence": "Exact LinkedIn listing shows an active Apply button and directs applications to wholesale@summerillandbishop.com. No closed-role signal was found during pre-presentation scan."
+        "evidence": "User viewed the exact LinkedIn listing and confirmed it displays 'No longer accepting applications'. User-visible exact listing state overrides stale search/index results."
       },
       "last_researched_date": "2026-10-07",
-      "next_action": "Use Seb Bishop's LinkedIn directly if pursuing. Do not use wholesale, PR, buying, finance or customer-service mailboxes for the consultancy approach.",
-      "last_action": "Outreach route rejected after semantic validation",
+      "next_action": "No outreach. Revisit only on a newly verified live role or founder post.",
+      "last_action": "Rejected after user verified exact LinkedIn listing shows 'No longer accepting applications'",
       "last_action_date": "2026-10-07"
     }
   ]
