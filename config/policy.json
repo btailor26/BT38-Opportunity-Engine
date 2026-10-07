@@ -868,6 +868,15 @@
         "original founder/hiring-owner post for that exact role"
       ],
       "fallback_rule": "Search snippets, cached results, aggregators and generic careers pages are discovery evidence only and cannot prove the role is live."
+    },
+    "freshness_window": {
+      "required": true,
+      "max_age_days": 7,
+      "rule": "Only consider LinkedIn posts, job listings, founder hiring posts or other hiring/operational triggers that were published within the last 7 days at the time of search.",
+      "hard_reject": "If the primary trigger is older than 7 days, reject it before presentation even if the listing is still technically open.",
+      "exact_date_required": true,
+      "fallback": "If the publication date cannot be verified accurately enough to establish that it falls within the last 7 days, do not present the lead.",
+      "interaction_with_closed_role_rule": "A role must satisfy both freshness and live-status checks: posted within 7 days AND not closed/no-longer-accepting-applications."
     }
   },
   "linkedin_source_workflow": {
@@ -888,5 +897,9 @@
       "If no direct route can be verified, LinkedIn remains a valid fallback."
     ],
     "outcome": "A LinkedIn-sourced opportunity should include the best verified direct contact route obtainable before it is presented as ready for outreach."
+  },
+  "search_scope": {
+    "default_opportunity_window_days": 7,
+    "rule": "All opportunity searches should default to the most recent 7 days only unless Bhavin explicitly asks for a different time window."
   }
 }
