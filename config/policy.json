@@ -931,5 +931,37 @@
       "large corporate prospects with no realistic route to a decision-maker",
       "anonymous posts with no identifiable company or owner"
     ]
+  },
+  "uk_expansion_ownership_lane": {
+    "enabled": true,
+    "freshness_window_days": 7,
+    "purpose": "Find overseas or international companies that are entering, launching or materially expanding in the UK and need a person to take ownership of the UK ecommerce, marketplace, operations or commercial setup.",
+    "valid_triggers": [
+      "launching in the UK",
+      "expanding UK ecommerce or marketplace operations",
+      "opening a UK office, warehouse, retail presence or distribution footprint tied to ecommerce growth",
+      "hiring a UK Country Manager, General Manager, Head of Ecommerce, Marketplace Lead, Operations Lead or similar owner role",
+      "seeking someone to build or take charge of UK Amazon, Shopify, DTC, marketplace or fulfilment operations",
+      "moving from distributor-led or cross-border sales to a direct UK operating model"
+    ],
+    "qualification_rule": "The trigger must be concrete, current and published within the last 7 days. The company must have a realistic need for someone to take ownership of the UK operation or build the UK channel, not merely mention the UK as a market.",
+    "preferred_profile": "Founder-led, privately held, growth-stage or accessible international brands with a real decision-maker route and enough scale/budget to pay for operational setup or audit work.",
+    "decision_makers": [
+      "Founder / CEO",
+      "International / Expansion Director",
+      "Commercial Director",
+      "Head of Operations",
+      "Country Manager / General Manager hiring owner",
+      "Head of Ecommerce / Marketplace hiring owner"
+    ],
+    "positioning": "Offer to establish the UK ecommerce/marketplace operating model before or alongside the incoming owner: map channels, inventory, fulfilment, reporting, responsibilities, controls and dependencies around the systems already chosen, then hand over a clear operating structure.",
+    "exclusions": [
+      "roles older than 7 days",
+      "No longer accepting applications",
+      "UK mentioned only as one of many territories with no real expansion trigger",
+      "anonymous recruiter-only adverts where the company cannot be identified",
+      "large corporate prospects with no realistic route to the expansion owner"
+    ],
+    "presentation_rule": "When the trigger is a LinkedIn post, show the original LinkedIn post link. When it is a job listing, show the exact live listing and verify closure status immediately before presentation."
   }
 }
