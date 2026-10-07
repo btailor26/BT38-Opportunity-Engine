@@ -579,7 +579,11 @@
       "delivery_rule": "When the consultant profile PDF is available in the current conversation or accessible file workspace, attach it directly to the Gmail draft/send rather than merely mentioning it. If attachment is unavailable, explicitly tell the user to attach it manually.",
       "email_copy_rule": "When the profile is attached, include one short sentence in the email explaining that the attached profile gives a clearer picture of the ecommerce operations areas investigated.",
       "sender_account": "bhavinrtailor@gmail.com",
-      "review_rule": "Default to preparing/reviewing the email first. Do not auto-send unless the user explicitly asks to send."
+      "review_rule": "Create a draft only; do not send unless Bhavin explicitly instructs to send.",
+      "required_for_qualified_email_leads": true,
+      "profile_filename": "Bhavin_Tailor_Ecommerce_Operations_Consultant(2).pdf",
+      "execution_rule": "For a qualified email lead, create the Gmail draft from bhavinrtailor@gmail.com with the consultant profile PDF actually attached before presenting the send-ready outreach. Do not merely write 'attached' in the email unless the file is attached to the Gmail draft.",
+      "exception_rule": "If the attachment cannot be added programmatically, state that clearly and do not claim the profile is attached."
     }
   },
   "sent_email_logging": {
@@ -818,6 +822,25 @@
       ],
       "conflict_rule": "If any authoritative or exact listing page for the primary role shows a closed signal, treat the role as CLOSED even if search results or third-party sites still show it as active.",
       "multi_role_rule": "A separate live role at the same company does not preserve the original lead. It must independently qualify as a new trigger and fit the user's consultancy offer."
+    },
+    "presentation_preflight": {
+      "required": true,
+      "timing": "Immediately before presenting any lead to Bhavin",
+      "exact_listing_required": true,
+      "scan_for": [
+        "No longer accepting applications",
+        "Applications closed",
+        "Position filled",
+        "Job expired",
+        "This job is no longer available"
+      ],
+      "hard_reject_rule": "If the exact primary listing contains any closed-role signal, reject the lead before presentation. Do not present it, draft outreach for it, or count a secondary role at the same company as keeping the original trigger alive.",
+      "source_priority": [
+        "exact LinkedIn/job listing page",
+        "official company careers page for that exact role",
+        "original founder/hiring-owner post for that exact role"
+      ],
+      "fallback_rule": "Search snippets, cached results, aggregators and generic careers pages are discovery evidence only and cannot prove the role is live."
     }
   },
   "linkedin_source_workflow": {
