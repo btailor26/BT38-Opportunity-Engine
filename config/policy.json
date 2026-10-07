@@ -867,7 +867,13 @@
         "official company careers page for that exact role",
         "original founder/hiring-owner post for that exact role"
       ],
-      "fallback_rule": "Search snippets, cached results, aggregators and generic careers pages are discovery evidence only and cannot prove the role is live."
+      "fallback_rule": "Search snippets, cached results, aggregators and generic careers pages are discovery evidence only and cannot prove the role is live.",
+      "redirect_closed_signals": [
+        "LinkedIn expired_jd_redirect",
+        "exact role URL redirects to a generic job-search page instead of the vacancy",
+        "exact vacancy page no longer resolves to the role"
+      ],
+      "redirect_rule": "Treat an exact job URL that redirects to LinkedIn's expired job route or to a generic job-search page as CLOSED, even if cached/search results still show an Apply button."
     },
     "freshness_window": {
       "required": true,
