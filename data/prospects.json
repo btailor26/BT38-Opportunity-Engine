@@ -1197,7 +1197,7 @@
       "source": "LinkedIn post by founder Yandis Ying",
       "source_type": "LINKEDIN_POST",
       "website": "https://www.dotdottea.com/",
-      "status": "RESEARCHED",
+      "status": "CLOSED",
       "opportunity": "Founder-posted Ecommerce Manager requirement from the last 48 hours. The role will work directly with Yandis and own Shopify, Amazon, TikTok Shop and D2C growth. Strong pre-hire operational-preparation fit because the company is moving from rapid retail/wholesale expansion into a more structured owned ecommerce growth engine.",
       "contact_method": "Founder LinkedIn + verified business-facing company email + public company mobile",
       "contact_details": {
@@ -1206,15 +1206,17 @@
         "founder_linkedin": "https://uk.linkedin.com/in/yandis"
       },
       "market_scope": "UK with national retail distribution and stated global ambitions",
-      "notes": "Founder-led London FMCG brand, privately held, 11-50 employees on LinkedIn. Founded in 2023 as a ready-to-drink bubble tea brand and now stocked through major retailers/hospitality including Selfridges, Harrods, Ocado, Costco, Virgin Atlantic, Nobu, itsu and others. The business operates its own London brewery and has recently launched new formats and national listings. Founder Yandis Ying posted the Ecommerce Manager role directly, saying the person will work with her and build ecommerce into one of Dot Dot's biggest growth engines. Official site publishes hi@dotdottea.com as a business-facing stockist/commercial contact. Public trade/SALSA sources publish 07979 647614 as a company phone. No verified direct Yandis email found, so do not guess one. Best email route is hi@dotdottea.com with Yandis named in the subject; direct LinkedIn is a valid fallback.",
+      "notes": "Founder-led London FMCG brand, privately held, 11-50 employees on LinkedIn. Founded in 2023 as a ready-to-drink bubble tea brand and now stocked through major retailers/hospitality including Selfridges, Harrods, Ocado, Costco, Virgin Atlantic, Nobu, itsu and others. The business operates its own London brewery and has recently launched new formats and national listings. Founder Yandis Ying posted the Ecommerce Manager role directly, saying the person will work with her and build ecommerce into one of Dot Dot's biggest growth engines. Official site publishes hi@dotdottea.com as a business-facing stockist/commercial contact. Public trade/SALSA sources publish 07979 647614 as a company phone. No verified direct Yandis email found, so do not guess one. Best email route is hi@dotdottea.com with Yandis named in the subject; direct LinkedIn is a valid fallback. Correction 2026-10-07: the previously inferred recent hiring trigger could not be independently verified. The exact LinkedIn Ecommerce Manager vacancy supplied by the user is closed. Do not send the prepared outreach or present Dot Dot as a live lead unless a new role/post is independently verified.",
       "current_trigger": {
-        "role": "E-Commerce Manager",
-        "status": "LIVE_VERIFIED",
+        "role": "Ecommerce Manager",
+        "status": "CLOSED",
         "verified_date": "2026-10-07",
-        "evidence": "Founder Yandis Ying posted the hiring announcement on LinkedIn approximately 2 days ago, stating she is looking for an E-Commerce Manager to work directly with her across Shopify, Amazon, TikTok Shop and D2C."
+        "evidence": "User supplied the LinkedIn vacancy showing 'No longer accepting applications'. The listing is approximately 2 months old. No independently verified reopened Ecommerce Manager role was found."
       },
       "last_researched_date": "2026-10-07",
-      "next_action": "Present as strongest new lead with send-ready email. If user sends, mark CONTACTED and log exact recipient/subject."
+      "next_action": "No outreach. Revisit only if a new Dot Dot ecommerce hiring post or live vacancy is independently verified.",
+      "last_action": "Live-trigger validation failed: LinkedIn Ecommerce Manager vacancy is no longer accepting applications",
+      "last_action_date": "2026-10-07"
     }
   ]
 }
