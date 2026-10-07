@@ -1354,6 +1354,71 @@
       "next_action": "No outreach. Revisit only if a new live Amazon/marketplace growth trigger appears.",
       "last_action": "Rejected after exact listing confirmed 'No longer accepting applications'",
       "last_action_date": "2026-10-07"
+    },
+    {
+      "company": "Pluckk",
+      "aliases": [
+        "Pluckk.in"
+      ],
+      "contact": "Pratik Gupta",
+      "source": "Fresh UK expansion announcement and company research",
+      "source_type": "UK_EXPANSION_TRIGGER",
+      "website": "https://pluckk.in/",
+      "status": "CONTACTED",
+      "opportunity": "Pluckk has entered the UK and publicly set an aggressive expansion target from an initial 17 stores toward 500 stores within a year, with a wider product range and online marketplaces also planned. This creates a live UK market-ownership opportunity across stock, fulfilment, marketplace setup, reporting, responsibilities, controls and handoffs before scale makes the operating model harder to change.",
+      "contact_method": "Verified direct CEO email",
+      "contact_details": {
+        "decision_maker": "Pratik Gupta",
+        "decision_maker_role": "Co-Founder & CEO",
+        "email": "pratik.gupta@pluckk.in",
+        "fallback_business_email": "partnerships@pluckk.in"
+      },
+      "market_scope": "UK retail expansion with planned online marketplace growth",
+      "notes": "Qualified under the UK Expansion / Market Ownership lane. User sent consultancy outreach on 2026-10-07. Positioning focused on structuring the UK operating model around existing systems before retail, inventory and marketplace complexity scales.",
+      "current_trigger": {
+        "role": "UK market expansion",
+        "status": "LIVE_VERIFIED",
+        "verified_date": "2026-10-07",
+        "evidence": "Fresh public expansion announcement dated 2026-10-06 described initial UK entry, rapid store expansion targets and online marketplaces in the pipeline."
+      },
+      "last_researched_date": "2026-10-07",
+      "next_action": "Wait for reply. If Pratik responds, understand current UK stock, fulfilment, marketplace, reporting and ownership setup first, then scope the audit before discussing pricing.",
+      "last_action": "UK expansion consultancy outreach email sent",
+      "last_action_date": "2026-10-07",
+      "sent_email": {
+        "sent_date": "2026-10-07",
+        "channel": "Email",
+        "sender": "bhavinrtailor@gmail.com",
+        "recipient_email": "pratik.gupta@pluckk.in",
+        "subject": "Before Pluckk scales from 17 to 500 UK stores",
+        "status": "SENT"
+      }
+    },
+    {
+      "company": "Accapi Group",
+      "aliases": [
+        "Accapi UK LLP",
+        "Ruffwear Europe"
+      ],
+      "contact": "Sarah Burns",
+      "source": "Exact LinkedIn Amazon Marketplace Manager – Ruffwear Europe vacancy",
+      "source_type": "LINKEDIN_JOB",
+      "website": "https://www.accapigroup.com/",
+      "status": "CLOSED",
+      "opportunity": "The Amazon Marketplace Manager role exposed a relevant pre-hire operational handover across FBA, Seller Fulfilled Prime, stock, fulfilment, catalogue, reporting, profitability and cross-functional ownership, but the exact listing is closed.",
+      "contact_method": "No outreach",
+      "market_scope": "UK / Europe Amazon marketplace operations",
+      "notes": "Initially surfaced as a potential pre-hire lead, then rejected after the user opened the exact LinkedIn listing. The page showed 'Not currently accepting applications'. This wording is now a hard-reject signal in policy.",
+      "current_trigger": {
+        "role": "Amazon Marketplace Manager – Ruffwear Europe",
+        "status": "CLOSED",
+        "verified_date": "2026-10-07",
+        "evidence": "User supplied the exact LinkedIn listing showing 'Not currently accepting applications'; listing displayed 6 days old and 9 applicants."
+      },
+      "last_researched_date": "2026-10-07",
+      "next_action": "No outreach. Revisit only if Accapi/Ruffwear publishes a new independently verified live trigger.",
+      "last_action": "Rejected after exact listing confirmed 'Not currently accepting applications'",
+      "last_action_date": "2026-10-07"
     }
   ]
 }
