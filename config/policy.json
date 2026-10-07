@@ -816,7 +816,19 @@
       "When the only verified contact route is a generic inbox such as sales@, hello@, info@ or contact@, the email subject must explicitly name the intended decision-maker so the message can be routed internally. Example: 'For Nathan Palmer — Before your Ecommerce Manager takes over'.",
       "Clearly show 'Send from: bhavinrtailor@gmail.com' with every draft before the email block."
     ],
-    "presentation_rule": "The single strongest result must be immediately actionable: company context, reason to pursue, contact route, and finished email draft should all be present before Bhavin decides whether to send."
+    "presentation_rule": "The single strongest result must be immediately actionable: company context, reason to pursue, contact route, and finished email draft should all be present before Bhavin decides whether to send.",
+    "linkedin_post_visibility": {
+      "required": true,
+      "rule": "If the opportunity originates from a LinkedIn post, always show the original LinkedIn post link in the lead presentation before outreach is sent or a Gmail draft is created.",
+      "purpose": "Bhavin must be able to inspect the original post and confirm the context, freshness and wording independently.",
+      "requirements": [
+        "Show the direct original LinkedIn post URL, not only the company page or job listing.",
+        "Identify who posted it.",
+        "State whether the post itself appears current and whether it links to a separate job listing.",
+        "If a separate job listing exists, verify that exact listing for closed-role signals before presenting the lead.",
+        "If the original post cannot be located or verified, do not describe the opportunity as a LinkedIn-post lead."
+      ]
+    }
   },
   "current_trigger_validation": {
     "closed_role_signals": [
