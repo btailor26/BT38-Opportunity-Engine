@@ -1232,7 +1232,7 @@
       "source": "Founder LinkedIn hiring posts + official careers page",
       "source_type": "LINKEDIN_POST_AND_OFFICIAL_CAREERS",
       "website": "https://vincawine.com/",
-      "status": "RESEARCHED",
+      "status": "CLOSED",
       "opportunity": "Vinca is simultaneously building out DTC ecommerce and operations. A live DTC / Ecommerce Manager role asks someone to build the DTC channel from the ground up across paid acquisition, Shopify/customer journey, CRM, retention and commercial metrics, while Vinca's official careers page is also hiring an Operations & Supply Chain Manager to build and run the operational engine for growth. Strong pre-hire audit fit because ecommerce, stock, fulfilment, forecasting, operations and commercial ownership are being formalised at the same time.",
       "contact_method": "Founder-published hiring inbox",
       "contact_details": {
@@ -1241,18 +1241,17 @@
         "founder": "Zak Walters"
       },
       "market_scope": "UK-headquartered FMCG brand with retail, travel, festivals, stadiums, DTC and exports to 10+ countries",
-      "notes": "Founder-led London wine brand founded in 2020 by Jack Green, Zak Walters and Charlie Vass. LinkedIn lists 2-10 employees. Official company About page says Vinca is stocked in 100+ retail shops, on flights, at football stadiums and exported to 10+ countries. The DTC / Ecommerce Manager role is currently surfaced as active and asks someone to build the DTC channel from scratch, working across paid media, website/checkout, CRM, retention, ROAS/CAC/LTV and Operations. Vinca's official careers page currently lists an Operations & Supply Chain Manager role described as the first hire into a growing Operations team and explicitly seeks a process-builder who documents/systemises the operation. Founders publicly use ilovewine@vincawine.com for hiring. Do not use ciao@ for this outreach because it also serves customer/order enquiries. Strong fit for Bhavin's consultant profile attachment because his profile clearly explains inventory, orders, fulfilment, carriers, cost control and how he investigates operational mismatches.",
+      "notes": "Founder-led London wine brand founded in 2020 by Jack Green, Zak Walters and Charlie Vass. LinkedIn lists 2-10 employees. Official company About page says Vinca is stocked in 100+ retail shops, on flights, at football stadiums and exported to 10+ countries. The DTC / Ecommerce Manager role is currently surfaced as active and asks someone to build the DTC channel from scratch, working across paid media, website/checkout, CRM, retention, ROAS/CAC/LTV and Operations. Vinca's official careers page currently lists an Operations & Supply Chain Manager role described as the first hire into a growing Operations team and explicitly seeks a process-builder who documents/systemises the operation. Founders publicly use ilovewine@vincawine.com for hiring. Do not use ciao@ for this outreach because it also serves customer/order enquiries. Strong fit for Bhavin's consultant profile attachment because his profile clearly explains inventory, orders, fulfilment, carriers, cost control and how he investigates operational mismatches. Correction 2026-10-07: do not send the prepared outreach. The DTC / Ecommerce Manager vacancy is closed. A separate operations role must not be used to keep this ecommerce pre-hire lead active unless it independently qualifies under the workflow.",
       "current_trigger": {
-        "roles": [
-          "DTC / Ecommerce Manager",
-          "Operations & Supply Chain Manager"
-        ],
-        "status": "LIVE_VERIFIED",
+        "role": "DTC / Ecommerce Manager",
+        "status": "CLOSED",
         "verified_date": "2026-10-07",
-        "evidence": "DTC / Ecommerce Manager continues to surface as an active vacancy and founder hiring post; official Vinca careers page currently lists Operations & Supply Chain Manager with application instructions to ilovewine@vincawine.com. No 'No longer accepting applications' signal found for either verified trigger."
+        "evidence": "User supplied the exact listing status showing 'No longer accepting applications'. This hard-rejects the ecommerce trigger."
       },
       "last_researched_date": "2026-10-07",
-      "next_action": "Present as strongest new lead. Prepare a send-ready founder-routed email and attach Bhavin's consultant profile when sending through Gmail. If user sends, mark CONTACTED with exact recipient and subject."
+      "next_action": "No outreach. Revisit only if a new ecommerce or marketplace hiring trigger is independently verified as live.",
+      "last_action": "Rejected after exact role-page validation: DTC / Ecommerce Manager shows 'No longer accepting applications'",
+      "last_action_date": "2026-10-07"
     }
   ]
 }
