@@ -560,6 +560,26 @@
         "support ticket form intended for product/order/technical issues"
       ],
       "action": "If the discovered route resolves to customer support or an inappropriate ticket form, mark it ROUTE_INVALID_FOR_OUTREACH and research a business-facing route before treating the lead as contacted."
+    },
+    "profile_attachment": {
+      "enabled": true,
+      "profile_name": "Bhavin Tailor Ecommerce Operations Consultant",
+      "use_when": [
+        "founder/director/owner outreach",
+        "strong pre-hire operational preparation lead",
+        "direct hiring-owner contact where the profile helps explain scope",
+        "email outreach where a PDF attachment is appropriate"
+      ],
+      "do_not_use_when": [
+        "customer-support/helpdesk routes",
+        "very short LinkedIn connection notes",
+        "forms that do not accept attachments",
+        "low-confidence or weak-fit prospects"
+      ],
+      "delivery_rule": "When the consultant profile PDF is available in the current conversation or accessible file workspace, attach it directly to the Gmail draft/send rather than merely mentioning it. If attachment is unavailable, explicitly tell the user to attach it manually.",
+      "email_copy_rule": "When the profile is attached, include one short sentence in the email explaining that the attached profile gives a clearer picture of the ecommerce operations areas investigated.",
+      "sender_account": "bhavinrtailor@gmail.com",
+      "review_rule": "Default to preparing/reviewing the email first. Do not auto-send unless the user explicitly asks to send."
     }
   },
   "sent_email_logging": {
