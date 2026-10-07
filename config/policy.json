@@ -804,7 +804,21 @@
       "No longer accepting applications"
     ],
     "hard_reject_on_closed_role_signal": true,
-    "rule": "If a vacancy or opportunity page shows a closed-role signal such as 'No longer accepting applications', treat that specific role as CLOSED, fail the current_trigger gate for that role, and do not present it as a live lead. A different live role at the same company must be independently verified before the company can qualify."
+    "rule": "If a vacancy or opportunity page shows a closed-role signal such as 'No longer accepting applications', treat that specific role as CLOSED, fail the current_trigger gate for that role, and do not present it as a live lead. A different live role at the same company must be independently verified before the company can qualify.",
+    "exact_listing_preflight": {
+      "required": true,
+      "timing": "Immediately before presenting a lead as live",
+      "rule": "Open and verify the exact primary role/post being used as the trigger. Do not rely on search-result snippets, cached snippets, repost aggregators, or a general careers page as proof that the specific role is still open.",
+      "hard_reject_signals": [
+        "No longer accepting applications",
+        "Applications closed",
+        "Position filled",
+        "Job expired",
+        "This job is no longer available"
+      ],
+      "conflict_rule": "If any authoritative or exact listing page for the primary role shows a closed signal, treat the role as CLOSED even if search results or third-party sites still show it as active.",
+      "multi_role_rule": "A separate live role at the same company does not preserve the original lead. It must independently qualify as a new trigger and fit the user's consultancy offer."
+    }
   },
   "linkedin_source_workflow": {
     "rule": "When a lead originates from a LinkedIn post or LinkedIn job listing, do not treat LinkedIn as the only contact route. Before presenting or contacting the lead, research whether a direct decision-maker or hiring-owner contact can be obtained.",
