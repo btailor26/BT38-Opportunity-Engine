@@ -1252,6 +1252,29 @@
       "next_action": "No outreach. Revisit only if a new ecommerce or marketplace hiring trigger is independently verified as live.",
       "last_action": "Rejected after exact role-page validation: DTC / Ecommerce Manager shows 'No longer accepting applications'",
       "last_action_date": "2026-10-07"
+    },
+    {
+      "company": "Hayley Menzies",
+      "contact": "Hayley Menzies",
+      "source": "Live LinkedIn vacancy / direct founder application route",
+      "source_type": "LINKEDIN_JOB",
+      "website": "https://hayleymenzies.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Live Marketing & Ecommerce Manager vacancy at a small founder-led luxury fashion brand. Role works directly with Founder & Creative Director Hayley Menzies and owns Shopify trading, launches, product accuracy, sales/sell-through reporting, CRM, agencies, retail coordination and process streamlining. Strong pre-hire operational-preparation fit because the incoming manager must connect ecommerce, product, stock, retail, agencies and operations inside a lean team.",
+      "contact_method": "Verified direct founder email published in the exact job listing",
+      "contact_details": {
+        "email": "hayley@hayleymenzies.com"
+      },
+      "market_scope": "London-based global luxury fashion brand stocked in 100+ stores across 17 countries",
+      "notes": "Independent privately held London fashion brand founded by Hayley Menzies. LinkedIn lists 11-50 employees and says the brand is stocked in over 100 stores across 17 countries. Exact LinkedIn vacancy was checked immediately before presentation and contains no 'No longer accepting applications' signal. Role is broad and hands-on: Shopify, product launches/uploads, sales and sell-through, stock strategy, Klaviyo/CRM, agencies, retail coordination, process streamlining and collaboration across product, retail and operations. Direct founder email hayley@hayleymenzies.com is explicitly published in the job listing. This is a strong use case for attaching Bhavin's consultant profile PDF.",
+      "current_trigger": {
+        "role": "Marketing and Ecommerce Manager",
+        "status": "LIVE_VERIFIED",
+        "verified_date": "2026-10-07",
+        "evidence": "Exact LinkedIn listing shows the role with application instructions to hayley@hayleymenzies.com. Pre-presentation scan found no 'No longer accepting applications' text."
+      },
+      "last_researched_date": "2026-10-07",
+      "next_action": "Create Gmail draft from bhavinrtailor@gmail.com with consultant profile PDF actually attached. Present the draft and live-role evidence to Bhavin. If sent, mark CONTACTED."
     }
   ]
 }
