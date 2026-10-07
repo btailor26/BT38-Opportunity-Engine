@@ -34,6 +34,13 @@ class ContractTests(unittest.TestCase):
         self.assertIn("Route in", brief["required_output"])
         self.assertIn("Do not encourage Bhavin to apply or outreach blindly", brief["blind_application_rule"])
 
+    def test_closed_linkedin_wording_is_hard_reject(self):
+        p=json.loads((ROOT/"config/policy.json").read_text())
+        scan=p["current_trigger_validation"]["presentation_preflight"]["scan_for"]
+        hard=p["current_trigger_validation"]["exact_listing_preflight"]["hard_reject_signals"]
+        self.assertIn("Not currently accepting applications", scan)
+        self.assertIn("Not currently accepting applications", hard)
+
     def test_researched_lead_includes_send_ready_email(self):
         p=json.loads((ROOT/"config/policy.json").read_text())
         flow=p["lead_presentation_workflow"]
