@@ -1547,7 +1547,7 @@
       "source": "Exact LinkedIn E-commerce Web and Marketplace Manager vacancy",
       "source_type": "LINKEDIN_JOB",
       "website": "https://www.twistedtailor.com/",
-      "status": "RESEARCHED",
+      "status": "CONTACTED",
       "opportunity": "Fresh ecommerce and marketplace ownership hire at a small private London fashion business. The role takes day-to-day ownership of ecommerce and marketplace performance and works across Buying & Merchandising, Marketing, Creative, Design and Operations, creating a clear pre-hire operational handover opportunity.",
       "contact_method": "Direct LinkedIn to co-founder/COO; official recruitment inbox as fallback",
       "contact_details": {
@@ -1565,7 +1565,18 @@
         "evidence": "Exact LinkedIn page shows Threadology London LTD, E-commerce Web and Marketplace Manager, 2 hours ago, active Apply button and no closed-role wording."
       },
       "last_researched_date": "2026-10-08",
-      "next_action": "Present as strongest current lead. Contact Andrew Sager directly on LinkedIn or address outreach to him via recruitment@threadology.co.uk."
+      "next_action": "Wait for reply. If Andrew or Threadology responds, qualify the current ecommerce/marketplace operating setup and scope the audit before discussing pricing.",
+      "last_action": "Email outreach sent to recruitment@threadology.co.uk addressed to Andrew Sager",
+      "last_action_date": "2026-10-08",
+      "contact_history": [
+        {
+          "date": "2026-10-08",
+          "channel": "Email",
+          "recipient": "Andrew Sager via recruitment@threadology.co.uk",
+          "status": "SENT",
+          "subject": "For Andrew Sager — Before your new E-commerce & Marketplace Manager takes ownership"
+        }
+      ]
     }
   ]
 }
