@@ -1419,6 +1419,30 @@
       "next_action": "No outreach. Revisit only if Accapi/Ruffwear publishes a new independently verified live trigger.",
       "last_action": "Rejected after exact listing confirmed 'Not currently accepting applications'",
       "last_action_date": "2026-10-07"
+    },
+    {
+      "company": "LEON CYCLE",
+      "aliases": [
+        "Leon Cycle",
+        "LEON CYCLE GmbH"
+      ],
+      "contact": "Leon Ding",
+      "source": "Exact LinkedIn UK Sales & Operations Director listing",
+      "source_type": "LINKEDIN_JOB",
+      "website": "https://www.leoncycle.com/",
+      "status": "CLOSED",
+      "opportunity": "The UK Sales & Operations Director role exposed a relevant UK operational handover across P&L, inventory, warehouse/3PL, logistics, customer service, returns and ecommerce, but the exact listing is closed.",
+      "contact_method": "No outreach",
+      "current_trigger": {
+        "role": "UK- Sales & Operations Director",
+        "status": "CLOSED",
+        "verified_date": "2026-10-08",
+        "evidence": "User supplied the exact LinkedIn listing showing 'No longer accepting applications'. Listing displayed 'Reposted 1 week ago' and over 100 applicants."
+      },
+      "last_researched_date": "2026-10-08",
+      "next_action": "No outreach. Revisit only if LEON CYCLE publishes a new independently verified live trigger.",
+      "last_action": "Rejected after exact LinkedIn listing confirmed 'No longer accepting applications'",
+      "last_action_date": "2026-10-08"
     }
   ]
 }
