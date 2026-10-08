@@ -877,7 +877,10 @@
         "exact role URL redirects to a generic job-search page instead of the vacancy",
         "exact vacancy page no longer resolves to the role"
       ],
-      "redirect_rule": "Treat an exact job URL that redirects to LinkedIn's expired job route or to a generic job-search page as CLOSED, even if cached/search results still show an Apply button."
+      "redirect_rule": "Treat an exact job URL that redirects to LinkedIn's expired job route or to a generic job-search page as CLOSED, even if cached/search results still show an Apply button.",
+      "identity_match_required": true,
+      "identity_match_rule": "Before presenting a vacancy-led opportunity, verify on the same exact rendered listing that the company name, exact job title, publication age/date, and current application status all match the trigger being presented. Do not combine a search snippet, another role at the same company, a repost, or a stale indexed URL with the exact listing.",
+      "mismatch_hard_reject_rule": "If the exact page resolves to a different role/title, an older posting, a generic jobs page, or any closed-status wording, reject that trigger. Never infer that another role at the same company keeps it live."
     },
     "freshness_window": {
       "required": true,
