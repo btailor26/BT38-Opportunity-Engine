@@ -1506,7 +1506,7 @@
       "source": "Exact LinkedIn E-commerce Operations Executive vacancy",
       "source_type": "LINKEDIN_JOB",
       "website": "https://www.ordolife.com/",
-      "status": "RESEARCHED",
+      "status": "CONTACTED",
       "opportunity": "Fast-growing UK oral-care brand is expanding its DTC operation and hiring an E-commerce Operations Executive to support Shopify, stock monitoring, warehouse partners, fulfilment, replenishment, promotions and operational problem resolution. The trigger points to a growth-stage operational-structure opportunity rather than a purely marketing hire.",
       "contact_method": "Direct LinkedIn to co-founder Barty Walsh; official company inbox available",
       "contact_details": {
@@ -1525,7 +1525,17 @@
         "evidence": "Exact LinkedIn page shows ORDO, E-commerce Operations Executive, 4 days ago, active Apply button and no closed-role wording."
       },
       "last_researched_date": "2026-10-08",
-      "next_action": "Present as the single strongest current lead. Use direct LinkedIn to Barty Walsh first; use hello@ordolife.com only as fallback."
+      "next_action": "Wait for reply. If Barty responds, qualify the current DTC operations setup and identify the highest-value audit scope before discussing pricing.",
+      "last_action": "LinkedIn outreach sent to Barty Walsh",
+      "last_action_date": "2026-10-08",
+      "contact_history": [
+        {
+          "date": "2026-10-08",
+          "channel": "LinkedIn",
+          "recipient": "Barty Walsh",
+          "status": "SENT"
+        }
+      ]
     }
   ]
 }
