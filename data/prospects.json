@@ -1496,6 +1496,36 @@
         "submitted_date": "2026-10-08",
         "role": "Amazon Marketplace Manager"
       }
+    },
+    {
+      "company": "ORDO",
+      "aliases": [
+        "Ordo Life"
+      ],
+      "contact": "Barty Walsh",
+      "source": "Exact LinkedIn E-commerce Operations Executive vacancy",
+      "source_type": "LINKEDIN_JOB",
+      "website": "https://www.ordolife.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Fast-growing UK oral-care brand is expanding its DTC operation and hiring an E-commerce Operations Executive to support Shopify, stock monitoring, warehouse partners, fulfilment, replenishment, promotions and operational problem resolution. The trigger points to a growth-stage operational-structure opportunity rather than a purely marketing hire.",
+      "contact_method": "Direct LinkedIn to co-founder Barty Walsh; official company inbox available",
+      "contact_details": {
+        "decision_maker": "Barty Walsh",
+        "decision_maker_role": "Co-Founder / CEO",
+        "linkedin": "https://uk.linkedin.com/in/barty-walsh-729395142",
+        "business_email": "hello@ordolife.com",
+        "direct_email_status": "No verified direct personal email found; do not guess."
+      },
+      "market_scope": "UK-led DTC and international retail/ecommerce across multiple markets",
+      "notes": "Exact LinkedIn listing verified 2026-10-08 on the same page: company ORDO, exact title E-commerce Operations Executive, 4 days old, active Apply button, no 'No longer accepting applications' or 'Not currently accepting applications' wording. Role reports to Head of eCommerce and covers Shopify, stock, warehouse partners, fulfilment and operational improvement. Founder Barty Walsh is publicly identifiable and active on LinkedIn.",
+      "current_trigger": {
+        "role": "E-commerce Operations Executive",
+        "status": "LIVE_VERIFIED",
+        "verified_date": "2026-10-08",
+        "evidence": "Exact LinkedIn page shows ORDO, E-commerce Operations Executive, 4 days ago, active Apply button and no closed-role wording."
+      },
+      "last_researched_date": "2026-10-08",
+      "next_action": "Present as the single strongest current lead. Use direct LinkedIn to Barty Walsh first; use hello@ordolife.com only as fallback."
     }
   ]
 }
