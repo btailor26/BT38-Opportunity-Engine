@@ -1443,6 +1443,28 @@
       "next_action": "No outreach. Revisit only if LEON CYCLE publishes a new independently verified live trigger.",
       "last_action": "Rejected after exact LinkedIn listing confirmed 'No longer accepting applications'",
       "last_action_date": "2026-10-08"
+    },
+    {
+      "company": "Western International Group (UK) Ltd",
+      "aliases": [
+        "Western International Group(UK)Ltd",
+        "Geepas UK"
+      ],
+      "status": "CLOSED",
+      "source": "Exact LinkedIn vacancy supplied by user",
+      "source_type": "LINKEDIN_JOB",
+      "opportunity": "Potential ecommerce/marketplace handover lead rejected because the exact rendered LinkedIn vacancy did not match the trigger presented and was closed.",
+      "current_trigger": {
+        "role": "Head of DTC & Ecommerce Growth",
+        "status": "CLOSED",
+        "verified_date": "2026-10-08",
+        "evidence": "User supplied the exact LinkedIn listing showing '1 month ago' and 'No longer accepting applications'."
+      },
+      "notes": "Do not resurface Western International / Geepas from stale search snippets, reposts or other role URLs. A future lead requires a new independently verified exact live trigger.",
+      "last_researched_date": "2026-10-08",
+      "next_action": "No outreach. Revisit only if a new exact live role or operational trigger is independently verified.",
+      "last_action": "Rejected after exact rendered listing showed old/closed role and exposed role-identity mismatch",
+      "last_action_date": "2026-10-08"
     }
   ]
 }
