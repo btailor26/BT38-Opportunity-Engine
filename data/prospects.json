@@ -1536,6 +1536,36 @@
           "status": "SENT"
         }
       ]
+    },
+    {
+      "company": "Threadology London LTD",
+      "aliases": [
+        "Twisted Tailor",
+        "Threadology"
+      ],
+      "contact": "Andrew Sager",
+      "source": "Exact LinkedIn E-commerce Web and Marketplace Manager vacancy",
+      "source_type": "LINKEDIN_JOB",
+      "website": "https://www.twistedtailor.com/",
+      "status": "RESEARCHED",
+      "opportunity": "Fresh ecommerce and marketplace ownership hire at a small private London fashion business. The role takes day-to-day ownership of ecommerce and marketplace performance and works across Buying & Merchandising, Marketing, Creative, Design and Operations, creating a clear pre-hire operational handover opportunity.",
+      "contact_method": "Direct LinkedIn to co-founder/COO; official recruitment inbox as fallback",
+      "contact_details": {
+        "decision_maker": "Andrew Sager",
+        "decision_maker_role": "Co-Founder / Chief Operating Officer",
+        "linkedin": "https://uk.linkedin.com/in/andrew-sager-53a956143",
+        "recruitment_email": "recruitment@threadology.co.uk"
+      },
+      "market_scope": "UK fashion ecommerce, marketplaces, wholesale and retail",
+      "notes": "Exact LinkedIn listing verified 2026-10-08 on same page: Threadology London LTD, exact title E-commerce Web and Marketplace Manager, 2 hours old, active Apply button, no closed-role wording. Job poster is internal Digital and Marketing Manager Rebecca Raymond. Company is privately held, 11-50 employees; Andrew Sager is publicly identified as Co-Founder/COO and has publicly used recruitment@threadology.co.uk for company hiring.",
+      "current_trigger": {
+        "role": "E-commerce Web and Marketplace Manager",
+        "status": "LIVE_VERIFIED",
+        "verified_date": "2026-10-08",
+        "evidence": "Exact LinkedIn page shows Threadology London LTD, E-commerce Web and Marketplace Manager, 2 hours ago, active Apply button and no closed-role wording."
+      },
+      "last_researched_date": "2026-10-08",
+      "next_action": "Present as strongest current lead. Contact Andrew Sager directly on LinkedIn or address outreach to him via recruitment@threadology.co.uk."
     }
   ]
 }
