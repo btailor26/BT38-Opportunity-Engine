@@ -1465,6 +1465,29 @@
       "next_action": "No outreach. Revisit only if a new exact live role or operational trigger is independently verified.",
       "last_action": "Rejected after exact rendered listing showed old/closed role and exposed role-identity mismatch",
       "last_action_date": "2026-10-08"
+    },
+    {
+      "company": "Jara Trading",
+      "aliases": [
+        "Jara Trading Ltd"
+      ],
+      "contact": "Raphael Englard",
+      "source": "Exact LinkedIn Amazon Marketplace Manager vacancy",
+      "source_type": "LINKEDIN_JOB",
+      "website": "https://jaratrading.co.uk/",
+      "status": "RESEARCHED",
+      "opportunity": "Fresh founder-posted Amazon Marketplace Manager hire exposing a current marketplace ownership and operational handover across Amazon US, UK marketplaces, FBA, 3PL stock, forecasting, replenishment, margin, advertising and cross-functional coordination.",
+      "contact_method": "Direct LinkedIn to job poster / co-founder",
+      "market_scope": "UK and international ecommerce marketplaces including Amazon, eBay, TikTok Shop and Temu",
+      "notes": "Exact LinkedIn listing verified on 2026-10-08: company Jara Trading, exact title Amazon Marketplace Manager, 16 hours old, active Apply button, and neither 'No longer accepting applications' nor 'Not currently accepting applications' appears on the exact page. Job poster is co-founder Raphael Englard. Company site says 5+ brands, 21+ marketplaces, 14+ countries and 20+ specialists.",
+      "current_trigger": {
+        "role": "Amazon Marketplace Manager",
+        "status": "LIVE_VERIFIED",
+        "verified_date": "2026-10-08",
+        "evidence": "Exact LinkedIn page shows Jara Trading, Amazon Marketplace Manager, 16 hours ago, active Apply button, and no closed-role wording."
+      },
+      "last_researched_date": "2026-10-08",
+      "next_action": "Present as the single strongest current lead. Use direct LinkedIn to co-founder Raphael Englard; do not guess a personal email."
     }
   ]
 }
