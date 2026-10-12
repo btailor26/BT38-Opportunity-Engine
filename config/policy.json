@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 21,
+  "version": 22,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -179,16 +179,13 @@
       },
       {
         "name": "Job boards and contractor marketplaces",
-        "priority": "HIGH",
+        "priority": "CONDITIONAL",
         "signals": [
-          "consultant",
-          "contractor",
-          "freelancer",
-          "interim",
-          "project",
-          "audit",
-          "operations requirement"
-        ]
+          "verified direct recruiter-paid contracts",
+          "agency overflow assignments",
+          "temporary existing-client ecommerce operations"
+        ],
+        "rule": "Exclude public bidding platforms, pay-to-propose marketplaces and review-dependent freelancer competitions."
       },
       {
         "name": "Ecommerce trade press / company news",
@@ -337,14 +334,14 @@
         "outgrown current process or excessive manual work",
         "multichannel expansion causing a current operational gap"
       ],
-      "freshness_rule": "Live-opportunity search window is up to 30 days old. Reject results older than 30 days from the live lead feed. Prefer newer evidence when multiple results exist. Historical posts older than 30 days may only be used to improve search patterns and must never be presented as current opportunities.",
+      "freshness_rule": "Show only opportunities published or independently confirmed updated within the last 7 days; older evidence is historical only. Verify the original vacancy remains open and accepting interest.",
       "qualification_boundary": "A matching conversation is DISCOVERED only. It cannot become CONTACT_READY until company identity, current need, ability to pay, decision-maker and usable contact route are independently verified.",
-      "max_live_age_days": 30,
+      "max_live_age_days": 7,
       "rejection_rules": [
         "Reject new dropshipping store/build/setup/launch projects where the buyer primarily wants someone to build, finish, configure, populate or launch the store. Do not reject an established dropshipping business solely because it uses dropshipping; it may qualify when there is a current operational, inventory, supplier, order, marketplace, fulfilment or audit problem relevant to BT38."
       ]
     },
-    "search_method": "Combine buyer-conversation patterns with commerce_context and search_surfaces. Prefer first-person posts/discussions from the buyer side. Suppress provider/service pages and generic job-board noise unless the listing exposes a credible consultancy/contract buying requirement. For the current commercial search, rank UK/Europe relevance above physical company/contact location: international companies and decision-makers are valid when the requirement includes UK/Europe operations, marketplaces or expansion."
+    "search_method": "Combine buyer-conversation patterns with commerce_context and search_surfaces. Prefer first-person posts/discussions from the buyer side. Suppress provider/service pages and generic job-board noise unless the listing exposes a credible consultancy/contract buying requirement. For the current commercial search, rank UK/Europe relevance above physical company/contact location: international companies and decision-makers are valid when the requirement includes UK/Europe operations, marketplaces or expansion. For recruiter/immediate contract lane, prioritise original employer/recruiter job pages and direct contacts; never treat third-party aggregator repost dates as proof of freshness."
   },
   "opportunity_routes": {
     "direct_client": {
@@ -353,6 +350,40 @@
     "live_paid_support": {
       "description": "Company, founder or buyer currently seeking consultant, contractor, agency, freelancer or specialist help across ecommerce operations or marketplaces.",
       "qualification_rule": "Must show a current requirement. Future/hypothetical networking or possible overflow is insufficient."
+    },
+    "recruiter_immediate_contract": {
+      "description": "Active paid short-term ecommerce/marketplace operations contract through established recruiter or agency with existing client work. Not a consultancy pitch or software-development role.",
+      "search_terms": [
+        "freelance Amazon commerce account manager",
+        "contract ecommerce operations manager",
+        "interim marketplace operations",
+        "Amazon Seller Central catalogue contract",
+        "ecommerce fulfilment contract",
+        "ecommerce account management freelance"
+      ],
+      "requirements": [
+        "published or independently updated in the last 7 days",
+        "original recruiter/employer vacancy verified live and accepting interest",
+        "existing client/account or clearly funded immediate assignment",
+        "UK/Europe relevance even if employer is overseas",
+        "operational Amazon/eBay/marketplace, catalogue, inventory, fulfilment, logistics, trading or reporting fit",
+        "remote preferred; London weekly possible; note travel terms only after initial enquiry",
+        "direct recruiter email or credible direct application route; no bidding or pay-to-propose",
+        "rate, duration, location, mandatory skills and start date recorded; undisclosed rate flagged, not invented",
+        "reject software development, website builds, IT support, mandatory advanced PPC without evidence of capability",
+        "reject closed, expired, stale reposts and already-contacted opportunities"
+      ],
+      "ranking": [
+        "verified open and newly posted",
+        "immediate paid work with defined duration and rate",
+        "direct recruiter email and no review/bidding barrier",
+        "strong hands-on ecommerce operations match",
+        "remote and low travel burden"
+      ],
+      "presentation": "Show only the single strongest new opportunity by default, with original link, company profile, published date, rate, duration, remote/travel, recruiter and contact. Clearly mark unknowns. Never draft until user approves opportunity.",
+      "template": "Recruiter / Immediate Paid Contract. Direct availability and 13+ years hands-on ecommerce operations; no BT38 pitch, no pre-hire/UK expansion consultancy pitch, no new systems. Use existing approved email template and signature.",
+      "contact_rule": "Human approval required. After user confirms sent, record CONTACTED, date, recipient, subject, source and next follow-up 3 working days; do not resurface as fresh.",
+      "notes": "This is a separate lead-search lane, not a change to BT38 production or deployment."
     }
   },
   "target_profile": {
