@@ -201,15 +201,17 @@
       "contact": "Amy Griffith",
       "source": "Direct research / recruiter outreach",
       "website": "https://www.truenorthtalent.co.uk/",
-      "status": "RESEARCHED",
+      "status": "CONTACTED",
       "opportunity": "Recruiter/contact source for interim Operations and Supply Chain assignments.",
-      "contact_method": "Public mobile / text candidate",
+      "contact_method": "SMS",
       "contact_details": {
         "phone": "07564 576300"
       },
-      "notes": "Broader FMCG/operations market but relevant to interim operational assignments. Message prepared. Send status has not been explicitly confirmed in the chat.",
+      "notes": "Recruiter/contact source for interim Operations and Supply Chain assignments. User confirmed SMS sent to Amy Griffith on 2026-10-12 at 10:16 AM UK time. No response confirmed yet.",
       "last_researched_date": "2026-10-05",
-      "next_action": "If not already sent, send the prepared text; record any live requirement separately."
+      "next_action": "Wait for reply; follow up after 3–4 working days if no response. Record any live requirement separately.",
+      "last_action": "SMS sent to Amy Griffith at 10:16 AM (user confirmed)",
+      "last_action_date": "2026-10-12"
     },
     {
       "company": "Hays",
