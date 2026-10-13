@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 22,
+  "version": 23,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -1001,5 +1001,24 @@
       "large corporate prospects with no realistic route to the expansion owner"
     ],
     "presentation_rule": "When the trigger is a LinkedIn post, show the original LinkedIn post link. When it is a job listing, show the exact live listing and verify closure status immediately before presentation."
+  },
+  "service_positioning": {
+    "name": "Audit, Advice & Support",
+    "acronym": "AAS",
+    "primary_label": "Ecommerce Operational Support",
+    "definition": "Hands-on ecommerce operational help from identifying problems through prioritising and implementing practical fixes.",
+    "stages": {
+      "audit": "Examine existing ecommerce operations, inventory, marketplaces, fulfilment, costs, workflows and controls to identify verified gaps, risks and opportunities.",
+      "advice": "Explain findings, commercial impact, priorities and practical options without pushing unnecessary tools or changes.",
+      "support": "Work hands-on with the client to implement agreed improvements, resolve issues, and stabilise or maintain operations using existing systems wherever possible."
+    },
+    "rules": [
+      "Use AAS — Audit, Advice & Support as the core service framing in lead qualification, research and outreach when relevant.",
+      "Lead with the client's specific current need; do not force all three stages into every engagement.",
+      "Support may be a standalone paid engagement; do not require an audit or report before practical support.",
+      "Avoid describing the offering primarily as consultancy or advice-only.",
+      "Do not imply software must be bought, installed or replaced; work around existing systems first.",
+      "Preserve all existing buyer-intent, geography, recency, contact, approval, pricing and qualification rules."
+    ]
   }
 }
