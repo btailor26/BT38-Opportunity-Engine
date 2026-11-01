@@ -35,12 +35,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- data/prospects.json inbox/candidates.json; then
+          if git diff --quiet -- data/prospects.json data/opportunity_history.json inbox/candidates.json; then
             echo "No state changes."
             exit 0
           fi
           git config user.name "bt38-opportunity-engine"
           git config user.email "actions@users.noreply.github.com"
-          git add data/prospects.json inbox/candidates.json
+          git add data/prospects.json data/opportunity_history.json inbox/candidates.json
           git commit -m "engine: persist qualification state"
           git push
