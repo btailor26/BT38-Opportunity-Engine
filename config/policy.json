@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 23,
+  "version": 29,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -334,14 +334,62 @@
         "outgrown current process or excessive manual work",
         "multichannel expansion causing a current operational gap"
       ],
-      "freshness_rule": "Show only opportunities published or independently confirmed updated within the last 7 days; older evidence is historical only. Verify the original vacancy remains open and accepting interest.",
+      "freshness_rule": "Only show opportunities published within the last 30 days and independently verified currently open; older or unverified evidence is excluded.",
       "qualification_boundary": "A matching conversation is DISCOVERED only. It cannot become CONTACT_READY until company identity, current need, ability to pay, decision-maker and usable contact route are independently verified.",
-      "max_live_age_days": 7,
+      "max_live_age_days": 30,
       "rejection_rules": [
         "Reject new dropshipping store/build/setup/launch projects where the buyer primarily wants someone to build, finish, configure, populate or launch the store. Do not reject an established dropshipping business solely because it uses dropshipping; it may qualify when there is a current operational, inventory, supplier, order, marketplace, fulfilment or audit problem relevant to BT38."
       ]
     },
-    "search_method": "Combine buyer-conversation patterns with commerce_context and search_surfaces. Prefer first-person posts/discussions from the buyer side. Suppress provider/service pages and generic job-board noise unless the listing exposes a credible consultancy/contract buying requirement. For the current commercial search, rank UK/Europe relevance above physical company/contact location: international companies and decision-makers are valid when the requirement includes UK/Europe operations, marketplaces or expansion. For recruiter/immediate contract lane, prioritise original employer/recruiter job pages and direct contacts; never treat third-party aggregator repost dates as proof of freshness."
+    "search_method": "Combine buyer-conversation patterns with commerce_context and search_surfaces. Prefer first-person posts/discussions from the buyer side. Suppress provider/service pages and generic job-board noise unless the listing exposes a credible consultancy/contract buying requirement. For the current commercial search, rank UK/Europe relevance above physical company/contact location: international companies and decision-makers are valid when the requirement includes UK/Europe operations, marketplaces or expansion. For recruiter/immediate contract lane, prioritise original employer/recruiter job pages and direct contacts; never treat third-party aggregator repost dates as proof of freshness.",
+    "presentation_filter": {
+      "max_age_days": 30,
+      "require_verified_publication_date": true,
+      "require_original_listing": true,
+      "require_confirmed_open_status": true,
+      "exclude_closed_or_unverifiable": true,
+      "distinct_opportunity_key": "company + role + original listing URL",
+      "duration_limit": "none",
+      "result_limit": "none",
+      "remote_only": false,
+      "reject_on_site_or_hybrid": false,
+      "no_repeat_within_search_day": true,
+      "deduplicate_by": "canonical listing URL or employer + normalized job title + location; never repeat a result within the same UTC search date",
+      "requested_window_rule": "User-specified hours/days override default 30-day window, with no widening",
+      "require_verified_remote": false,
+      "max_mandatory_onsite_days_per_week": 1,
+      "reject_on_site": true,
+      "work_arrangement_rule": "Fully remote preferred. Hybrid accepted only when mandatory office attendance is no more than one day per week. Reject full-time onsite, hybrid requiring two or more office days, and listings with unverified mandatory attendance.",
+      "experience_fit": {
+        "required": true,
+        "focus": "Independent/interim ecommerce operations and systems improvement, Amazon/eBay marketplace operations, inventory, warehouse/3PL, fulfilment, shipping, reconciliation, operational root-cause investigation and workflow design",
+        "reject": [
+          "junior or assistant ecommerce trading/merchandising/product data maintenance roles",
+          "permanent employee roles with no project/interim scope",
+          "roles where SQL/Tableau/BI analytics is a core mandatory skill",
+          "marketing-led or campaign-led positions with no operational ownership",
+          "mandatory fluent foreign language not evidenced in profile"
+        ],
+        "qualify": [
+          "paid interim, contract, fractional or project-based operational improvement",
+          "clear ownership of an operational problem and deliverable",
+          "skills demonstrably supported by user's profile"
+        ],
+        "rule": "Do not match on ecommerce keywords alone. Read the actual responsibilities and mandatory skills. Reject before presentation when the work is primarily junior merchandising, advanced BI/SQL, marketing or conventional permanent staffing."
+      }
+    },
+    "source_priority": {
+      "priority_order": [
+        "Direct paid project or consultancy contract with operating business/end client",
+        "Direct employer fixed-term or interim operational contract",
+        "Recruitment agency advertised contract only when unusually strong fit"
+      ],
+      "direct_contract_first": true,
+      "agency_excluded": false,
+      "rule": "Prioritise identifying and verifying direct end-client operational problems and contracts, not generic recruiter vacancy feeds. Agency listings are secondary; do not fabricate an open contract or imply that an identified business is hiring without evidence.",
+      "evidence_requirements": "Distinguish confirmed open direct contracts from prospective direct outreach targets; never present speculative outreach targets as verified paid vacancies.",
+      "candidate_application": "Only tailor CV after full verified job specification is retrieved and the role passes all suitability gates."
+    }
   },
   "opportunity_routes": {
     "direct_client": {
@@ -362,12 +410,12 @@
         "ecommerce account management freelance"
       ],
       "requirements": [
-        "published or independently updated in the last 7 days",
+        "published or independently updated in the last 30 days",
         "original recruiter/employer vacancy verified live and accepting interest",
         "existing client/account or clearly funded immediate assignment",
         "UK/Europe relevance even if employer is overseas",
         "operational Amazon/eBay/marketplace, catalogue, inventory, fulfilment, logistics, trading or reporting fit",
-        "remote preferred; London weekly possible; note travel terms only after initial enquiry",
+        "fully remote only; reject on-site, hybrid and mandatory office/travel attendance",
         "direct recruiter email or credible direct application route; no bidding or pay-to-propose",
         "rate, duration, location, mandatory skills and start date recorded; undisclosed rate flagged, not invented",
         "reject software development, website builds, IT support, mandatory advanced PPC without evidence of capability",
@@ -378,9 +426,9 @@
         "immediate paid work with defined duration and rate",
         "direct recruiter email and no review/bidding barrier",
         "strong hands-on ecommerce operations match",
-        "remote and low travel burden"
+        "fully remote, no mandatory travel"
       ],
-      "presentation": "Show only the single strongest new opportunity by default, with original link, company profile, published date, rate, duration, remote/travel, recruiter and contact. Clearly mark unknowns. Never draft until user approves opportunity.",
+      "presentation": "Show all verified, distinct, currently open paid opportunities from the last 30 days. Include original link, date, rate if known, duration, location and contact. Never impose a one-result limit.",
       "template": "Recruiter / Immediate Paid Contract. Direct availability and 13+ years hands-on ecommerce operations; no BT38 pitch, no pre-hire/UK expansion consultancy pitch, no new systems. Use existing approved email template and signature.",
       "contact_rule": "Human approval required. After user confirms sent, record CONTACTED, date, recipient, subject, source and next follow-up 3 working days; do not resurface as fresh.",
       "notes": "This is a separate lead-search lane, not a change to BT38 production or deployment."
@@ -848,7 +896,7 @@
       "LinkedIn: https://www.linkedin.com/in/bhavin-tailor-463ab6b2/ must be included in every send-ready outreach email.",
       "Clearly show 'Send from: bhavinrtailor@gmail.com' with every draft before the email block."
     ],
-    "presentation_rule": "The single strongest result must be immediately actionable: company context, reason to pursue, contact route, and finished email draft should all be present before Bhavin decides whether to send.",
+    "presentation_rule": "The verified results must be immediately actionable: company context, reason to pursue, contact route, and finished email draft should all be present before Bhavin decides whether to send.",
     "linkedin_post_visibility": {
       "required": true,
       "rule": "If the opportunity originates from a LinkedIn post, always show the original LinkedIn post link in the lead presentation before outreach is sent or a Gmail draft is created.",
@@ -915,12 +963,12 @@
     },
     "freshness_window": {
       "required": true,
-      "max_age_days": 7,
-      "rule": "Only consider LinkedIn posts, job listings, founder hiring posts or other hiring/operational triggers that were published within the last 7 days at the time of search.",
-      "hard_reject": "If the primary trigger is older than 7 days, reject it before presentation even if the listing is still technically open.",
+      "max_age_days": 30,
+      "rule": "Only consider LinkedIn posts, job listings, founder hiring posts or other hiring/operational triggers that were published within the last 30 days at the time of search.",
+      "hard_reject": "If the primary trigger is older than 30 days, reject it before presentation even if the listing is still technically open.",
       "exact_date_required": true,
-      "fallback": "If the publication date cannot be verified accurately enough to establish that it falls within the last 7 days, do not present the lead.",
-      "interaction_with_closed_role_rule": "A role must satisfy both freshness and live-status checks: posted within 7 days AND not closed/no-longer-accepting-applications."
+      "fallback": "If the publication date cannot be verified accurately enough to establish that it falls within the last 30 days, do not present the lead.",
+      "interaction_with_closed_role_rule": "A role must satisfy both freshness and live-status checks: posted within 30 days AND not closed/no-longer-accepting-applications."
     }
   },
   "linkedin_source_workflow": {
@@ -943,8 +991,8 @@
     "outcome": "A LinkedIn-sourced opportunity should include the best verified direct contact route obtainable before it is presented as ready for outreach."
   },
   "search_scope": {
-    "default_opportunity_window_days": 7,
-    "rule": "All opportunity searches should default to the most recent 7 days only unless Bhavin explicitly asks for a different time window."
+    "default_opportunity_window_days": 30,
+    "rule": "Default to last 30 days; explicit user windows such as 7 days or 24 hours override the default exactly. Never broaden the requested window."
   },
   "growth_and_launch_lane": {
     "enabled": true,
@@ -960,12 +1008,12 @@
       "new funding or retail distribution followed by a stated ecommerce growth plan",
       "founder post asking for help building ecommerce, operations, supply chain or marketplace capability"
     ],
-    "qualification_rule": "The company must show a concrete current growth/start trigger within the last 7 days and a plausible need for ecommerce operational structure. Do not rely on generic growth claims with no current action.",
+    "qualification_rule": "The company must show a concrete current growth/start trigger within the last 30 days and a plausible need for ecommerce operational structure. Do not rely on generic growth claims with no current action.",
     "contact_rule": "Prioritise founders, owners, managing directors, heads of operations/commercial, or other people directly responsible for the growth decision. Find a verified direct contact where possible.",
     "positioning": "Offer to map and structure the operation around the systems and channels already in place, establish controls, identify gaps and dependencies, and create a workable operating model before scale makes the business harder to manage.",
     "exclusions": [
       "pure marketing-only growth with no operational/ecommerce component",
-      "closed or stale triggers older than 7 days",
+      "closed or stale triggers older than 30 days",
       "large corporate prospects with no realistic route to a decision-maker",
       "anonymous posts with no identifiable company or owner"
     ]
@@ -982,7 +1030,7 @@
       "seeking someone to build or take charge of UK Amazon, Shopify, DTC, marketplace or fulfilment operations",
       "moving from distributor-led or cross-border sales to a direct UK operating model"
     ],
-    "qualification_rule": "The trigger must be concrete, current and published within the last 7 days. The company must have a realistic need for someone to take ownership of the UK operation or build the UK channel, not merely mention the UK as a market.",
+    "qualification_rule": "The trigger must be concrete, current and published within the last 30 days. The company must have a realistic need for someone to take ownership of the UK operation or build the UK channel, not merely mention the UK as a market.",
     "preferred_profile": "Founder-led, privately held, growth-stage or accessible international brands with a real decision-maker route and enough scale/budget to pay for operational setup or audit work.",
     "decision_makers": [
       "Founder / CEO",
@@ -994,7 +1042,7 @@
     ],
     "positioning": "Offer to establish the UK ecommerce/marketplace operating model before or alongside the incoming owner: map channels, inventory, fulfilment, reporting, responsibilities, controls and dependencies around the systems already chosen, then hand over a clear operating structure.",
     "exclusions": [
-      "roles older than 7 days",
+      "roles older than 30 days",
       "No longer accepting applications",
       "UK mentioned only as one of many territories with no real expansion trigger",
       "anonymous recruiter-only adverts where the company cannot be identified",
@@ -1020,5 +1068,25 @@
       "Do not imply software must be bought, installed or replaced; work around existing systems first.",
       "Preserve all existing buyer-intent, geography, recency, contact, approval, pricing and qualification rules."
     ]
+  },
+  "application_preparation": {
+    "required_after_verified_fit": true,
+    "workflow": [
+      "Verify the original listing is open, recent, suitable, and not previously presented",
+      "Assess actual role responsibilities and mandatory skills against evidenced experience",
+      "If qualified, create a distinct CV tailored to this specific job using the verified source CV",
+      "Reorder and rewrite only truthful existing experience to highlight relevant accomplishments, platforms and operational ownership",
+      "Identify any mandatory requirements not evidenced in the CV; never fabricate them",
+      "Provide original listing URL, role-specific CV and optional cover note for review; never auto-apply or auto-send"
+    ],
+    "cv_source": "User-provided master CV must be loaded and checked before generating a tailored CV; do not generate one from policy or assumptions alone",
+    "tailoring_rule": "One CV version per job, with role/company/reference and date. Emphasise operational ownership, marketplaces, inventory, fulfilment, reconciliation and systems only where supported by the master CV.",
+    "prohibitions": [
+      "No invented skills, metrics, employment dates, titles or qualifications",
+      "No generic CV reused unchanged for all vacancies",
+      "No tailoring for rejected, closed, duplicate or unverified roles",
+      "No automatic applications"
+    ],
+    "git_branch_rule": "All changes stay on the existing working branch; do not merge to main without explicit request."
   }
 }
