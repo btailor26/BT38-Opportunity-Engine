@@ -12,7 +12,9 @@ class ContractTests(unittest.TestCase):
            "published_at":(now-timedelta(days=29)).isoformat(),
            "verified_at":now.isoformat(),"open_status":"OPEN","original_listing_verified":True,"work_mode":"REMOTE","mandatory_onsite":False}
         self.assertIsNone(validate_live(c,now,30))
-        self.assertIsNotNone(validate_live(dict(c,open_status="CLOSED"),now,30))\n        self.assertIsNotNone(validate_live(dict(c,work_mode="HYBRID"),now,30))\n        self.assertIsNotNone(validate_live(dict(c,mandatory_onsite=True),now,30))
+        self.assertIsNotNone(validate_live(dict(c,open_status="CLOSED"),now,30))\n        self.assertIsNone(validate_live(dict(c,work_mode="HYBRID",mandatory_onsite_days_per_week=1),now,30))
+        self.assertIsNotNone(validate_live(dict(c,work_mode="HYBRID",mandatory_onsite_days_per_week=2),now,30))
+        self.assertIsNotNone(validate_live(dict(c,work_mode="HYBRID"),now,30))\n        self.assertIsNotNone(validate_live(dict(c,mandatory_onsite=True),now,30))
         self.assertIsNotNone(validate_live(dict(c,published_at=(now-timedelta(days=31)).isoformat()),now,30))
         self.assertIsNotNone(validate_live(dict(c,verified_at=(now-timedelta(days=2)).isoformat()),now,30))
         self.assertIsNotNone(validate_live(dict(c,original_listing_verified=False),now,30))
