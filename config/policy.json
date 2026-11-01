@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 24,
+  "version": 25,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -350,7 +350,13 @@
       "exclude_closed_or_unverifiable": true,
       "distinct_opportunity_key": "company + role + original listing URL",
       "duration_limit": "none",
-      "result_limit": "none"
+      "result_limit": "none",
+      "remote_only": true,
+      "reject_on_site_or_hybrid": true,
+      "no_repeat_within_search_day": true,
+      "deduplicate_by": "canonical listing URL or employer + normalized job title + location; never repeat a result within the same UTC search date",
+      "requested_window_rule": "User-specified hours/days override default 30-day window, with no widening",
+      "require_verified_remote": true
     }
   },
   "opportunity_routes": {
@@ -377,7 +383,7 @@
         "existing client/account or clearly funded immediate assignment",
         "UK/Europe relevance even if employer is overseas",
         "operational Amazon/eBay/marketplace, catalogue, inventory, fulfilment, logistics, trading or reporting fit",
-        "remote preferred; London weekly possible; note travel terms only after initial enquiry",
+        "fully remote only; reject on-site, hybrid and mandatory office/travel attendance",
         "direct recruiter email or credible direct application route; no bidding or pay-to-propose",
         "rate, duration, location, mandatory skills and start date recorded; undisclosed rate flagged, not invented",
         "reject software development, website builds, IT support, mandatory advanced PPC without evidence of capability",
@@ -388,7 +394,7 @@
         "immediate paid work with defined duration and rate",
         "direct recruiter email and no review/bidding barrier",
         "strong hands-on ecommerce operations match",
-        "remote and low travel burden"
+        "fully remote, no mandatory travel"
       ],
       "presentation": "Show all verified, distinct, currently open paid opportunities from the last 30 days. Include original link, date, rate if known, duration, location and contact. Never impose a one-result limit.",
       "template": "Recruiter / Immediate Paid Contract. Direct availability and 13+ years hands-on ecommerce operations; no BT38 pitch, no pre-hire/UK expansion consultancy pitch, no new systems. Use existing approved email template and signature.",
@@ -953,8 +959,8 @@
     "outcome": "A LinkedIn-sourced opportunity should include the best verified direct contact route obtainable before it is presented as ready for outreach."
   },
   "search_scope": {
-    "default_opportunity_window_days": 7,
-    "rule": "All opportunity searches should default to the most recent 30 days only unless Bhavin explicitly asks for a different time window."
+    "default_opportunity_window_days": 30,
+    "rule": "Default to last 30 days; explicit user windows such as 7 days or 24 hours override the default exactly. Never broaden the requested window."
   },
   "growth_and_launch_lane": {
     "enabled": true,
