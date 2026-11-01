@@ -1,4 +1,6 @@
-import json, unittest\nfrom datetime import datetime, timezone, timedelta\nfrom engine.engine import validate_live, opportunity_key
+import json, unittest
+from datetime import datetime, timezone, timedelta
+from engine.engine import validate_live, opportunity_key, search_window
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -8,12 +10,18 @@ class ContractTests(unittest.TestCase):
         now=datetime(2026,11,1,tzinfo=timezone.utc)
         c={"company":"Example","role":"Operations","listing_url":"https://example.com/jobs/1",
            "published_at":(now-timedelta(days=29)).isoformat(),
-           "verified_at":now.isoformat(),"open_status":"OPEN","original_listing_verified":True}
+           "verified_at":now.isoformat(),"open_status":"OPEN","original_listing_verified":True,"work_mode":"REMOTE","mandatory_onsite":False}
         self.assertIsNone(validate_live(c,now,30))
-        self.assertIsNotNone(validate_live(dict(c,open_status="CLOSED"),now,30))
+        self.assertIsNotNone(validate_live(dict(c,open_status="CLOSED"),now,30))\n        self.assertIsNotNone(validate_live(dict(c,work_mode="HYBRID"),now,30))\n        self.assertIsNotNone(validate_live(dict(c,mandatory_onsite=True),now,30))
         self.assertIsNotNone(validate_live(dict(c,published_at=(now-timedelta(days=31)).isoformat()),now,30))
         self.assertIsNotNone(validate_live(dict(c,verified_at=(now-timedelta(days=2)).isoformat()),now,30))
         self.assertIsNotNone(validate_live(dict(c,original_listing_verified=False),now,30))
+
+    def test_requested_windows(self):
+        p=json.loads((ROOT/"config/policy.json").read_text())
+        self.assertEqual(search_window(p).total_seconds(),30*86400)
+        self.assertEqual(search_window(p,requested_days=7).total_seconds(),7*86400)
+        self.assertEqual(search_window(p,requested_hours=24).total_seconds(),86400)
 
     def test_distinct_jobs_same_employer(self):
         a={"company":"Example","role":"Operations Manager","listing_url":"https://example.com/1"}
