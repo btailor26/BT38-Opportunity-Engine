@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 27,
+  "version": 28,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -1056,5 +1056,25 @@
       "Do not imply software must be bought, installed or replaced; work around existing systems first.",
       "Preserve all existing buyer-intent, geography, recency, contact, approval, pricing and qualification rules."
     ]
+  },
+  "application_preparation": {
+    "required_after_verified_fit": true,
+    "workflow": [
+      "Verify the original listing is open, recent, suitable, and not previously presented",
+      "Assess actual role responsibilities and mandatory skills against evidenced experience",
+      "If qualified, create a distinct CV tailored to this specific job using the verified source CV",
+      "Reorder and rewrite only truthful existing experience to highlight relevant accomplishments, platforms and operational ownership",
+      "Identify any mandatory requirements not evidenced in the CV; never fabricate them",
+      "Provide original listing URL, role-specific CV and optional cover note for review; never auto-apply or auto-send"
+    ],
+    "cv_source": "User-provided master CV must be loaded and checked before generating a tailored CV; do not generate one from policy or assumptions alone",
+    "tailoring_rule": "One CV version per job, with role/company/reference and date. Emphasise operational ownership, marketplaces, inventory, fulfilment, reconciliation and systems only where supported by the master CV.",
+    "prohibitions": [
+      "No invented skills, metrics, employment dates, titles or qualifications",
+      "No generic CV reused unchanged for all vacancies",
+      "No tailoring for rejected, closed, duplicate or unverified roles",
+      "No automatic applications"
+    ],
+    "git_branch_rule": "All changes stay on the existing working branch; do not merge to main without explicit request."
   }
 }
