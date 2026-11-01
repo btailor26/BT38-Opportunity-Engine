@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 25,
+  "version": 26,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -351,12 +351,15 @@
       "distinct_opportunity_key": "company + role + original listing URL",
       "duration_limit": "none",
       "result_limit": "none",
-      "remote_only": true,
-      "reject_on_site_or_hybrid": true,
+      "remote_only": false,
+      "reject_on_site_or_hybrid": false,
       "no_repeat_within_search_day": true,
       "deduplicate_by": "canonical listing URL or employer + normalized job title + location; never repeat a result within the same UTC search date",
       "requested_window_rule": "User-specified hours/days override default 30-day window, with no widening",
-      "require_verified_remote": true
+      "require_verified_remote": false,
+      "max_mandatory_onsite_days_per_week": 1,
+      "reject_on_site": true,
+      "work_arrangement_rule": "Fully remote preferred. Hybrid accepted only when mandatory office attendance is no more than one day per week. Reject full-time onsite, hybrid requiring two or more office days, and listings with unverified mandatory attendance."
     }
   },
   "opportunity_routes": {
