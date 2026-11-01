@@ -1,9 +1,31 @@
-import json, unittest
+import json, unittest\nfrom datetime import datetime, timezone, timedelta\nfrom engine.engine import validate_live, opportunity_key
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 
 class ContractTests(unittest.TestCase):
+    def test_live_filter(self):
+        now=datetime(2026,11,1,tzinfo=timezone.utc)
+        c={"company":"Example","role":"Operations","listing_url":"https://example.com/jobs/1",
+           "published_at":(now-timedelta(days=29)).isoformat(),
+           "verified_at":now.isoformat(),"open_status":"OPEN","original_listing_verified":True}
+        self.assertIsNone(validate_live(c,now,30))
+        self.assertIsNotNone(validate_live(dict(c,open_status="CLOSED"),now,30))
+        self.assertIsNotNone(validate_live(dict(c,published_at=(now-timedelta(days=31)).isoformat()),now,30))
+        self.assertIsNotNone(validate_live(dict(c,verified_at=(now-timedelta(days=2)).isoformat()),now,30))
+        self.assertIsNotNone(validate_live(dict(c,original_listing_verified=False),now,30))
+
+    def test_distinct_jobs_same_employer(self):
+        a={"company":"Example","role":"Operations Manager","listing_url":"https://example.com/1"}
+        b={"company":"Example","role":"Marketplace Manager","listing_url":"https://example.com/2"}
+        self.assertNotEqual(opportunity_key(a),opportunity_key(b))
+
+    def test_30_day_policy(self):
+        p=json.loads((ROOT/"config/policy.json").read_text())
+        self.assertEqual(p["current_trigger_validation"]["freshness_window"]["max_age_days"],30)
+        self.assertEqual(p["discovery"]["presentation_filter"]["max_age_days"],30)
+        self.assertTrue(p["discovery"]["presentation_filter"]["require_confirmed_open_status"])
+
     def test_policy_has_four_gates(self):
         p=json.loads((ROOT/"config/policy.json").read_text())
         self.assertEqual(p["gates"],["company_fit","current_trigger","ability_to_pay","decision_maker_contact"])
