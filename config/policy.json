@@ -1,6 +1,6 @@
 {
   "engine": "BT38 Opportunity Engine",
-  "version": 26,
+  "version": 27,
   "contact_ready_requires_all_gates": true,
   "auto_contact": false,
   "gates": [
@@ -359,7 +359,24 @@
       "require_verified_remote": false,
       "max_mandatory_onsite_days_per_week": 1,
       "reject_on_site": true,
-      "work_arrangement_rule": "Fully remote preferred. Hybrid accepted only when mandatory office attendance is no more than one day per week. Reject full-time onsite, hybrid requiring two or more office days, and listings with unverified mandatory attendance."
+      "work_arrangement_rule": "Fully remote preferred. Hybrid accepted only when mandatory office attendance is no more than one day per week. Reject full-time onsite, hybrid requiring two or more office days, and listings with unverified mandatory attendance.",
+      "experience_fit": {
+        "required": true,
+        "focus": "Independent/interim ecommerce operations and systems improvement, Amazon/eBay marketplace operations, inventory, warehouse/3PL, fulfilment, shipping, reconciliation, operational root-cause investigation and workflow design",
+        "reject": [
+          "junior or assistant ecommerce trading/merchandising/product data maintenance roles",
+          "permanent employee roles with no project/interim scope",
+          "roles where SQL/Tableau/BI analytics is a core mandatory skill",
+          "marketing-led or campaign-led positions with no operational ownership",
+          "mandatory fluent foreign language not evidenced in profile"
+        ],
+        "qualify": [
+          "paid interim, contract, fractional or project-based operational improvement",
+          "clear ownership of an operational problem and deliverable",
+          "skills demonstrably supported by user's profile"
+        ],
+        "rule": "Do not match on ecommerce keywords alone. Read the actual responsibilities and mandatory skills. Reject before presentation when the work is primarily junior merchandising, advanced BI/SQL, marketing or conventional permanent staffing."
+      }
     }
   },
   "opportunity_routes": {
