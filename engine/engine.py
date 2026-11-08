@@ -2,6 +2,7 @@
 import json, re
 from pathlib import Path
 from datetime import datetime, timezone
+from vacancy_validation import validate, opportunity_key
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
@@ -29,6 +30,7 @@ def process():
     inbox=load(INBOX/"candidates.json")
     prospects=state["prospects"]
     known=known_names(prospects)
+    known_jobs={opportunity_key(p) for p in prospects if p.get("opportunity_type")=="PAID_WORK"}
     results=[]
 
     for c in inbox.get("candidates",[]):
@@ -36,7 +38,17 @@ def process():
         if not company:
             results.append({"company":"","decision":"REJECTED","reason":"anonymous company"})
             continue
-        if norm(company) in known:
+        if c.get("opportunity_type")=="PAID_WORK":
+            errors=validate(c)
+            if errors:
+                results.append({"company":company,"decision":"REJECTED","reason":"; ".join(errors)})
+                continue
+            key=opportunity_key(c)
+            if key in known_jobs:
+                results.append({"company":company,"decision":"DUPLICATE","reason":"same vacancy"})
+                continue
+            known_jobs.add(key)
+        elif norm(company) in known:
             results.append({"company":company,"decision":"DUPLICATE","reason":"already exists in prospect history"})
             continue
 
