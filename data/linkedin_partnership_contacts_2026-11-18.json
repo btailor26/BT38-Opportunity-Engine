@@ -173,6 +173,24 @@
       ],
       "location": "New Delhi, India (company headquarters per comment)",
       "notes": "Requested project SOW and discussion of scope; no SOW supplied or sent."
+    },
+    {
+      "name": "Vishal Iyer",
+      "company": "Vishal Data Serve",
+      "email": null,
+      "phone": null,
+      "experience": "Founder & CEO; B2B lead generation and business development for IT companies, including LinkedIn outreach, email outreach and targeted prospect research; claims to help generate qualified prospects and new project opportunities (unverified)",
+      "source": "LinkedIn partnership post comment supplied 18 November 2026",
+      "status": "INTERESTED_UNQUALIFIED",
+      "verified": false,
+      "linkedin": "https://www.linkedin.com/in/ceo-vishal-iyer/",
+      "websites": [
+        {
+          "url": "https://vishaldataserve.com/",
+          "type": "website"
+        }
+      ],
+      "notes": "Expressed interest in discussing partnership; no direct email or telephone number supplied."
     }
   ]
 }
