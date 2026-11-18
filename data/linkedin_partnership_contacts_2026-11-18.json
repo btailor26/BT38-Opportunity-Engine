@@ -154,6 +154,25 @@
       "source": "LinkedIn partnership post comments, 17–18 November 2026",
       "status": "UNQUALIFIED",
       "verified": false
+    },
+    {
+      "name": "Sonal Arora",
+      "company": "Navigant Technologies",
+      "email": "sonal.arora@navigant.in",
+      "phone": "93547 39641",
+      "experience": "Senior marketing and business development; lead generation, database management, CRM/data operations, client acquisition; company describes BPO/KPO outsourcing services and claims 650+ staff and 500+ clients (unverified)",
+      "source": "LinkedIn partnership post comment, 18 November 2026",
+      "status": "INTERESTED_UNQUALIFIED",
+      "verified": false,
+      "linkedin": "https://www.linkedin.com/in/sonal-arora-400586219/",
+      "websites": [
+        {
+          "url": "https://www.navigant.in",
+          "type": "website"
+        }
+      ],
+      "location": "New Delhi, India (company headquarters per comment)",
+      "notes": "Requested project SOW and discussion of scope; no SOW supplied or sent."
     }
   ]
 }
