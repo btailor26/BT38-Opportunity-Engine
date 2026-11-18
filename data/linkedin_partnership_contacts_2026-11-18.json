@@ -1,7 +1,7 @@
 {
   "source": "LinkedIn partnership post (17 November 2026)",
   "captured_at": "2026-11-18",
-  "note": "Contact information transcribed from user-provided LinkedIn comments. Email and phone only when explicitly displayed; professional claims unverified. Not approved for automatic outreach.",
+  "note": "Contact information transcribed from user-provided LinkedIn comments. Email and phone only when explicitly displayed; professional claims unverified. Not approved for automatic outreach. Website URLs are user-provided, not independently verified.",
   "contacts": [
     {
       "name": "Jason Thompson",
@@ -11,7 +11,13 @@
       "experience": "Full-cycle GTM outbound, client success and onboarding",
       "source": "LinkedIn partnership post comments, 17–18 November 2026",
       "status": "UNQUALIFIED",
-      "verified": false
+      "verified": false,
+      "websites": [
+        {
+          "url": "https://www.aurorasalesagency.net",
+          "type": "website"
+        }
+      ]
     },
     {
       "name": "Andy Groves",
@@ -51,7 +57,17 @@
       "experience": "GoHighLevel, CRM and AI automation; claims 4+ years",
       "source": "LinkedIn partnership post comments, 17–18 November 2026",
       "status": "UNQUALIFIED",
-      "verified": false
+      "verified": false,
+      "websites": [
+        {
+          "url": "https://ghlexpertise.com/home-page",
+          "type": "website"
+        },
+        {
+          "url": "https://ghlexpertise.com/book-a-call",
+          "type": "booking"
+        }
+      ]
     },
     {
       "name": "Hasan Shabbir",
@@ -81,7 +97,13 @@
       "experience": "Development, AI automation, marketing and white-label services",
       "source": "LinkedIn partnership post comments, 17–18 November 2026",
       "status": "UNQUALIFIED",
-      "verified": false
+      "verified": false,
+      "websites": [
+        {
+          "url": "https://famecraft360.com",
+          "type": "website"
+        }
+      ]
     },
     {
       "name": "Ravi Patel",
