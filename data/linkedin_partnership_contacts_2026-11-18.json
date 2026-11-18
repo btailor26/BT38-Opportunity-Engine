@@ -191,6 +191,25 @@
         }
       ],
       "notes": "Expressed interest in discussing partnership; no direct email or telephone number supplied."
+    },
+    {
+      "name": "Chandrasekhar Malladi",
+      "company": "Aigen Technologies",
+      "email": null,
+      "phone": null,
+      "experience": "Solution architecture, cloud security, AIOps, Azure DevOps, cloud operations and Azure security; expressed interest in collaboration (unverified)",
+      "source": "LinkedIn partnership post comment supplied by user, 18 November 2026",
+      "status": "INTERESTED_UNQUALIFIED",
+      "verified": false,
+      "linkedin": "https://www.linkedin.com/in/chandrasekhar-malladi-70712b39/",
+      "websites": [
+        {
+          "url": "https://aigentechnologies.ae",
+          "type": "website"
+        }
+      ],
+      "location": "Middle East (self-described)",
+      "notes": "Interested in mutual-growth collaboration; no direct email or telephone supplied. Delivery/technology partnership fit to be assessed."
     }
   ]
 }
