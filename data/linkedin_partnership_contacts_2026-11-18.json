@@ -254,6 +254,19 @@
         }
       ],
       "notes": "WhatsApp number supplied; Signal contact link supplied. Offers data entry and lead collection services; no evidence of securing paid IT projects. Full name not supplied."
+    },
+    {
+      "name": "Anurag R.",
+      "company": null,
+      "email": null,
+      "phone": "9506912572",
+      "experience": "MBA; lead generation and email marketing, email deliverability and domain management, account-based marketing (ABM), campaign operations and data analytics (self-described, unverified)",
+      "source": "LinkedIn partnership post comment supplied by user, 18 November 2026",
+      "status": "INTERESTED_UNQUALIFIED",
+      "verified": false,
+      "linkedin": "https://www.linkedin.com/in/anuragkashyapiiita/",
+      "websites": [],
+      "notes": "Offers email infrastructure setup intended to generate qualified leads; proposed connecting on WhatsApp. Phone supplied as WhatsApp number. No email or website supplied. Full surname not confirmed."
     }
   ]
 }
