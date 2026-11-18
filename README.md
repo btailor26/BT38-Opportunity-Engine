@@ -34,18 +34,20 @@ The engine covers the full ecommerce operating chain, not inventory alone: produ
 
 The scheduled workflow runs the engine against its inbox and state. It does **not** contact prospects automatically. Human approval remains required before outreach.
 
-## LinkedIn partnership posts
+## LinkedIn post structure
 
-Use this structure when drafting a LinkedIn post to find commercial partners. The goal is to start qualified DM conversations.
+Use these six steps in this order for every BT38 LinkedIn post, including partnership calls, service offers, case studies, lessons and updates. Adapt what each step says to the topic.
 
-1. **Name the partner in the first line.** Use “Looking for [specific partner type]” so the intended reader can recognise the opportunity immediately.
-2. **Describe the work and its scope.** In one short paragraph, say what the partner would help achieve and where the opportunity applies.
-3. **Name the relevant experience.** Give examples of the channels, methods or experience that would help the reader judge their fit. Use actual channels relevant to the deal.
-4. **List the work a partner can bring in.** Use short, scannable lines for the service or opportunity areas. Include only work BT38 can actually offer.
-5. **State the commercial model.** Say which arrangements BT38 is open to, such as performance-based collaboration or project revenue sharing, when applicable. Keep specific terms for the DM.
-6. **Invite a DM or a short introduction in the comments.** Make the DM the preferred next step and leave a public route for introductions and referrals. If a suitable commenter cannot DM, use a connection request and continue privately once accepted. Use topic-specific hashtags if they fit.
+1. **Open with a direct hook.** Name the intended audience, the problem they recognise, or the result they care about in the first line.
+2. **Explain the opportunity or situation.** In one short paragraph, say what is happening and why it matters to that audience.
+3. **Make it concrete.** Name the relevant channels, methods, experience or evidence so readers can recognise how it applies to them.
+4. **List the practical points.** Use short, scannable lines for services, actions, findings or results, depending on the subject.
+5. **State the value or takeaway.** For partnership posts, explain the commercial model. For other posts, state what the reader gains, learns or can do with the information.
+6. **Give one clear next step.** For commercial posts, make DM the preferred route and offer a short public introduction as a fallback. For other posts, invite a response that fits the topic. If a suitable commenter cannot DM, use a connection request and continue privately once accepted.
 
-In the DM, confirm which opportunity area they can sell, how they find qualified prospects, and whether they provide introductions or manage opportunities through to close. Track qualified inbound DMs and conversations as the primary outcomes. Record impressions, reactions, comments and accepted connections separately when available. Count author replies separately from unique respondents where the data allows.
+Relevant hashtags are optional and go after the call to action. The reference post used nine hashtags, and the available snapshot cannot attribute impressions or enquiries to them. To assess whether hashtags help, record the tags used and compare similar posts over time while keeping the structure consistent.
+
+For partnership enquiries, confirm in the DM which opportunity area the person can sell, how they find qualified prospects, and whether they provide introductions or manage opportunities through to close. Track qualified inbound DMs and conversations as the primary outcomes for commercial posts. Record impressions, reactions, comments and accepted connections separately when available. Count author replies separately from unique respondents where the data allows.
 
 ### Reference post — 17 November 2026
 
