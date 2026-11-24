@@ -1610,10 +1610,10 @@
       "status": "PROPOSAL",
       "opportunity": "B2B/B2C ecommerce redevelopment and Profit4 integration",
       "contact_method": "Email only",
-      "last_action": "User confirmed visual proposal email sent",
+      "last_action": "User confirmed response to client qualification questions sent by email",
       "last_action_date": "2026-11-24",
-      "notes": "Initial outreach received a reply and project brief. Frontend and backend visual concepts prepared; commercial quotation not yet agreed. Preserve existing B2B operations, tailor system to client workflows, clarify database architecture and ERP access before pricing. Three months support on agreed workflows after completion; optional pay-as-needed or ongoing support. Source code handover by agreement.",
-      "next_action": "Await client feedback and shortlisting by email; clarify existing data infrastructure and preferred commencement date before quotation. Do not call or use WhatsApp.",
+      "notes": "Initial outreach received a reply and project brief. Frontend and backend visual concepts prepared; commercial quotation not yet agreed. Preserve existing B2B operations, tailor system to client workflows, clarify database architecture and ERP access before pricing. Three months support on agreed workflows after completion; optional pay-as-needed or ongoing support. Source code handover by agreement. Client expressed particular interest in backend functionality and requested company credentials, delivery experience, costs and schedule. Response sent covering company and project-based team structure, existing private operational platform, optional recorded demonstrations, self-hosted or managed hosting options and tailored support. Early March 2027 target considered achievable subject to scope and ERP access. Client seeks prompt commencement. No indicative price or quotation agreed.",
+      "next_action": "Await client response by email. Prepare recorded demonstrations after production verification; clarify scope, data infrastructure, Profit4 access and hosting preference before itemised quotation. Do not call or use WhatsApp.",
       "revenue_confirmed_gbp": 0
     }
   ]
