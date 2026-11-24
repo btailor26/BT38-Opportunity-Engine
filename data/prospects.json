@@ -1599,6 +1599,22 @@
       "last_action_date": "2026-11-08",
       "next_action": "Await LinkedIn/recruiter response; verify exact LinkedIn job title and whether same vacancy as JobServe JS3204941400; follow up with recruiter if appropriate",
       "notes": "User confirmed applied via LinkedIn on 8 Nov 2026. Do not mark as merely researched, do not reapply or present as a new opportunity. No interview or recruiter response confirmed."
+    },
+    {
+      "company": "Workplace-Worksafe Ltd",
+      "aliases": [
+        "Workplace-Worksafe",
+        "Workplace Worksafe"
+      ],
+      "source": "LinkedIn",
+      "status": "PROPOSAL",
+      "opportunity": "B2B/B2C ecommerce redevelopment and Profit4 integration",
+      "contact_method": "Email only",
+      "last_action": "User confirmed visual proposal email sent",
+      "last_action_date": "2026-11-24",
+      "notes": "Initial outreach received a reply and project brief. Frontend and backend visual concepts prepared; commercial quotation not yet agreed. Preserve existing B2B operations, tailor system to client workflows, clarify database architecture and ERP access before pricing. Three months support on agreed workflows after completion; optional pay-as-needed or ongoing support. Source code handover by agreement.",
+      "next_action": "Await client feedback and shortlisting by email; clarify existing data infrastructure and preferred commencement date before quotation. Do not call or use WhatsApp.",
+      "revenue_confirmed_gbp": 0
     }
   ]
 }
